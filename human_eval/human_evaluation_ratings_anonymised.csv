@@ -1,0 +1,1793 @@
+form,article,dataset,test_row,evaluator,shown_as,model,aspect,score,absent_keyphrases
+1,1,kp20k,2625,F1-E1,A,DWT-BART,Faithfulness,5,principal component analysis
+1,1,kp20k,2625,F1-E1,A,DWT-BART,Duplication,1,principal component analysis
+1,1,kp20k,2625,F1-E1,A,DWT-BART,Semantic similarity,1,principal component analysis
+1,1,kp20k,2625,F1-E1,A,DWT-BART,Usefulness,4,principal component analysis
+1,1,kp20k,2625,F1-E1,B,BART,Faithfulness,5,audio security ; audio forensics ; audio fingerprinting
+1,1,kp20k,2625,F1-E1,B,BART,Duplication,1,audio security ; audio forensics ; audio fingerprinting
+1,1,kp20k,2625,F1-E1,B,BART,Semantic similarity,4,audio security ; audio forensics ; audio fingerprinting
+1,1,kp20k,2625,F1-E1,B,BART,Usefulness,5,audio security ; audio forensics ; audio fingerprinting
+1,2,kp20k,19701,F1-E1,A,BART,Faithfulness,2,data mining ; machine learning ; machine vision ; intelligent vehicles
+1,2,kp20k,19701,F1-E1,A,BART,Duplication,1,data mining ; machine learning ; machine vision ; intelligent vehicles
+1,2,kp20k,19701,F1-E1,A,BART,Semantic similarity,2,data mining ; machine learning ; machine vision ; intelligent vehicles
+1,2,kp20k,19701,F1-E1,A,BART,Usefulness,2,data mining ; machine learning ; machine vision ; intelligent vehicles
+1,2,kp20k,19701,F1-E1,B,DWT-BART,Faithfulness,4,data mining ; data aggregation ; data integration ; data management
+1,2,kp20k,19701,F1-E1,B,DWT-BART,Duplication,1,data mining ; data aggregation ; data integration ; data management
+1,2,kp20k,19701,F1-E1,B,DWT-BART,Semantic similarity,4,data mining ; data aggregation ; data integration ; data management
+1,2,kp20k,19701,F1-E1,B,DWT-BART,Usefulness,4,data mining ; data aggregation ; data integration ; data management
+1,3,krapivin397,296,F1-E1,A,BART,Faithfulness,2,message passing ; message complexity
+1,3,krapivin397,296,F1-E1,A,BART,Duplication,1,message passing ; message complexity
+1,3,krapivin397,296,F1-E1,A,BART,Semantic similarity,3,message passing ; message complexity
+1,3,krapivin397,296,F1-E1,A,BART,Usefulness,2,message passing ; message complexity
+1,3,krapivin397,296,F1-E1,B,DWT-BART,Faithfulness,3,parallel and distributed simulation ; message passing interface
+1,3,krapivin397,296,F1-E1,B,DWT-BART,Duplication,1,parallel and distributed simulation ; message passing interface
+1,3,krapivin397,296,F1-E1,B,DWT-BART,Semantic similarity,1,parallel and distributed simulation ; message passing interface
+1,3,krapivin397,296,F1-E1,B,DWT-BART,Usefulness,4,parallel and distributed simulation ; message passing interface
+1,4,kp20k,14375,F1-E1,A,BART,Faithfulness,4,compactly supported scheme
+1,4,kp20k,14375,F1-E1,A,BART,Duplication,1,compactly supported scheme
+1,4,kp20k,14375,F1-E1,A,BART,Semantic similarity,1,compactly supported scheme
+1,4,kp20k,14375,F1-E1,A,BART,Usefulness,4,compactly supported scheme
+1,4,kp20k,14375,F1-E1,B,DWT-BART,Faithfulness,5,high-order finite difference schemes ; numerical solution
+1,4,kp20k,14375,F1-E1,B,DWT-BART,Duplication,1,high-order finite difference schemes ; numerical solution
+1,4,kp20k,14375,F1-E1,B,DWT-BART,Semantic similarity,1,high-order finite difference schemes ; numerical solution
+1,4,kp20k,14375,F1-E1,B,DWT-BART,Usefulness,5,high-order finite difference schemes ; numerical solution
+1,5,kp20k,11075,F1-E1,A,BART,Faithfulness,5,chemical process design ; on-demand design ; thermal properties
+1,5,kp20k,11075,F1-E1,A,BART,Duplication,1,chemical process design ; on-demand design ; thermal properties
+1,5,kp20k,11075,F1-E1,A,BART,Semantic similarity,2,chemical process design ; on-demand design ; thermal properties
+1,5,kp20k,11075,F1-E1,A,BART,Usefulness,4,chemical process design ; on-demand design ; thermal properties
+1,5,kp20k,11075,F1-E1,B,DWT-BART,Faithfulness,2,thermodynamic properties ; thermo-mechanical properties ; on-demand design ; thermopower ; thermpower
+1,5,kp20k,11075,F1-E1,B,DWT-BART,Duplication,1,thermodynamic properties ; thermo-mechanical properties ; on-demand design ; thermopower ; thermpower
+1,5,kp20k,11075,F1-E1,B,DWT-BART,Semantic similarity,4,thermodynamic properties ; thermo-mechanical properties ; on-demand design ; thermopower ; thermpower
+1,5,kp20k,11075,F1-E1,B,DWT-BART,Usefulness,2,thermodynamic properties ; thermo-mechanical properties ; on-demand design ; thermopower ; thermpower
+1,6,nus,143,F1-E1,A,DWT-BART,Faithfulness,5,web crawling
+1,6,nus,143,F1-E1,A,DWT-BART,Duplication,1,web crawling
+1,6,nus,143,F1-E1,A,DWT-BART,Semantic similarity,1,web crawling
+1,6,nus,143,F1-E1,A,DWT-BART,Usefulness,4,web crawling
+1,6,nus,143,F1-E1,B,BART,Faithfulness,4,web crawling ; software quality
+1,6,nus,143,F1-E1,B,BART,Duplication,1,web crawling ; software quality
+1,6,nus,143,F1-E1,B,BART,Semantic similarity,1,web crawling ; software quality
+1,6,nus,143,F1-E1,B,BART,Usefulness,4,web crawling ; software quality
+1,7,inspec,230,F1-E1,A,DWT-BART,Faithfulness,2,tracing ; trusting systems ; trading criteria ; trtracing criteria ; tridentification ; traces ; tragedy of computer security ; traced systems ; security evaluation and evaluation ; traded systems ; information security evaluation ; security education ; tr trusted systems ; network security risk management
+1,7,inspec,230,F1-E1,A,DWT-BART,Duplication,1,tracing ; trusting systems ; trading criteria ; trtracing criteria ; tridentification ; traces ; tragedy of computer security ; traced systems ; security evaluation and evaluation ; traded systems ; information security evaluation ; security education ; tr trusted systems ; network security risk management
+1,7,inspec,230,F1-E1,A,DWT-BART,Semantic similarity,4,tracing ; trusting systems ; trading criteria ; trtracing criteria ; tridentification ; traces ; tragedy of computer security ; traced systems ; security evaluation and evaluation ; traded systems ; information security evaluation ; security education ; tr trusted systems ; network security risk management
+1,7,inspec,230,F1-E1,A,DWT-BART,Usefulness,2,tracing ; trusting systems ; trading criteria ; trtracing criteria ; tridentification ; traces ; tragedy of computer security ; traced systems ; security evaluation and evaluation ; traded systems ; information security evaluation ; security education ; tr trusted systems ; network security risk management
+1,7,inspec,230,F1-E1,B,BART,Faithfulness,5,trusted system ; trusting system ; trustworthy system ; security evaluation criteria ; security standards
+1,7,inspec,230,F1-E1,B,BART,Duplication,1,trusted system ; trusting system ; trustworthy system ; security evaluation criteria ; security standards
+1,7,inspec,230,F1-E1,B,BART,Semantic similarity,5,trusted system ; trusting system ; trustworthy system ; security evaluation criteria ; security standards
+1,7,inspec,230,F1-E1,B,BART,Usefulness,5,trusted system ; trusting system ; trustworthy system ; security evaluation criteria ; security standards
+1,8,kp20k,7109,F1-E1,A,DWT-BART,Faithfulness,3,identifier conversion ; absolute method ; genetic variation
+1,8,kp20k,7109,F1-E1,A,DWT-BART,Duplication,1,identifier conversion ; absolute method ; genetic variation
+1,8,kp20k,7109,F1-E1,A,DWT-BART,Semantic similarity,1,identifier conversion ; absolute method ; genetic variation
+1,8,kp20k,7109,F1-E1,A,DWT-BART,Usefulness,3,identifier conversion ; absolute method ; genetic variation
+1,8,kp20k,7109,F1-E1,B,BART,Faithfulness,3,identifier conversion ; genetic sequence ; ribosomal association
+1,8,kp20k,7109,F1-E1,B,BART,Duplication,1,identifier conversion ; genetic sequence ; ribosomal association
+1,8,kp20k,7109,F1-E1,B,BART,Semantic similarity,1,identifier conversion ; genetic sequence ; ribosomal association
+1,8,kp20k,7109,F1-E1,B,BART,Usefulness,3,identifier conversion ; genetic sequence ; ribosomal association
+1,9,inspec,448,F1-E1,A,BART,Faithfulness,3,speech act ; speech understanding
+1,9,inspec,448,F1-E1,A,BART,Duplication,1,speech act ; speech understanding
+1,9,inspec,448,F1-E1,A,BART,Semantic similarity,2,speech act ; speech understanding
+1,9,inspec,448,F1-E1,A,BART,Usefulness,3,speech act ; speech understanding
+1,9,inspec,448,F1-E1,B,DWT-BART,Faithfulness,5,meaning recognition
+1,9,inspec,448,F1-E1,B,DWT-BART,Duplication,1,meaning recognition
+1,9,inspec,448,F1-E1,B,DWT-BART,Semantic similarity,1,meaning recognition
+1,9,inspec,448,F1-E1,B,DWT-BART,Usefulness,5,meaning recognition
+1,10,kp20k,11280,F1-E1,A,DWT-BART,Faithfulness,5,parametric modelling ; computer graphics
+1,10,kp20k,11280,F1-E1,A,DWT-BART,Duplication,1,parametric modelling ; computer graphics
+1,10,kp20k,11280,F1-E1,A,DWT-BART,Semantic similarity,1,parametric modelling ; computer graphics
+1,10,kp20k,11280,F1-E1,A,DWT-BART,Usefulness,4,parametric modelling ; computer graphics
+1,10,kp20k,11280,F1-E1,B,BART,Faithfulness,3,parametric modelling ; generative programming
+1,10,kp20k,11280,F1-E1,B,BART,Duplication,1,parametric modelling ; generative programming
+1,10,kp20k,11280,F1-E1,B,BART,Semantic similarity,1,parametric modelling ; generative programming
+1,10,kp20k,11280,F1-E1,B,BART,Usefulness,3,parametric modelling ; generative programming
+1,11,nus,7,F1-E1,A,BART,Faithfulness,5,user modeling inference
+1,11,nus,7,F1-E1,A,BART,Duplication,1,user modeling inference
+1,11,nus,7,F1-E1,A,BART,Semantic similarity,1,user modeling inference
+1,11,nus,7,F1-E1,A,BART,Usefulness,5,user modeling inference
+1,11,nus,7,F1-E1,B,DWT-BART,Faithfulness,5,user modeling framework
+1,11,nus,7,F1-E1,B,DWT-BART,Duplication,1,user modeling framework
+1,11,nus,7,F1-E1,B,DWT-BART,Semantic similarity,1,user modeling framework
+1,11,nus,7,F1-E1,B,DWT-BART,Usefulness,5,user modeling framework
+1,12,krapivin397,309,F1-E1,A,BART,Faithfulness,5,adaptive pattern traversal order ; dag automaton
+1,12,krapivin397,309,F1-E1,A,BART,Duplication,1,adaptive pattern traversal order ; dag automaton
+1,12,krapivin397,309,F1-E1,A,BART,Semantic similarity,1,adaptive pattern traversal order ; dag automaton
+1,12,krapivin397,309,F1-E1,A,BART,Usefulness,5,adaptive pattern traversal order ; dag automaton
+1,12,krapivin397,309,F1-E1,B,DWT-BART,Faithfulness,5,lazy matching
+1,12,krapivin397,309,F1-E1,B,DWT-BART,Duplication,1,lazy matching
+1,12,krapivin397,309,F1-E1,B,DWT-BART,Semantic similarity,1,lazy matching
+1,12,krapivin397,309,F1-E1,B,DWT-BART,Usefulness,3,lazy matching
+1,13,kp20k,2273,F1-E1,A,DWT-BART,Faithfulness,4,mobile robot ; social robot ; recharge time
+1,13,kp20k,2273,F1-E1,A,DWT-BART,Duplication,1,mobile robot ; social robot ; recharge time
+1,13,kp20k,2273,F1-E1,A,DWT-BART,Semantic similarity,2,mobile robot ; social robot ; recharge time
+1,13,kp20k,2273,F1-E1,A,DWT-BART,Usefulness,4,mobile robot ; social robot ; recharge time
+1,13,kp20k,2273,F1-E1,B,BART,Faithfulness,5,social robots ; recharge time
+1,13,kp20k,2273,F1-E1,B,BART,Duplication,1,social robots ; recharge time
+1,13,kp20k,2273,F1-E1,B,BART,Semantic similarity,1,social robots ; recharge time
+1,13,kp20k,2273,F1-E1,B,BART,Usefulness,5,social robots ; recharge time
+1,14,semeval,99,F1-E1,A,DWT-BART,Faithfulness,5,computational equilibrium
+1,14,semeval,99,F1-E1,A,DWT-BART,Duplication,1,computational equilibrium
+1,14,semeval,99,F1-E1,A,DWT-BART,Semantic similarity,1,computational equilibrium
+1,14,semeval,99,F1-E1,A,DWT-BART,Usefulness,5,computational equilibrium
+1,14,semeval,99,F1-E1,B,BART,Faithfulness,2,finance ; equilibrium computation ; fuzzy sets
+1,14,semeval,99,F1-E1,B,BART,Duplication,1,finance ; equilibrium computation ; fuzzy sets
+1,14,semeval,99,F1-E1,B,BART,Semantic similarity,1,finance ; equilibrium computation ; fuzzy sets
+1,14,semeval,99,F1-E1,B,BART,Usefulness,2,finance ; equilibrium computation ; fuzzy sets
+1,15,kp20k,19171,F1-E1,A,BART,Faithfulness,5,breadth first search ; maximum points on a line
+1,15,kp20k,19171,F1-E1,A,BART,Duplication,1,breadth first search ; maximum points on a line
+1,15,kp20k,19171,F1-E1,A,BART,Semantic similarity,1,breadth first search ; maximum points on a line
+1,15,kp20k,19171,F1-E1,A,BART,Usefulness,4,breadth first search ; maximum points on a line
+1,15,kp20k,19171,F1-E1,B,DWT-BART,Faithfulness,3,quantum computing ; quantuin
+1,15,kp20k,19171,F1-E1,B,DWT-BART,Duplication,1,quantum computing ; quantuin
+1,15,kp20k,19171,F1-E1,B,DWT-BART,Semantic similarity,4,quantum computing ; quantuin
+1,15,kp20k,19171,F1-E1,B,DWT-BART,Usefulness,3,quantum computing ; quantuin
+1,16,kp20k,4935,F1-E1,A,BART,Faithfulness,5,geostatistical analysis
+1,16,kp20k,4935,F1-E1,A,BART,Duplication,1,geostatistical analysis
+1,16,kp20k,4935,F1-E1,A,BART,Semantic similarity,1,geostatistical analysis
+1,16,kp20k,4935,F1-E1,A,BART,Usefulness,3,geostatistical analysis
+1,16,kp20k,4935,F1-E1,B,DWT-BART,Faithfulness,5,hazard assessment in a field
+1,16,kp20k,4935,F1-E1,B,DWT-BART,Duplication,1,hazard assessment in a field
+1,16,kp20k,4935,F1-E1,B,DWT-BART,Semantic similarity,1,hazard assessment in a field
+1,16,kp20k,4935,F1-E1,B,DWT-BART,Usefulness,3,hazard assessment in a field
+1,1,kp20k,2625,F1-E2,A,DWT-BART,Faithfulness,2,principal component analysis
+1,1,kp20k,2625,F1-E2,A,DWT-BART,Duplication,4,principal component analysis
+1,1,kp20k,2625,F1-E2,A,DWT-BART,Semantic similarity,1,principal component analysis
+1,1,kp20k,2625,F1-E2,A,DWT-BART,Usefulness,3,principal component analysis
+1,1,kp20k,2625,F1-E2,B,BART,Faithfulness,4,audio security ; audio forensics ; audio fingerprinting
+1,1,kp20k,2625,F1-E2,B,BART,Duplication,5,audio security ; audio forensics ; audio fingerprinting
+1,1,kp20k,2625,F1-E2,B,BART,Semantic similarity,4,audio security ; audio forensics ; audio fingerprinting
+1,1,kp20k,2625,F1-E2,B,BART,Usefulness,5,audio security ; audio forensics ; audio fingerprinting
+1,2,kp20k,19701,F1-E2,A,BART,Faithfulness,3,data mining ; machine learning ; machine vision ; intelligent vehicles
+1,2,kp20k,19701,F1-E2,A,BART,Duplication,4,data mining ; machine learning ; machine vision ; intelligent vehicles
+1,2,kp20k,19701,F1-E2,A,BART,Semantic similarity,4,data mining ; machine learning ; machine vision ; intelligent vehicles
+1,2,kp20k,19701,F1-E2,A,BART,Usefulness,5,data mining ; machine learning ; machine vision ; intelligent vehicles
+1,2,kp20k,19701,F1-E2,B,DWT-BART,Faithfulness,4,data mining ; data aggregation ; data integration ; data management
+1,2,kp20k,19701,F1-E2,B,DWT-BART,Duplication,3,data mining ; data aggregation ; data integration ; data management
+1,2,kp20k,19701,F1-E2,B,DWT-BART,Semantic similarity,4,data mining ; data aggregation ; data integration ; data management
+1,2,kp20k,19701,F1-E2,B,DWT-BART,Usefulness,5,data mining ; data aggregation ; data integration ; data management
+1,3,krapivin397,296,F1-E2,A,BART,Faithfulness,2,message passing ; message complexity
+1,3,krapivin397,296,F1-E2,A,BART,Duplication,4,message passing ; message complexity
+1,3,krapivin397,296,F1-E2,A,BART,Semantic similarity,1,message passing ; message complexity
+1,3,krapivin397,296,F1-E2,A,BART,Usefulness,1,message passing ; message complexity
+1,3,krapivin397,296,F1-E2,B,DWT-BART,Faithfulness,5,parallel and distributed simulation ; message passing interface
+1,3,krapivin397,296,F1-E2,B,DWT-BART,Duplication,4,parallel and distributed simulation ; message passing interface
+1,3,krapivin397,296,F1-E2,B,DWT-BART,Semantic similarity,4,parallel and distributed simulation ; message passing interface
+1,3,krapivin397,296,F1-E2,B,DWT-BART,Usefulness,5,parallel and distributed simulation ; message passing interface
+1,4,kp20k,14375,F1-E2,A,BART,Faithfulness,2,compactly supported scheme
+1,4,kp20k,14375,F1-E2,A,BART,Duplication,5,compactly supported scheme
+1,4,kp20k,14375,F1-E2,A,BART,Semantic similarity,2,compactly supported scheme
+1,4,kp20k,14375,F1-E2,A,BART,Usefulness,2,compactly supported scheme
+1,4,kp20k,14375,F1-E2,B,DWT-BART,Faithfulness,4,high-order finite difference schemes ; numerical solution
+1,4,kp20k,14375,F1-E2,B,DWT-BART,Duplication,4,high-order finite difference schemes ; numerical solution
+1,4,kp20k,14375,F1-E2,B,DWT-BART,Semantic similarity,4,high-order finite difference schemes ; numerical solution
+1,4,kp20k,14375,F1-E2,B,DWT-BART,Usefulness,5,high-order finite difference schemes ; numerical solution
+1,5,kp20k,11075,F1-E2,A,BART,Faithfulness,5,chemical process design ; on-demand design ; thermal properties
+1,5,kp20k,11075,F1-E2,A,BART,Duplication,4,chemical process design ; on-demand design ; thermal properties
+1,5,kp20k,11075,F1-E2,A,BART,Semantic similarity,5,chemical process design ; on-demand design ; thermal properties
+1,5,kp20k,11075,F1-E2,A,BART,Usefulness,5,chemical process design ; on-demand design ; thermal properties
+1,5,kp20k,11075,F1-E2,B,DWT-BART,Faithfulness,3,thermodynamic properties ; thermo-mechanical properties ; on-demand design ; thermopower ; thermpower
+1,5,kp20k,11075,F1-E2,B,DWT-BART,Duplication,1,thermodynamic properties ; thermo-mechanical properties ; on-demand design ; thermopower ; thermpower
+1,5,kp20k,11075,F1-E2,B,DWT-BART,Semantic similarity,2,thermodynamic properties ; thermo-mechanical properties ; on-demand design ; thermopower ; thermpower
+1,5,kp20k,11075,F1-E2,B,DWT-BART,Usefulness,2,thermodynamic properties ; thermo-mechanical properties ; on-demand design ; thermopower ; thermpower
+1,6,nus,143,F1-E2,A,DWT-BART,Faithfulness,5,web crawling
+1,6,nus,143,F1-E2,A,DWT-BART,Duplication,5,web crawling
+1,6,nus,143,F1-E2,A,DWT-BART,Semantic similarity,3,web crawling
+1,6,nus,143,F1-E2,A,DWT-BART,Usefulness,3,web crawling
+1,6,nus,143,F1-E2,B,BART,Faithfulness,4,web crawling ; software quality
+1,6,nus,143,F1-E2,B,BART,Duplication,4,web crawling ; software quality
+1,6,nus,143,F1-E2,B,BART,Semantic similarity,3,web crawling ; software quality
+1,6,nus,143,F1-E2,B,BART,Usefulness,4,web crawling ; software quality
+1,7,inspec,230,F1-E2,A,DWT-BART,Faithfulness,2,tracing ; trusting systems ; trading criteria ; trtracing criteria ; tridentification ; traces ; tragedy of computer security ; traced systems ; security evaluation and evaluation ; traded systems ; information security evaluation ; security education ; tr trusted systems ; network security risk management
+1,7,inspec,230,F1-E2,A,DWT-BART,Duplication,1,tracing ; trusting systems ; trading criteria ; trtracing criteria ; tridentification ; traces ; tragedy of computer security ; traced systems ; security evaluation and evaluation ; traded systems ; information security evaluation ; security education ; tr trusted systems ; network security risk management
+1,7,inspec,230,F1-E2,A,DWT-BART,Semantic similarity,1,tracing ; trusting systems ; trading criteria ; trtracing criteria ; tridentification ; traces ; tragedy of computer security ; traced systems ; security evaluation and evaluation ; traded systems ; information security evaluation ; security education ; tr trusted systems ; network security risk management
+1,7,inspec,230,F1-E2,A,DWT-BART,Usefulness,1,tracing ; trusting systems ; trading criteria ; trtracing criteria ; tridentification ; traces ; tragedy of computer security ; traced systems ; security evaluation and evaluation ; traded systems ; information security evaluation ; security education ; tr trusted systems ; network security risk management
+1,7,inspec,230,F1-E2,B,BART,Faithfulness,5,trusted system ; trusting system ; trustworthy system ; security evaluation criteria ; security standards
+1,7,inspec,230,F1-E2,B,BART,Duplication,4,trusted system ; trusting system ; trustworthy system ; security evaluation criteria ; security standards
+1,7,inspec,230,F1-E2,B,BART,Semantic similarity,5,trusted system ; trusting system ; trustworthy system ; security evaluation criteria ; security standards
+1,7,inspec,230,F1-E2,B,BART,Usefulness,5,trusted system ; trusting system ; trustworthy system ; security evaluation criteria ; security standards
+1,8,kp20k,7109,F1-E2,A,DWT-BART,Faithfulness,3,identifier conversion ; absolute method ; genetic variation
+1,8,kp20k,7109,F1-E2,A,DWT-BART,Duplication,4,identifier conversion ; absolute method ; genetic variation
+1,8,kp20k,7109,F1-E2,A,DWT-BART,Semantic similarity,3,identifier conversion ; absolute method ; genetic variation
+1,8,kp20k,7109,F1-E2,A,DWT-BART,Usefulness,4,identifier conversion ; absolute method ; genetic variation
+1,8,kp20k,7109,F1-E2,B,BART,Faithfulness,3,identifier conversion ; genetic sequence ; ribosomal association
+1,8,kp20k,7109,F1-E2,B,BART,Duplication,3,identifier conversion ; genetic sequence ; ribosomal association
+1,8,kp20k,7109,F1-E2,B,BART,Semantic similarity,3,identifier conversion ; genetic sequence ; ribosomal association
+1,8,kp20k,7109,F1-E2,B,BART,Usefulness,3,identifier conversion ; genetic sequence ; ribosomal association
+1,9,inspec,448,F1-E2,A,BART,Faithfulness,3,speech act ; speech understanding
+1,9,inspec,448,F1-E2,A,BART,Duplication,4,speech act ; speech understanding
+1,9,inspec,448,F1-E2,A,BART,Semantic similarity,3,speech act ; speech understanding
+1,9,inspec,448,F1-E2,A,BART,Usefulness,4,speech act ; speech understanding
+1,9,inspec,448,F1-E2,B,DWT-BART,Faithfulness,5,meaning recognition
+1,9,inspec,448,F1-E2,B,DWT-BART,Duplication,5,meaning recognition
+1,9,inspec,448,F1-E2,B,DWT-BART,Semantic similarity,4,meaning recognition
+1,9,inspec,448,F1-E2,B,DWT-BART,Usefulness,4,meaning recognition
+1,10,kp20k,11280,F1-E2,A,DWT-BART,Faithfulness,5,parametric modelling ; computer graphics
+1,10,kp20k,11280,F1-E2,A,DWT-BART,Duplication,4,parametric modelling ; computer graphics
+1,10,kp20k,11280,F1-E2,A,DWT-BART,Semantic similarity,4,parametric modelling ; computer graphics
+1,10,kp20k,11280,F1-E2,A,DWT-BART,Usefulness,4,parametric modelling ; computer graphics
+1,10,kp20k,11280,F1-E2,B,BART,Faithfulness,4,parametric modelling ; generative programming
+1,10,kp20k,11280,F1-E2,B,BART,Duplication,4,parametric modelling ; generative programming
+1,10,kp20k,11280,F1-E2,B,BART,Semantic similarity,3,parametric modelling ; generative programming
+1,10,kp20k,11280,F1-E2,B,BART,Usefulness,4,parametric modelling ; generative programming
+1,11,nus,7,F1-E2,A,BART,Faithfulness,4,user modeling inference
+1,11,nus,7,F1-E2,A,BART,Duplication,5,user modeling inference
+1,11,nus,7,F1-E2,A,BART,Semantic similarity,4,user modeling inference
+1,11,nus,7,F1-E2,A,BART,Usefulness,3,user modeling inference
+1,11,nus,7,F1-E2,B,DWT-BART,Faithfulness,4,user modeling framework
+1,11,nus,7,F1-E2,B,DWT-BART,Duplication,5,user modeling framework
+1,11,nus,7,F1-E2,B,DWT-BART,Semantic similarity,3,user modeling framework
+1,11,nus,7,F1-E2,B,DWT-BART,Usefulness,4,user modeling framework
+1,12,krapivin397,309,F1-E2,A,BART,Faithfulness,4,adaptive pattern traversal order ; dag automaton
+1,12,krapivin397,309,F1-E2,A,BART,Duplication,4,adaptive pattern traversal order ; dag automaton
+1,12,krapivin397,309,F1-E2,A,BART,Semantic similarity,3,adaptive pattern traversal order ; dag automaton
+1,12,krapivin397,309,F1-E2,A,BART,Usefulness,4,adaptive pattern traversal order ; dag automaton
+1,12,krapivin397,309,F1-E2,B,DWT-BART,Faithfulness,3,lazy matching
+1,12,krapivin397,309,F1-E2,B,DWT-BART,Duplication,5,lazy matching
+1,12,krapivin397,309,F1-E2,B,DWT-BART,Semantic similarity,3,lazy matching
+1,12,krapivin397,309,F1-E2,B,DWT-BART,Usefulness,3,lazy matching
+1,13,kp20k,2273,F1-E2,A,DWT-BART,Faithfulness,5,mobile robot ; social robot ; recharge time
+1,13,kp20k,2273,F1-E2,A,DWT-BART,Duplication,4,mobile robot ; social robot ; recharge time
+1,13,kp20k,2273,F1-E2,A,DWT-BART,Semantic similarity,4,mobile robot ; social robot ; recharge time
+1,13,kp20k,2273,F1-E2,A,DWT-BART,Usefulness,4,mobile robot ; social robot ; recharge time
+1,13,kp20k,2273,F1-E2,B,BART,Faithfulness,4,social robots ; recharge time
+1,13,kp20k,2273,F1-E2,B,BART,Duplication,5,social robots ; recharge time
+1,13,kp20k,2273,F1-E2,B,BART,Semantic similarity,3,social robots ; recharge time
+1,13,kp20k,2273,F1-E2,B,BART,Usefulness,4,social robots ; recharge time
+1,14,semeval,99,F1-E2,A,DWT-BART,Faithfulness,4,computational equilibrium
+1,14,semeval,99,F1-E2,A,DWT-BART,Duplication,5,computational equilibrium
+1,14,semeval,99,F1-E2,A,DWT-BART,Semantic similarity,4,computational equilibrium
+1,14,semeval,99,F1-E2,A,DWT-BART,Usefulness,3,computational equilibrium
+1,14,semeval,99,F1-E2,B,BART,Faithfulness,2,finance ; equilibrium computation ; fuzzy sets
+1,14,semeval,99,F1-E2,B,BART,Duplication,4,finance ; equilibrium computation ; fuzzy sets
+1,14,semeval,99,F1-E2,B,BART,Semantic similarity,3,finance ; equilibrium computation ; fuzzy sets
+1,14,semeval,99,F1-E2,B,BART,Usefulness,2,finance ; equilibrium computation ; fuzzy sets
+1,15,kp20k,19171,F1-E2,A,BART,Faithfulness,2,breadth first search ; maximum points on a line
+1,15,kp20k,19171,F1-E2,A,BART,Duplication,4,breadth first search ; maximum points on a line
+1,15,kp20k,19171,F1-E2,A,BART,Semantic similarity,2,breadth first search ; maximum points on a line
+1,15,kp20k,19171,F1-E2,A,BART,Usefulness,3,breadth first search ; maximum points on a line
+1,15,kp20k,19171,F1-E2,B,DWT-BART,Faithfulness,4,quantum computing ; quantuin
+1,15,kp20k,19171,F1-E2,B,DWT-BART,Duplication,2,quantum computing ; quantuin
+1,15,kp20k,19171,F1-E2,B,DWT-BART,Semantic similarity,4,quantum computing ; quantuin
+1,15,kp20k,19171,F1-E2,B,DWT-BART,Usefulness,3,quantum computing ; quantuin
+1,16,kp20k,4935,F1-E2,A,BART,Faithfulness,4,geostatistical analysis
+1,16,kp20k,4935,F1-E2,A,BART,Duplication,5,geostatistical analysis
+1,16,kp20k,4935,F1-E2,A,BART,Semantic similarity,3,geostatistical analysis
+1,16,kp20k,4935,F1-E2,A,BART,Usefulness,3,geostatistical analysis
+1,16,kp20k,4935,F1-E2,B,DWT-BART,Faithfulness,3,hazard assessment in a field
+1,16,kp20k,4935,F1-E2,B,DWT-BART,Duplication,5,hazard assessment in a field
+1,16,kp20k,4935,F1-E2,B,DWT-BART,Semantic similarity,3,hazard assessment in a field
+1,16,kp20k,4935,F1-E2,B,DWT-BART,Usefulness,2,hazard assessment in a field
+2,1,semeval,86,F2-E2,A,BART,Faithfulness,4,matching markets ; bidding agents
+2,1,semeval,86,F2-E2,A,BART,Duplication,1,matching markets ; bidding agents
+2,1,semeval,86,F2-E2,A,BART,Semantic similarity,2,matching markets ; bidding agents
+2,1,semeval,86,F2-E2,A,BART,Usefulness,3,matching markets ; bidding agents
+2,1,semeval,86,F2-E2,B,DWT-BART,Faithfulness,3,betting markets ; risky matching up wagers ; np-completeness
+2,1,semeval,86,F2-E2,B,DWT-BART,Duplication,1,betting markets ; risky matching up wagers ; np-completeness
+2,1,semeval,86,F2-E2,B,DWT-BART,Semantic similarity,2,betting markets ; risky matching up wagers ; np-completeness
+2,1,semeval,86,F2-E2,B,DWT-BART,Usefulness,3,betting markets ; risky matching up wagers ; np-completeness
+2,2,krapivin397,72,F2-E2,A,DWT-BART,Faithfulness,5,verification
+2,2,krapivin397,72,F2-E2,A,DWT-BART,Duplication,1,verification
+2,2,krapivin397,72,F2-E2,A,DWT-BART,Semantic similarity,1,verification
+2,2,krapivin397,72,F2-E2,A,DWT-BART,Usefulness,4,verification
+2,2,krapivin397,72,F2-E2,B,BART,Faithfulness,5,verified computation
+2,2,krapivin397,72,F2-E2,B,BART,Duplication,1,verified computation
+2,2,krapivin397,72,F2-E2,B,BART,Semantic similarity,1,verified computation
+2,2,krapivin397,72,F2-E2,B,BART,Usefulness,3,verified computation
+2,3,inspec,293,F2-E2,A,BART,Faithfulness,3,computer security ; computer network security ; security management
+2,3,inspec,293,F2-E2,A,BART,Duplication,1,computer security ; computer network security ; security management
+2,3,inspec,293,F2-E2,A,BART,Semantic similarity,4,computer security ; computer network security ; security management
+2,3,inspec,293,F2-E2,A,BART,Usefulness,2,computer security ; computer network security ; security management
+2,3,inspec,293,F2-E2,B,DWT-BART,Faithfulness,5,video surveillance ; security design
+2,3,inspec,293,F2-E2,B,DWT-BART,Duplication,1,video surveillance ; security design
+2,3,inspec,293,F2-E2,B,DWT-BART,Semantic similarity,2,video surveillance ; security design
+2,3,inspec,293,F2-E2,B,DWT-BART,Usefulness,5,video surveillance ; security design
+2,4,inspec,454,F2-E2,A,DWT-BART,Faithfulness,5,tablet pc operating system ; handwriting recognition ; handwritten text recognition ; pen input ; pen recognition ; tablets and computers
+2,4,inspec,454,F2-E2,A,DWT-BART,Duplication,2,tablet pc operating system ; handwriting recognition ; handwritten text recognition ; pen input ; pen recognition ; tablets and computers
+2,4,inspec,454,F2-E2,A,DWT-BART,Semantic similarity,5,tablet pc operating system ; handwriting recognition ; handwritten text recognition ; pen input ; pen recognition ; tablets and computers
+2,4,inspec,454,F2-E2,A,DWT-BART,Usefulness,4,tablet pc operating system ; handwriting recognition ; handwritten text recognition ; pen input ; pen recognition ; tablets and computers
+2,4,inspec,454,F2-E2,B,BART,Faithfulness,5,handwriting ; pen based computing ; tablet pc operating system
+2,4,inspec,454,F2-E2,B,BART,Duplication,1,handwriting ; pen based computing ; tablet pc operating system
+2,4,inspec,454,F2-E2,B,BART,Semantic similarity,2,handwriting ; pen based computing ; tablet pc operating system
+2,4,inspec,454,F2-E2,B,BART,Usefulness,5,handwriting ; pen based computing ; tablet pc operating system
+2,5,kp20k,17469,F2-E2,A,DWT-BART,Faithfulness,4,packet switching ; markov chains
+2,5,kp20k,17469,F2-E2,A,DWT-BART,Duplication,1,packet switching ; markov chains
+2,5,kp20k,17469,F2-E2,A,DWT-BART,Semantic similarity,1,packet switching ; markov chains
+2,5,kp20k,17469,F2-E2,A,DWT-BART,Usefulness,3,packet switching ; markov chains
+2,5,kp20k,17469,F2-E2,B,BART,Faithfulness,3,traffic shaping ; statistical analysis
+2,5,kp20k,17469,F2-E2,B,BART,Duplication,1,traffic shaping ; statistical analysis
+2,5,kp20k,17469,F2-E2,B,BART,Semantic similarity,1,traffic shaping ; statistical analysis
+2,5,kp20k,17469,F2-E2,B,BART,Usefulness,2,traffic shaping ; statistical analysis
+2,6,kp20k,12640,F2-E2,A,BART,Faithfulness,5,software inspection ; software error estimation
+2,6,kp20k,12640,F2-E2,A,BART,Duplication,1,software inspection ; software error estimation
+2,6,kp20k,12640,F2-E2,A,BART,Semantic similarity,2,software inspection ; software error estimation
+2,6,kp20k,12640,F2-E2,A,BART,Usefulness,5,software inspection ; software error estimation
+2,6,kp20k,12640,F2-E2,B,DWT-BART,Faithfulness,5,software error detection ; software inspection ; empirical investigation
+2,6,kp20k,12640,F2-E2,B,DWT-BART,Duplication,1,software error detection ; software inspection ; empirical investigation
+2,6,kp20k,12640,F2-E2,B,DWT-BART,Semantic similarity,3,software error detection ; software inspection ; empirical investigation
+2,6,kp20k,12640,F2-E2,B,DWT-BART,Usefulness,4,software error detection ; software inspection ; empirical investigation
+2,7,semeval,47,F2-E2,A,DWT-BART,Faithfulness,4,content-based filtering ; information filtering ; factorization
+2,7,semeval,47,F2-E2,A,DWT-BART,Duplication,1,content-based filtering ; information filtering ; factorization
+2,7,semeval,47,F2-E2,A,DWT-BART,Semantic similarity,3,content-based filtering ; information filtering ; factorization
+2,7,semeval,47,F2-E2,A,DWT-BART,Usefulness,3,content-based filtering ; information filtering ; factorization
+2,7,semeval,47,F2-E2,B,BART,Faithfulness,5,user modeling and learning
+2,7,semeval,47,F2-E2,B,BART,Duplication,1,user modeling and learning
+2,7,semeval,47,F2-E2,B,BART,Semantic similarity,1,user modeling and learning
+2,7,semeval,47,F2-E2,B,BART,Usefulness,5,user modeling and learning
+2,8,kp20k,13776,F2-E2,A,BART,Faithfulness,5,high-order finite elements ; residual stabilization
+2,8,kp20k,13776,F2-E2,A,BART,Duplication,1,high-order finite elements ; residual stabilization
+2,8,kp20k,13776,F2-E2,A,BART,Semantic similarity,2,high-order finite elements ; residual stabilization
+2,8,kp20k,13776,F2-E2,A,BART,Usefulness,5,high-order finite elements ; residual stabilization
+2,8,kp20k,13776,F2-E2,B,DWT-BART,Faithfulness,5,high-order finite elements ; monotonicity-preserving high-order methods ; stability of spectral elements
+2,8,kp20k,13776,F2-E2,B,DWT-BART,Duplication,1,high-order finite elements ; monotonicity-preserving high-order methods ; stability of spectral elements
+2,8,kp20k,13776,F2-E2,B,DWT-BART,Semantic similarity,4,high-order finite elements ; monotonicity-preserving high-order methods ; stability of spectral elements
+2,8,kp20k,13776,F2-E2,B,DWT-BART,Usefulness,4,high-order finite elements ; monotonicity-preserving high-order methods ; stability of spectral elements
+2,9,kp20k,13301,F2-E2,A,DWT-BART,Faithfulness,5,subdivision methods
+2,9,kp20k,13301,F2-E2,A,DWT-BART,Duplication,1,subdivision methods
+2,9,kp20k,13301,F2-E2,A,DWT-BART,Semantic similarity,1,subdivision methods
+2,9,kp20k,13301,F2-E2,A,DWT-BART,Usefulness,4,subdivision methods
+2,9,kp20k,13301,F2-E2,B,BART,Faithfulness,5,multisection decision rules
+2,9,kp20k,13301,F2-E2,B,BART,Duplication,1,multisection decision rules
+2,9,kp20k,13301,F2-E2,B,BART,Semantic similarity,1,multisection decision rules
+2,9,kp20k,13301,F2-E2,B,BART,Usefulness,5,multisection decision rules
+2,10,kp20k,12290,F2-E2,A,DWT-BART,Faithfulness,5,signal extraction ; jump ; update algorithm
+2,10,kp20k,12290,F2-E2,A,DWT-BART,Duplication,1,signal extraction ; jump ; update algorithm
+2,10,kp20k,12290,F2-E2,A,DWT-BART,Semantic similarity,2,signal extraction ; jump ; update algorithm
+2,10,kp20k,12290,F2-E2,A,DWT-BART,Usefulness,4,signal extraction ; jump ; update algorithm
+2,10,kp20k,12290,F2-E2,B,BART,Faithfulness,4,spike extraction
+2,10,kp20k,12290,F2-E2,B,BART,Duplication,1,spike extraction
+2,10,kp20k,12290,F2-E2,B,BART,Semantic similarity,1,spike extraction
+2,10,kp20k,12290,F2-E2,B,BART,Usefulness,3,spike extraction
+2,11,kp20k,19943,F2-E2,A,BART,Faithfulness,5,elementary education ; improving classroom teaching ; interactive learning environments ; pedagogical issues
+2,11,kp20k,19943,F2-E2,A,BART,Duplication,1,elementary education ; improving classroom teaching ; interactive learning environments ; pedagogical issues
+2,11,kp20k,19943,F2-E2,A,BART,Semantic similarity,4,elementary education ; improving classroom teaching ; interactive learning environments ; pedagogical issues
+2,11,kp20k,19943,F2-E2,A,BART,Usefulness,4,elementary education ; improving classroom teaching ; interactive learning environments ; pedagogical issues
+2,11,kp20k,19943,F2-E2,B,DWT-BART,Faithfulness,5,cooperative / collaborative learning ; elementary education ; interactive learning environments
+2,11,kp20k,19943,F2-E2,B,DWT-BART,Duplication,1,cooperative / collaborative learning ; elementary education ; interactive learning environments
+2,11,kp20k,19943,F2-E2,B,DWT-BART,Semantic similarity,3,cooperative / collaborative learning ; elementary education ; interactive learning environments
+2,11,kp20k,19943,F2-E2,B,DWT-BART,Usefulness,5,cooperative / collaborative learning ; elementary education ; interactive learning environments
+2,12,kp20k,18765,F2-E2,A,DWT-BART,Faithfulness,4,colloboration ; virtual reality
+2,12,kp20k,18765,F2-E2,A,DWT-BART,Duplication,1,colloboration ; virtual reality
+2,12,kp20k,18765,F2-E2,A,DWT-BART,Semantic similarity,2,colloboration ; virtual reality
+2,12,kp20k,18765,F2-E2,A,DWT-BART,Usefulness,3,colloboration ; virtual reality
+2,12,kp20k,18765,F2-E2,B,BART,Faithfulness,5,multidisciplinary design
+2,12,kp20k,18765,F2-E2,B,BART,Duplication,1,multidisciplinary design
+2,12,kp20k,18765,F2-E2,B,BART,Semantic similarity,1,multidisciplinary design
+2,12,kp20k,18765,F2-E2,B,BART,Usefulness,5,multidisciplinary design
+2,13,nus,197,F2-E2,A,DWT-BART,Faithfulness,5,recommender systems ; social navigation
+2,13,nus,197,F2-E2,A,DWT-BART,Duplication,1,recommender systems ; social navigation
+2,13,nus,197,F2-E2,A,DWT-BART,Semantic similarity,2,recommender systems ; social navigation
+2,13,nus,197,F2-E2,A,DWT-BART,Usefulness,5,recommender systems ; social navigation
+2,13,nus,197,F2-E2,B,BART,Faithfulness,5,recommender systems ; social network analysis
+2,13,nus,197,F2-E2,B,BART,Duplication,1,recommender systems ; social network analysis
+2,13,nus,197,F2-E2,B,BART,Semantic similarity,3,recommender systems ; social network analysis
+2,13,nus,197,F2-E2,B,BART,Usefulness,5,recommender systems ; social network analysis
+2,14,krapivin397,156,F2-E2,A,DWT-BART,Faithfulness,4,model-based engineering ; discrete-event simulation ; hybrid systems
+2,14,krapivin397,156,F2-E2,A,DWT-BART,Duplication,1,model-based engineering ; discrete-event simulation ; hybrid systems
+2,14,krapivin397,156,F2-E2,A,DWT-BART,Semantic similarity,3,model-based engineering ; discrete-event simulation ; hybrid systems
+2,14,krapivin397,156,F2-E2,A,DWT-BART,Usefulness,4,model-based engineering ; discrete-event simulation ; hybrid systems
+2,14,krapivin397,156,F2-E2,B,BART,Faithfulness,5,discrete-event simulation ; continuous-discrete-event systems ; multimodel systems
+2,14,krapivin397,156,F2-E2,B,BART,Duplication,1,discrete-event simulation ; continuous-discrete-event systems ; multimodel systems
+2,14,krapivin397,156,F2-E2,B,BART,Semantic similarity,5,discrete-event simulation ; continuous-discrete-event systems ; multimodel systems
+2,14,krapivin397,156,F2-E2,B,BART,Usefulness,5,discrete-event simulation ; continuous-discrete-event systems ; multimodel systems
+2,15,kp20k,12089,F2-E2,A,DWT-BART,Faithfulness,4,blind source separation
+2,15,kp20k,12089,F2-E2,A,DWT-BART,Duplication,1,blind source separation
+2,15,kp20k,12089,F2-E2,A,DWT-BART,Semantic similarity,1,blind source separation
+2,15,kp20k,12089,F2-E2,A,DWT-BART,Usefulness,4,blind source separation
+2,15,kp20k,12089,F2-E2,B,BART,Faithfulness,5,semi-blind source extraction
+2,15,kp20k,12089,F2-E2,B,BART,Duplication,1,semi-blind source extraction
+2,15,kp20k,12089,F2-E2,B,BART,Semantic similarity,1,semi-blind source extraction
+2,15,kp20k,12089,F2-E2,B,BART,Usefulness,5,semi-blind source extraction
+2,16,kp20k,9301,F2-E2,A,BART,Faithfulness,5,neonatal development
+2,16,kp20k,9301,F2-E2,A,BART,Duplication,1,neonatal development
+2,16,kp20k,9301,F2-E2,A,BART,Semantic similarity,1,neonatal development
+2,16,kp20k,9301,F2-E2,A,BART,Usefulness,4,neonatal development
+2,16,kp20k,9301,F2-E2,B,DWT-BART,Faithfulness,3,telencephalon ; inundibular nucleus
+2,16,kp20k,9301,F2-E2,B,DWT-BART,Duplication,1,telencephalon ; inundibular nucleus
+2,16,kp20k,9301,F2-E2,B,DWT-BART,Semantic similarity,1,telencephalon ; inundibular nucleus
+2,16,kp20k,9301,F2-E2,B,DWT-BART,Usefulness,2,telencephalon ; inundibular nucleus
+2,1,semeval,86,F2-E1,A,BART,Faithfulness,5,matching markets ; bidding agents
+2,1,semeval,86,F2-E1,A,BART,Duplication,1,matching markets ; bidding agents
+2,1,semeval,86,F2-E1,A,BART,Semantic similarity,1,matching markets ; bidding agents
+2,1,semeval,86,F2-E1,A,BART,Usefulness,3,matching markets ; bidding agents
+2,1,semeval,86,F2-E1,B,DWT-BART,Faithfulness,2,betting markets ; risky matching up wagers ; np-completeness
+2,1,semeval,86,F2-E1,B,DWT-BART,Duplication,1,betting markets ; risky matching up wagers ; np-completeness
+2,1,semeval,86,F2-E1,B,DWT-BART,Semantic similarity,2,betting markets ; risky matching up wagers ; np-completeness
+2,1,semeval,86,F2-E1,B,DWT-BART,Usefulness,3,betting markets ; risky matching up wagers ; np-completeness
+2,2,krapivin397,72,F2-E1,A,DWT-BART,Faithfulness,5,verification
+2,2,krapivin397,72,F2-E1,A,DWT-BART,Duplication,1,verification
+2,2,krapivin397,72,F2-E1,A,DWT-BART,Semantic similarity,1,verification
+2,2,krapivin397,72,F2-E1,A,DWT-BART,Usefulness,3,verification
+2,2,krapivin397,72,F2-E1,B,BART,Faithfulness,4,verified computation
+2,2,krapivin397,72,F2-E1,B,BART,Duplication,1,verified computation
+2,2,krapivin397,72,F2-E1,B,BART,Semantic similarity,1,verified computation
+2,2,krapivin397,72,F2-E1,B,BART,Usefulness,3,verified computation
+2,3,inspec,293,F2-E1,A,BART,Faithfulness,2,computer security ; computer network security ; security management
+2,3,inspec,293,F2-E1,A,BART,Duplication,1,computer security ; computer network security ; security management
+2,3,inspec,293,F2-E1,A,BART,Semantic similarity,4,computer security ; computer network security ; security management
+2,3,inspec,293,F2-E1,A,BART,Usefulness,2,computer security ; computer network security ; security management
+2,3,inspec,293,F2-E1,B,DWT-BART,Faithfulness,5,video surveillance ; security design
+2,3,inspec,293,F2-E1,B,DWT-BART,Duplication,1,video surveillance ; security design
+2,3,inspec,293,F2-E1,B,DWT-BART,Semantic similarity,2,video surveillance ; security design
+2,3,inspec,293,F2-E1,B,DWT-BART,Usefulness,5,video surveillance ; security design
+2,4,inspec,454,F2-E1,A,DWT-BART,Faithfulness,4,tablet pc operating system ; handwriting recognition ; handwritten text recognition ; pen input ; pen recognition ; tablets and computers
+2,4,inspec,454,F2-E1,A,DWT-BART,Duplication,3,tablet pc operating system ; handwriting recognition ; handwritten text recognition ; pen input ; pen recognition ; tablets and computers
+2,4,inspec,454,F2-E1,A,DWT-BART,Semantic similarity,4,tablet pc operating system ; handwriting recognition ; handwritten text recognition ; pen input ; pen recognition ; tablets and computers
+2,4,inspec,454,F2-E1,A,DWT-BART,Usefulness,3,tablet pc operating system ; handwriting recognition ; handwritten text recognition ; pen input ; pen recognition ; tablets and computers
+2,4,inspec,454,F2-E1,B,BART,Faithfulness,5,handwriting ; pen based computing ; tablet pc operating system
+2,4,inspec,454,F2-E1,B,BART,Duplication,1,handwriting ; pen based computing ; tablet pc operating system
+2,4,inspec,454,F2-E1,B,BART,Semantic similarity,2,handwriting ; pen based computing ; tablet pc operating system
+2,4,inspec,454,F2-E1,B,BART,Usefulness,5,handwriting ; pen based computing ; tablet pc operating system
+2,5,kp20k,17469,F2-E1,A,DWT-BART,Faithfulness,3,packet switching ; markov chains
+2,5,kp20k,17469,F2-E1,A,DWT-BART,Duplication,1,packet switching ; markov chains
+2,5,kp20k,17469,F2-E1,A,DWT-BART,Semantic similarity,1,packet switching ; markov chains
+2,5,kp20k,17469,F2-E1,A,DWT-BART,Usefulness,3,packet switching ; markov chains
+2,5,kp20k,17469,F2-E1,B,BART,Faithfulness,3,traffic shaping ; statistical analysis
+2,5,kp20k,17469,F2-E1,B,BART,Duplication,1,traffic shaping ; statistical analysis
+2,5,kp20k,17469,F2-E1,B,BART,Semantic similarity,1,traffic shaping ; statistical analysis
+2,5,kp20k,17469,F2-E1,B,BART,Usefulness,3,traffic shaping ; statistical analysis
+2,6,kp20k,12640,F2-E1,A,BART,Faithfulness,5,software inspection ; software error estimation
+2,6,kp20k,12640,F2-E1,A,BART,Duplication,1,software inspection ; software error estimation
+2,6,kp20k,12640,F2-E1,A,BART,Semantic similarity,2,software inspection ; software error estimation
+2,6,kp20k,12640,F2-E1,A,BART,Usefulness,5,software inspection ; software error estimation
+2,6,kp20k,12640,F2-E1,B,DWT-BART,Faithfulness,4,software error detection ; software inspection ; empirical investigation
+2,6,kp20k,12640,F2-E1,B,DWT-BART,Duplication,1,software error detection ; software inspection ; empirical investigation
+2,6,kp20k,12640,F2-E1,B,DWT-BART,Semantic similarity,2,software error detection ; software inspection ; empirical investigation
+2,6,kp20k,12640,F2-E1,B,DWT-BART,Usefulness,4,software error detection ; software inspection ; empirical investigation
+2,7,semeval,47,F2-E1,A,DWT-BART,Faithfulness,3,content-based filtering ; information filtering ; factorization
+2,7,semeval,47,F2-E1,A,DWT-BART,Duplication,1,content-based filtering ; information filtering ; factorization
+2,7,semeval,47,F2-E1,A,DWT-BART,Semantic similarity,3,content-based filtering ; information filtering ; factorization
+2,7,semeval,47,F2-E1,A,DWT-BART,Usefulness,3,content-based filtering ; information filtering ; factorization
+2,7,semeval,47,F2-E1,B,BART,Faithfulness,5,user modeling and learning
+2,7,semeval,47,F2-E1,B,BART,Duplication,1,user modeling and learning
+2,7,semeval,47,F2-E1,B,BART,Semantic similarity,1,user modeling and learning
+2,7,semeval,47,F2-E1,B,BART,Usefulness,4,user modeling and learning
+2,8,kp20k,13776,F2-E1,A,BART,Faithfulness,5,high-order finite elements ; residual stabilization
+2,8,kp20k,13776,F2-E1,A,BART,Duplication,1,high-order finite elements ; residual stabilization
+2,8,kp20k,13776,F2-E1,A,BART,Semantic similarity,2,high-order finite elements ; residual stabilization
+2,8,kp20k,13776,F2-E1,A,BART,Usefulness,4,high-order finite elements ; residual stabilization
+2,8,kp20k,13776,F2-E1,B,DWT-BART,Faithfulness,5,high-order finite elements ; monotonicity-preserving high-order methods ; stability of spectral elements
+2,8,kp20k,13776,F2-E1,B,DWT-BART,Duplication,1,high-order finite elements ; monotonicity-preserving high-order methods ; stability of spectral elements
+2,8,kp20k,13776,F2-E1,B,DWT-BART,Semantic similarity,4,high-order finite elements ; monotonicity-preserving high-order methods ; stability of spectral elements
+2,8,kp20k,13776,F2-E1,B,DWT-BART,Usefulness,4,high-order finite elements ; monotonicity-preserving high-order methods ; stability of spectral elements
+2,9,kp20k,13301,F2-E1,A,DWT-BART,Faithfulness,5,subdivision methods
+2,9,kp20k,13301,F2-E1,A,DWT-BART,Duplication,1,subdivision methods
+2,9,kp20k,13301,F2-E1,A,DWT-BART,Semantic similarity,1,subdivision methods
+2,9,kp20k,13301,F2-E1,A,DWT-BART,Usefulness,4,subdivision methods
+2,9,kp20k,13301,F2-E1,B,BART,Faithfulness,5,multisection decision rules
+2,9,kp20k,13301,F2-E1,B,BART,Duplication,1,multisection decision rules
+2,9,kp20k,13301,F2-E1,B,BART,Semantic similarity,1,multisection decision rules
+2,9,kp20k,13301,F2-E1,B,BART,Usefulness,5,multisection decision rules
+2,10,kp20k,12290,F2-E1,A,DWT-BART,Faithfulness,5,signal extraction ; jump ; update algorithm
+2,10,kp20k,12290,F2-E1,A,DWT-BART,Duplication,1,signal extraction ; jump ; update algorithm
+2,10,kp20k,12290,F2-E1,A,DWT-BART,Semantic similarity,2,signal extraction ; jump ; update algorithm
+2,10,kp20k,12290,F2-E1,A,DWT-BART,Usefulness,4,signal extraction ; jump ; update algorithm
+2,10,kp20k,12290,F2-E1,B,BART,Faithfulness,2,spike extraction
+2,10,kp20k,12290,F2-E1,B,BART,Duplication,1,spike extraction
+2,10,kp20k,12290,F2-E1,B,BART,Semantic similarity,1,spike extraction
+2,10,kp20k,12290,F2-E1,B,BART,Usefulness,2,spike extraction
+2,11,kp20k,19943,F2-E1,A,BART,Faithfulness,4,elementary education ; improving classroom teaching ; interactive learning environments ; pedagogical issues
+2,11,kp20k,19943,F2-E1,A,BART,Duplication,1,elementary education ; improving classroom teaching ; interactive learning environments ; pedagogical issues
+2,11,kp20k,19943,F2-E1,A,BART,Semantic similarity,3,elementary education ; improving classroom teaching ; interactive learning environments ; pedagogical issues
+2,11,kp20k,19943,F2-E1,A,BART,Usefulness,3,elementary education ; improving classroom teaching ; interactive learning environments ; pedagogical issues
+2,11,kp20k,19943,F2-E1,B,DWT-BART,Faithfulness,5,cooperative / collaborative learning ; elementary education ; interactive learning environments
+2,11,kp20k,19943,F2-E1,B,DWT-BART,Duplication,1,cooperative / collaborative learning ; elementary education ; interactive learning environments
+2,11,kp20k,19943,F2-E1,B,DWT-BART,Semantic similarity,2,cooperative / collaborative learning ; elementary education ; interactive learning environments
+2,11,kp20k,19943,F2-E1,B,DWT-BART,Usefulness,5,cooperative / collaborative learning ; elementary education ; interactive learning environments
+2,12,kp20k,18765,F2-E1,A,DWT-BART,Faithfulness,3,colloboration ; virtual reality
+2,12,kp20k,18765,F2-E1,A,DWT-BART,Duplication,1,colloboration ; virtual reality
+2,12,kp20k,18765,F2-E1,A,DWT-BART,Semantic similarity,1,colloboration ; virtual reality
+2,12,kp20k,18765,F2-E1,A,DWT-BART,Usefulness,3,colloboration ; virtual reality
+2,12,kp20k,18765,F2-E1,B,BART,Faithfulness,5,multidisciplinary design
+2,12,kp20k,18765,F2-E1,B,BART,Duplication,1,multidisciplinary design
+2,12,kp20k,18765,F2-E1,B,BART,Semantic similarity,1,multidisciplinary design
+2,12,kp20k,18765,F2-E1,B,BART,Usefulness,5,multidisciplinary design
+2,13,nus,197,F2-E1,A,DWT-BART,Faithfulness,4,recommender systems ; social navigation
+2,13,nus,197,F2-E1,A,DWT-BART,Duplication,1,recommender systems ; social navigation
+2,13,nus,197,F2-E1,A,DWT-BART,Semantic similarity,2,recommender systems ; social navigation
+2,13,nus,197,F2-E1,A,DWT-BART,Usefulness,4,recommender systems ; social navigation
+2,13,nus,197,F2-E1,B,BART,Faithfulness,4,recommender systems ; social network analysis
+2,13,nus,197,F2-E1,B,BART,Duplication,1,recommender systems ; social network analysis
+2,13,nus,197,F2-E1,B,BART,Semantic similarity,2,recommender systems ; social network analysis
+2,13,nus,197,F2-E1,B,BART,Usefulness,3,recommender systems ; social network analysis
+2,14,krapivin397,156,F2-E1,A,DWT-BART,Faithfulness,4,model-based engineering ; discrete-event simulation ; hybrid systems
+2,14,krapivin397,156,F2-E1,A,DWT-BART,Duplication,1,model-based engineering ; discrete-event simulation ; hybrid systems
+2,14,krapivin397,156,F2-E1,A,DWT-BART,Semantic similarity,3,model-based engineering ; discrete-event simulation ; hybrid systems
+2,14,krapivin397,156,F2-E1,A,DWT-BART,Usefulness,4,model-based engineering ; discrete-event simulation ; hybrid systems
+2,14,krapivin397,156,F2-E1,B,BART,Faithfulness,5,discrete-event simulation ; continuous-discrete-event systems ; multimodel systems
+2,14,krapivin397,156,F2-E1,B,BART,Duplication,1,discrete-event simulation ; continuous-discrete-event systems ; multimodel systems
+2,14,krapivin397,156,F2-E1,B,BART,Semantic similarity,4,discrete-event simulation ; continuous-discrete-event systems ; multimodel systems
+2,14,krapivin397,156,F2-E1,B,BART,Usefulness,5,discrete-event simulation ; continuous-discrete-event systems ; multimodel systems
+2,15,kp20k,12089,F2-E1,A,DWT-BART,Faithfulness,3,blind source separation
+2,15,kp20k,12089,F2-E1,A,DWT-BART,Duplication,1,blind source separation
+2,15,kp20k,12089,F2-E1,A,DWT-BART,Semantic similarity,1,blind source separation
+2,15,kp20k,12089,F2-E1,A,DWT-BART,Usefulness,3,blind source separation
+2,15,kp20k,12089,F2-E1,B,BART,Faithfulness,5,semi-blind source extraction
+2,15,kp20k,12089,F2-E1,B,BART,Duplication,1,semi-blind source extraction
+2,15,kp20k,12089,F2-E1,B,BART,Semantic similarity,1,semi-blind source extraction
+2,15,kp20k,12089,F2-E1,B,BART,Usefulness,5,semi-blind source extraction
+2,16,kp20k,9301,F2-E1,A,BART,Faithfulness,5,neonatal development
+2,16,kp20k,9301,F2-E1,A,BART,Duplication,1,neonatal development
+2,16,kp20k,9301,F2-E1,A,BART,Semantic similarity,1,neonatal development
+2,16,kp20k,9301,F2-E1,A,BART,Usefulness,3,neonatal development
+2,16,kp20k,9301,F2-E1,B,DWT-BART,Faithfulness,3,telencephalon ; inundibular nucleus
+2,16,kp20k,9301,F2-E1,B,DWT-BART,Duplication,1,telencephalon ; inundibular nucleus
+2,16,kp20k,9301,F2-E1,B,DWT-BART,Semantic similarity,2,telencephalon ; inundibular nucleus
+2,16,kp20k,9301,F2-E1,B,DWT-BART,Usefulness,3,telencephalon ; inundibular nucleus
+3,1,kp20k,17126,F3-E2,A,DWT-BART,Faithfulness,5,malicious code detection
+3,1,kp20k,17126,F3-E2,A,DWT-BART,Duplication,1,malicious code detection
+3,1,kp20k,17126,F3-E2,A,DWT-BART,Semantic similarity,1,malicious code detection
+3,1,kp20k,17126,F3-E2,A,DWT-BART,Usefulness,5,malicious code detection
+3,1,kp20k,17126,F3-E2,B,BART,Faithfulness,5,virus detection
+3,1,kp20k,17126,F3-E2,B,BART,Duplication,1,virus detection
+3,1,kp20k,17126,F3-E2,B,BART,Semantic similarity,1,virus detection
+3,1,kp20k,17126,F3-E2,B,BART,Usefulness,5,virus detection
+3,2,kp20k,12970,F3-E2,A,BART,Faithfulness,5,sensor data visualization ; temperature visualization
+3,2,kp20k,12970,F3-E2,A,BART,Duplication,1,sensor data visualization ; temperature visualization
+3,2,kp20k,12970,F3-E2,A,BART,Semantic similarity,3,sensor data visualization ; temperature visualization
+3,2,kp20k,12970,F3-E2,A,BART,Usefulness,5,sensor data visualization ; temperature visualization
+3,2,kp20k,12970,F3-E2,B,DWT-BART,Faithfulness,5,sensor data visualization ; sparse data visualization
+3,2,kp20k,12970,F3-E2,B,DWT-BART,Duplication,1,sensor data visualization ; sparse data visualization
+3,2,kp20k,12970,F3-E2,B,DWT-BART,Semantic similarity,3,sensor data visualization ; sparse data visualization
+3,2,kp20k,12970,F3-E2,B,DWT-BART,Usefulness,4,sensor data visualization ; sparse data visualization
+3,3,kp20k,10808,F3-E2,A,BART,Faithfulness,4,hermite interpolation ; level set method
+3,3,kp20k,10808,F3-E2,A,BART,Duplication,1,hermite interpolation ; level set method
+3,3,kp20k,10808,F3-E2,A,BART,Semantic similarity,2,hermite interpolation ; level set method
+3,3,kp20k,10808,F3-E2,A,BART,Usefulness,3,hermite interpolation ; level set method
+3,3,kp20k,10808,F3-E2,B,DWT-BART,Faithfulness,5,hermite interpolation ; geometric modeling
+3,3,kp20k,10808,F3-E2,B,DWT-BART,Duplication,1,hermite interpolation ; geometric modeling
+3,3,kp20k,10808,F3-E2,B,DWT-BART,Semantic similarity,2,hermite interpolation ; geometric modeling
+3,3,kp20k,10808,F3-E2,B,DWT-BART,Usefulness,5,hermite interpolation ; geometric modeling
+3,4,inspec,365,F3-E2,A,BART,Faithfulness,5,dual-stage servo drive
+3,4,inspec,365,F3-E2,A,BART,Duplication,1,dual-stage servo drive
+3,4,inspec,365,F3-E2,A,BART,Semantic similarity,1,dual-stage servo drive
+3,4,inspec,365,F3-E2,A,BART,Usefulness,5,dual-stage servo drive
+3,4,inspec,365,F3-E2,B,DWT-BART,Faithfulness,5,dual-stage actuators ; track-steering
+3,4,inspec,365,F3-E2,B,DWT-BART,Duplication,1,dual-stage actuators ; track-steering
+3,4,inspec,365,F3-E2,B,DWT-BART,Semantic similarity,3,dual-stage actuators ; track-steering
+3,4,inspec,365,F3-E2,B,DWT-BART,Usefulness,4,dual-stage actuators ; track-steering
+3,5,semeval,70,F3-E2,A,BART,Faithfulness,5,meta-level control
+3,5,semeval,70,F3-E2,A,BART,Duplication,1,meta-level control
+3,5,semeval,70,F3-E2,A,BART,Semantic similarity,1,meta-level control
+3,5,semeval,70,F3-E2,A,BART,Usefulness,4,meta-level control
+3,5,semeval,70,F3-E2,B,DWT-BART,Faithfulness,5,concurrent and semi-cooperative systems ; meta-level control
+3,5,semeval,70,F3-E2,B,DWT-BART,Duplication,1,concurrent and semi-cooperative systems ; meta-level control
+3,5,semeval,70,F3-E2,B,DWT-BART,Semantic similarity,3,concurrent and semi-cooperative systems ; meta-level control
+3,5,semeval,70,F3-E2,B,DWT-BART,Usefulness,5,concurrent and semi-cooperative systems ; meta-level control
+3,6,semeval,24,F3-E2,A,BART,Faithfulness,5,distributed applications ; distribution systems ; middleware
+3,6,semeval,24,F3-E2,A,BART,Duplication,1,distributed applications ; distribution systems ; middleware
+3,6,semeval,24,F3-E2,A,BART,Semantic similarity,4,distributed applications ; distribution systems ; middleware
+3,6,semeval,24,F3-E2,A,BART,Usefulness,4,distributed applications ; distribution systems ; middleware
+3,6,semeval,24,F3-E2,B,DWT-BART,Faithfulness,5,distributed systems ; distribution systems ; middleware
+3,6,semeval,24,F3-E2,B,DWT-BART,Duplication,1,distributed systems ; distribution systems ; middleware
+3,6,semeval,24,F3-E2,B,DWT-BART,Semantic similarity,5,distributed systems ; distribution systems ; middleware
+3,6,semeval,24,F3-E2,B,DWT-BART,Usefulness,3,distributed systems ; distribution systems ; middleware
+3,7,krapivin397,248,F3-E2,A,BART,Faithfulness,5,object-oriented programming ; object merging policies
+3,7,krapivin397,248,F3-E2,A,BART,Duplication,1,object-oriented programming ; object merging policies
+3,7,krapivin397,248,F3-E2,A,BART,Semantic similarity,2,object-oriented programming ; object merging policies
+3,7,krapivin397,248,F3-E2,A,BART,Usefulness,5,object-oriented programming ; object merging policies
+3,7,krapivin397,248,F3-E2,B,DWT-BART,Faithfulness,4,object-oriented programming ; object management ; object synchronization
+3,7,krapivin397,248,F3-E2,B,DWT-BART,Duplication,1,object-oriented programming ; object management ; object synchronization
+3,7,krapivin397,248,F3-E2,B,DWT-BART,Semantic similarity,4,object-oriented programming ; object management ; object synchronization
+3,7,krapivin397,248,F3-E2,B,DWT-BART,Usefulness,3,object-oriented programming ; object management ; object synchronization
+3,8,krapivin397,250,F3-E2,A,BART,Faithfulness,5,parallel algorithms ; computational complexity
+3,8,krapivin397,250,F3-E2,A,BART,Duplication,1,parallel algorithms ; computational complexity
+3,8,krapivin397,250,F3-E2,A,BART,Semantic similarity,2,parallel algorithms ; computational complexity
+3,8,krapivin397,250,F3-E2,A,BART,Usefulness,5,parallel algorithms ; computational complexity
+3,8,krapivin397,250,F3-E2,B,DWT-BART,Faithfulness,5,computational complexity ; superlinear circuits
+3,8,krapivin397,250,F3-E2,B,DWT-BART,Duplication,1,computational complexity ; superlinear circuits
+3,8,krapivin397,250,F3-E2,B,DWT-BART,Semantic similarity,2,computational complexity ; superlinear circuits
+3,8,krapivin397,250,F3-E2,B,DWT-BART,Usefulness,4,computational complexity ; superlinear circuits
+3,9,kp20k,16731,F3-E2,A,BART,Faithfulness,5,fault tolerance
+3,9,kp20k,16731,F3-E2,A,BART,Duplication,1,fault tolerance
+3,9,kp20k,16731,F3-E2,A,BART,Semantic similarity,1,fault tolerance
+3,9,kp20k,16731,F3-E2,A,BART,Usefulness,4,fault tolerance
+3,9,kp20k,16731,F3-E2,B,DWT-BART,Faithfulness,5,asynchronous circuits ; self synchronization
+3,9,kp20k,16731,F3-E2,B,DWT-BART,Duplication,1,asynchronous circuits ; self synchronization
+3,9,kp20k,16731,F3-E2,B,DWT-BART,Semantic similarity,3,asynchronous circuits ; self synchronization
+3,9,kp20k,16731,F3-E2,B,DWT-BART,Usefulness,5,asynchronous circuits ; self synchronization
+3,10,nus,71,F3-E2,A,DWT-BART,Faithfulness,5,flow statistics ; sampled flow statistics ; network monitoring
+3,10,nus,71,F3-E2,A,DWT-BART,Duplication,1,flow statistics ; sampled flow statistics ; network monitoring
+3,10,nus,71,F3-E2,A,DWT-BART,Semantic similarity,4,flow statistics ; sampled flow statistics ; network monitoring
+3,10,nus,71,F3-E2,A,DWT-BART,Usefulness,4,flow statistics ; sampled flow statistics ; network monitoring
+3,10,nus,71,F3-E2,B,BART,Faithfulness,4,traffic measurement ; flow ranking ; trajectory analysis
+3,10,nus,71,F3-E2,B,BART,Duplication,1,traffic measurement ; flow ranking ; trajectory analysis
+3,10,nus,71,F3-E2,B,BART,Semantic similarity,2,traffic measurement ; flow ranking ; trajectory analysis
+3,10,nus,71,F3-E2,B,BART,Usefulness,4,traffic measurement ; flow ranking ; trajectory analysis
+3,11,kp20k,17319,F3-E2,A,BART,Faithfulness,5,online communities ; online support services ; online coping ; social exchange
+3,11,kp20k,17319,F3-E2,A,BART,Duplication,1,online communities ; online support services ; online coping ; social exchange
+3,11,kp20k,17319,F3-E2,A,BART,Semantic similarity,4,online communities ; online support services ; online coping ; social exchange
+3,11,kp20k,17319,F3-E2,A,BART,Usefulness,5,online communities ; online support services ; online coping ; social exchange
+3,11,kp20k,17319,F3-E2,B,DWT-BART,Faithfulness,2,internet ; self-efficacy ; depression ; social cognitive theory
+3,11,kp20k,17319,F3-E2,B,DWT-BART,Duplication,1,internet ; self-efficacy ; depression ; social cognitive theory
+3,11,kp20k,17319,F3-E2,B,DWT-BART,Semantic similarity,2,internet ; self-efficacy ; depression ; social cognitive theory
+3,11,kp20k,17319,F3-E2,B,DWT-BART,Usefulness,2,internet ; self-efficacy ; depression ; social cognitive theory
+3,12,kp20k,16260,F3-E2,A,BART,Faithfulness,4,inverse problem ; inclusion problem
+3,12,kp20k,16260,F3-E2,A,BART,Duplication,1,inverse problem ; inclusion problem
+3,12,kp20k,16260,F3-E2,A,BART,Semantic similarity,2,inverse problem ; inclusion problem
+3,12,kp20k,16260,F3-E2,A,BART,Usefulness,3,inverse problem ; inclusion problem
+3,12,kp20k,16260,F3-E2,B,DWT-BART,Faithfulness,3,inverse problems
+3,12,kp20k,16260,F3-E2,B,DWT-BART,Duplication,1,inverse problems
+3,12,kp20k,16260,F3-E2,B,DWT-BART,Semantic similarity,1,inverse problems
+3,12,kp20k,16260,F3-E2,B,DWT-BART,Usefulness,2,inverse problems
+3,13,inspec,264,F3-E2,A,BART,Faithfulness,5,medical informatics applications
+3,13,inspec,264,F3-E2,A,BART,Duplication,1,medical informatics applications
+3,13,inspec,264,F3-E2,A,BART,Semantic similarity,1,medical informatics applications
+3,13,inspec,264,F3-E2,A,BART,Usefulness,5,medical informatics applications
+3,13,inspec,264,F3-E2,B,DWT-BART,Faithfulness,5,health informatics research
+3,13,inspec,264,F3-E2,B,DWT-BART,Duplication,1,health informatics research
+3,13,inspec,264,F3-E2,B,DWT-BART,Semantic similarity,1,health informatics research
+3,13,inspec,264,F3-E2,B,DWT-BART,Usefulness,4,health informatics research
+3,14,kp20k,17244,F3-E2,A,BART,Faithfulness,5,stiffness enhancement
+3,14,kp20k,17244,F3-E2,A,BART,Duplication,1,stiffness enhancement
+3,14,kp20k,17244,F3-E2,A,BART,Semantic similarity,1,stiffness enhancement
+3,14,kp20k,17244,F3-E2,A,BART,Usefulness,5,stiffness enhancement
+3,14,kp20k,17244,F3-E2,B,DWT-BART,Faithfulness,1,non-polar solvent
+3,14,kp20k,17244,F3-E2,B,DWT-BART,Duplication,1,non-polar solvent
+3,14,kp20k,17244,F3-E2,B,DWT-BART,Semantic similarity,1,non-polar solvent
+3,14,kp20k,17244,F3-E2,B,DWT-BART,Usefulness,1,non-polar solvent
+3,15,kp20k,5329,F3-E2,A,BART,Faithfulness,5,nonparallel distributed compensation control ; stabilization technique
+3,15,kp20k,5329,F3-E2,A,BART,Duplication,1,nonparallel distributed compensation control ; stabilization technique
+3,15,kp20k,5329,F3-E2,A,BART,Semantic similarity,3,nonparallel distributed compensation control ; stabilization technique
+3,15,kp20k,5329,F3-E2,A,BART,Usefulness,5,nonparallel distributed compensation control ; stabilization technique
+3,15,kp20k,5329,F3-E2,B,DWT-BART,Faithfulness,4,takagi-sugeno fuzzy model ; homogeneous polynomials ; nonparallel distributed compensation control
+3,15,kp20k,5329,F3-E2,B,DWT-BART,Duplication,1,takagi-sugeno fuzzy model ; homogeneous polynomials ; nonparallel distributed compensation control
+3,15,kp20k,5329,F3-E2,B,DWT-BART,Semantic similarity,2,takagi-sugeno fuzzy model ; homogeneous polynomials ; nonparallel distributed compensation control
+3,15,kp20k,5329,F3-E2,B,DWT-BART,Usefulness,3,takagi-sugeno fuzzy model ; homogeneous polynomials ; nonparallel distributed compensation control
+3,16,kp20k,9717,F3-E2,A,DWT-BART,Faithfulness,4,new product idea generation ; fcm
+3,16,kp20k,9717,F3-E2,A,DWT-BART,Duplication,1,new product idea generation ; fcm
+3,16,kp20k,9717,F3-E2,A,DWT-BART,Semantic similarity,1,new product idea generation ; fcm
+3,16,kp20k,9717,F3-E2,A,DWT-BART,Usefulness,3,new product idea generation ; fcm
+3,16,kp20k,9717,F3-E2,B,BART,Faithfulness,5,idea retrieval
+3,16,kp20k,9717,F3-E2,B,BART,Duplication,1,idea retrieval
+3,16,kp20k,9717,F3-E2,B,BART,Semantic similarity,1,idea retrieval
+3,16,kp20k,9717,F3-E2,B,BART,Usefulness,4,idea retrieval
+3,1,kp20k,17126,F3-E1,A,DWT-BART,Faithfulness,5,malicious code detection
+3,1,kp20k,17126,F3-E1,A,DWT-BART,Duplication,1,malicious code detection
+3,1,kp20k,17126,F3-E1,A,DWT-BART,Semantic similarity,1,malicious code detection
+3,1,kp20k,17126,F3-E1,A,DWT-BART,Usefulness,5,malicious code detection
+3,1,kp20k,17126,F3-E1,B,BART,Faithfulness,5,virus detection
+3,1,kp20k,17126,F3-E1,B,BART,Duplication,1,virus detection
+3,1,kp20k,17126,F3-E1,B,BART,Semantic similarity,1,virus detection
+3,1,kp20k,17126,F3-E1,B,BART,Usefulness,5,virus detection
+3,2,kp20k,12970,F3-E1,A,BART,Faithfulness,5,sensor data visualization ; temperature visualization
+3,2,kp20k,12970,F3-E1,A,BART,Duplication,1,sensor data visualization ; temperature visualization
+3,2,kp20k,12970,F3-E1,A,BART,Semantic similarity,2,sensor data visualization ; temperature visualization
+3,2,kp20k,12970,F3-E1,A,BART,Usefulness,5,sensor data visualization ; temperature visualization
+3,2,kp20k,12970,F3-E1,B,DWT-BART,Faithfulness,4,sensor data visualization ; sparse data visualization
+3,2,kp20k,12970,F3-E1,B,DWT-BART,Duplication,1,sensor data visualization ; sparse data visualization
+3,2,kp20k,12970,F3-E1,B,DWT-BART,Semantic similarity,3,sensor data visualization ; sparse data visualization
+3,2,kp20k,12970,F3-E1,B,DWT-BART,Usefulness,4,sensor data visualization ; sparse data visualization
+3,3,kp20k,10808,F3-E1,A,BART,Faithfulness,4,hermite interpolation ; level set method
+3,3,kp20k,10808,F3-E1,A,BART,Duplication,1,hermite interpolation ; level set method
+3,3,kp20k,10808,F3-E1,A,BART,Semantic similarity,2,hermite interpolation ; level set method
+3,3,kp20k,10808,F3-E1,A,BART,Usefulness,3,hermite interpolation ; level set method
+3,3,kp20k,10808,F3-E1,B,DWT-BART,Faithfulness,5,hermite interpolation ; geometric modeling
+3,3,kp20k,10808,F3-E1,B,DWT-BART,Duplication,1,hermite interpolation ; geometric modeling
+3,3,kp20k,10808,F3-E1,B,DWT-BART,Semantic similarity,3,hermite interpolation ; geometric modeling
+3,3,kp20k,10808,F3-E1,B,DWT-BART,Usefulness,5,hermite interpolation ; geometric modeling
+3,4,inspec,365,F3-E1,A,BART,Faithfulness,5,dual-stage servo drive
+3,4,inspec,365,F3-E1,A,BART,Duplication,1,dual-stage servo drive
+3,4,inspec,365,F3-E1,A,BART,Semantic similarity,1,dual-stage servo drive
+3,4,inspec,365,F3-E1,A,BART,Usefulness,5,dual-stage servo drive
+3,4,inspec,365,F3-E1,B,DWT-BART,Faithfulness,5,dual-stage actuators ; track-steering
+3,4,inspec,365,F3-E1,B,DWT-BART,Duplication,1,dual-stage actuators ; track-steering
+3,4,inspec,365,F3-E1,B,DWT-BART,Semantic similarity,3,dual-stage actuators ; track-steering
+3,4,inspec,365,F3-E1,B,DWT-BART,Usefulness,5,dual-stage actuators ; track-steering
+3,5,semeval,70,F3-E1,A,BART,Faithfulness,5,meta-level control
+3,5,semeval,70,F3-E1,A,BART,Duplication,1,meta-level control
+3,5,semeval,70,F3-E1,A,BART,Semantic similarity,1,meta-level control
+3,5,semeval,70,F3-E1,A,BART,Usefulness,4,meta-level control
+3,5,semeval,70,F3-E1,B,DWT-BART,Faithfulness,5,concurrent and semi-cooperative systems ; meta-level control
+3,5,semeval,70,F3-E1,B,DWT-BART,Duplication,1,concurrent and semi-cooperative systems ; meta-level control
+3,5,semeval,70,F3-E1,B,DWT-BART,Semantic similarity,3,concurrent and semi-cooperative systems ; meta-level control
+3,5,semeval,70,F3-E1,B,DWT-BART,Usefulness,5,concurrent and semi-cooperative systems ; meta-level control
+3,6,semeval,24,F3-E1,A,BART,Faithfulness,5,distributed applications ; distribution systems ; middleware
+3,6,semeval,24,F3-E1,A,BART,Duplication,2,distributed applications ; distribution systems ; middleware
+3,6,semeval,24,F3-E1,A,BART,Semantic similarity,4,distributed applications ; distribution systems ; middleware
+3,6,semeval,24,F3-E1,A,BART,Usefulness,4,distributed applications ; distribution systems ; middleware
+3,6,semeval,24,F3-E1,B,DWT-BART,Faithfulness,5,distributed systems ; distribution systems ; middleware
+3,6,semeval,24,F3-E1,B,DWT-BART,Duplication,2,distributed systems ; distribution systems ; middleware
+3,6,semeval,24,F3-E1,B,DWT-BART,Semantic similarity,5,distributed systems ; distribution systems ; middleware
+3,6,semeval,24,F3-E1,B,DWT-BART,Usefulness,4,distributed systems ; distribution systems ; middleware
+3,7,krapivin397,248,F3-E1,A,BART,Faithfulness,4,object-oriented programming ; object merging policies
+3,7,krapivin397,248,F3-E1,A,BART,Duplication,1,object-oriented programming ; object merging policies
+3,7,krapivin397,248,F3-E1,A,BART,Semantic similarity,2,object-oriented programming ; object merging policies
+3,7,krapivin397,248,F3-E1,A,BART,Usefulness,5,object-oriented programming ; object merging policies
+3,7,krapivin397,248,F3-E1,B,DWT-BART,Faithfulness,4,object-oriented programming ; object management ; object synchronization
+3,7,krapivin397,248,F3-E1,B,DWT-BART,Duplication,1,object-oriented programming ; object management ; object synchronization
+3,7,krapivin397,248,F3-E1,B,DWT-BART,Semantic similarity,4,object-oriented programming ; object management ; object synchronization
+3,7,krapivin397,248,F3-E1,B,DWT-BART,Usefulness,3,object-oriented programming ; object management ; object synchronization
+3,8,krapivin397,250,F3-E1,A,BART,Faithfulness,5,parallel algorithms ; computational complexity
+3,8,krapivin397,250,F3-E1,A,BART,Duplication,1,parallel algorithms ; computational complexity
+3,8,krapivin397,250,F3-E1,A,BART,Semantic similarity,3,parallel algorithms ; computational complexity
+3,8,krapivin397,250,F3-E1,A,BART,Usefulness,5,parallel algorithms ; computational complexity
+3,8,krapivin397,250,F3-E1,B,DWT-BART,Faithfulness,5,computational complexity ; superlinear circuits
+3,8,krapivin397,250,F3-E1,B,DWT-BART,Duplication,1,computational complexity ; superlinear circuits
+3,8,krapivin397,250,F3-E1,B,DWT-BART,Semantic similarity,2,computational complexity ; superlinear circuits
+3,8,krapivin397,250,F3-E1,B,DWT-BART,Usefulness,4,computational complexity ; superlinear circuits
+3,9,kp20k,16731,F3-E1,A,BART,Faithfulness,5,fault tolerance
+3,9,kp20k,16731,F3-E1,A,BART,Duplication,1,fault tolerance
+3,9,kp20k,16731,F3-E1,A,BART,Semantic similarity,1,fault tolerance
+3,9,kp20k,16731,F3-E1,A,BART,Usefulness,4,fault tolerance
+3,9,kp20k,16731,F3-E1,B,DWT-BART,Faithfulness,4,asynchronous circuits ; self synchronization
+3,9,kp20k,16731,F3-E1,B,DWT-BART,Duplication,1,asynchronous circuits ; self synchronization
+3,9,kp20k,16731,F3-E1,B,DWT-BART,Semantic similarity,4,asynchronous circuits ; self synchronization
+3,9,kp20k,16731,F3-E1,B,DWT-BART,Usefulness,5,asynchronous circuits ; self synchronization
+3,10,nus,71,F3-E1,A,DWT-BART,Faithfulness,5,flow statistics ; sampled flow statistics ; network monitoring
+3,10,nus,71,F3-E1,A,DWT-BART,Duplication,2,flow statistics ; sampled flow statistics ; network monitoring
+3,10,nus,71,F3-E1,A,DWT-BART,Semantic similarity,5,flow statistics ; sampled flow statistics ; network monitoring
+3,10,nus,71,F3-E1,A,DWT-BART,Usefulness,4,flow statistics ; sampled flow statistics ; network monitoring
+3,10,nus,71,F3-E1,B,BART,Faithfulness,4,traffic measurement ; flow ranking ; trajectory analysis
+3,10,nus,71,F3-E1,B,BART,Duplication,1,traffic measurement ; flow ranking ; trajectory analysis
+3,10,nus,71,F3-E1,B,BART,Semantic similarity,2,traffic measurement ; flow ranking ; trajectory analysis
+3,10,nus,71,F3-E1,B,BART,Usefulness,4,traffic measurement ; flow ranking ; trajectory analysis
+3,11,kp20k,17319,F3-E1,A,BART,Faithfulness,5,online communities ; online support services ; online coping ; social exchange
+3,11,kp20k,17319,F3-E1,A,BART,Duplication,2,online communities ; online support services ; online coping ; social exchange
+3,11,kp20k,17319,F3-E1,A,BART,Semantic similarity,4,online communities ; online support services ; online coping ; social exchange
+3,11,kp20k,17319,F3-E1,A,BART,Usefulness,5,online communities ; online support services ; online coping ; social exchange
+3,11,kp20k,17319,F3-E1,B,DWT-BART,Faithfulness,2,internet ; self-efficacy ; depression ; social cognitive theory
+3,11,kp20k,17319,F3-E1,B,DWT-BART,Duplication,1,internet ; self-efficacy ; depression ; social cognitive theory
+3,11,kp20k,17319,F3-E1,B,DWT-BART,Semantic similarity,2,internet ; self-efficacy ; depression ; social cognitive theory
+3,11,kp20k,17319,F3-E1,B,DWT-BART,Usefulness,2,internet ; self-efficacy ; depression ; social cognitive theory
+3,12,kp20k,16260,F3-E1,A,BART,Faithfulness,3,inverse problem ; inclusion problem
+3,12,kp20k,16260,F3-E1,A,BART,Duplication,1,inverse problem ; inclusion problem
+3,12,kp20k,16260,F3-E1,A,BART,Semantic similarity,2,inverse problem ; inclusion problem
+3,12,kp20k,16260,F3-E1,A,BART,Usefulness,3,inverse problem ; inclusion problem
+3,12,kp20k,16260,F3-E1,B,DWT-BART,Faithfulness,2,inverse problems
+3,12,kp20k,16260,F3-E1,B,DWT-BART,Duplication,1,inverse problems
+3,12,kp20k,16260,F3-E1,B,DWT-BART,Semantic similarity,1,inverse problems
+3,12,kp20k,16260,F3-E1,B,DWT-BART,Usefulness,2,inverse problems
+3,13,inspec,264,F3-E1,A,BART,Faithfulness,5,medical informatics applications
+3,13,inspec,264,F3-E1,A,BART,Duplication,1,medical informatics applications
+3,13,inspec,264,F3-E1,A,BART,Semantic similarity,1,medical informatics applications
+3,13,inspec,264,F3-E1,A,BART,Usefulness,5,medical informatics applications
+3,13,inspec,264,F3-E1,B,DWT-BART,Faithfulness,5,health informatics research
+3,13,inspec,264,F3-E1,B,DWT-BART,Duplication,1,health informatics research
+3,13,inspec,264,F3-E1,B,DWT-BART,Semantic similarity,1,health informatics research
+3,13,inspec,264,F3-E1,B,DWT-BART,Usefulness,4,health informatics research
+3,14,kp20k,17244,F3-E1,A,BART,Faithfulness,5,stiffness enhancement
+3,14,kp20k,17244,F3-E1,A,BART,Duplication,1,stiffness enhancement
+3,14,kp20k,17244,F3-E1,A,BART,Semantic similarity,1,stiffness enhancement
+3,14,kp20k,17244,F3-E1,A,BART,Usefulness,5,stiffness enhancement
+3,14,kp20k,17244,F3-E1,B,DWT-BART,Faithfulness,1,non-polar solvent
+3,14,kp20k,17244,F3-E1,B,DWT-BART,Duplication,1,non-polar solvent
+3,14,kp20k,17244,F3-E1,B,DWT-BART,Semantic similarity,1,non-polar solvent
+3,14,kp20k,17244,F3-E1,B,DWT-BART,Usefulness,1,non-polar solvent
+3,15,kp20k,5329,F3-E1,A,BART,Faithfulness,5,nonparallel distributed compensation control ; stabilization technique
+3,15,kp20k,5329,F3-E1,A,BART,Duplication,1,nonparallel distributed compensation control ; stabilization technique
+3,15,kp20k,5329,F3-E1,A,BART,Semantic similarity,3,nonparallel distributed compensation control ; stabilization technique
+3,15,kp20k,5329,F3-E1,A,BART,Usefulness,5,nonparallel distributed compensation control ; stabilization technique
+3,15,kp20k,5329,F3-E1,B,DWT-BART,Faithfulness,4,takagi-sugeno fuzzy model ; homogeneous polynomials ; nonparallel distributed compensation control
+3,15,kp20k,5329,F3-E1,B,DWT-BART,Duplication,1,takagi-sugeno fuzzy model ; homogeneous polynomials ; nonparallel distributed compensation control
+3,15,kp20k,5329,F3-E1,B,DWT-BART,Semantic similarity,3,takagi-sugeno fuzzy model ; homogeneous polynomials ; nonparallel distributed compensation control
+3,15,kp20k,5329,F3-E1,B,DWT-BART,Usefulness,4,takagi-sugeno fuzzy model ; homogeneous polynomials ; nonparallel distributed compensation control
+3,16,kp20k,9717,F3-E1,A,DWT-BART,Faithfulness,5,new product idea generation ; fcm
+3,16,kp20k,9717,F3-E1,A,DWT-BART,Duplication,1,new product idea generation ; fcm
+3,16,kp20k,9717,F3-E1,A,DWT-BART,Semantic similarity,1,new product idea generation ; fcm
+3,16,kp20k,9717,F3-E1,A,DWT-BART,Usefulness,4,new product idea generation ; fcm
+3,16,kp20k,9717,F3-E1,B,BART,Faithfulness,5,idea retrieval
+3,16,kp20k,9717,F3-E1,B,BART,Duplication,1,idea retrieval
+3,16,kp20k,9717,F3-E1,B,BART,Semantic similarity,1,idea retrieval
+3,16,kp20k,9717,F3-E1,B,BART,Usefulness,5,idea retrieval
+4,1,kp20k,2177,F4-E2,A,DWT-BART,Faithfulness,5,matrix multiplication ; spectral method
+4,1,kp20k,2177,F4-E2,A,DWT-BART,Duplication,1,matrix multiplication ; spectral method
+4,1,kp20k,2177,F4-E2,A,DWT-BART,Semantic similarity,2,matrix multiplication ; spectral method
+4,1,kp20k,2177,F4-E2,A,DWT-BART,Usefulness,5,matrix multiplication ; spectral method
+4,1,kp20k,2177,F4-E2,B,BART,Faithfulness,3,fast fourier transform ; eigenvalue problems
+4,1,kp20k,2177,F4-E2,B,BART,Duplication,1,fast fourier transform ; eigenvalue problems
+4,1,kp20k,2177,F4-E2,B,BART,Semantic similarity,2,fast fourier transform ; eigenvalue problems
+4,1,kp20k,2177,F4-E2,B,BART,Usefulness,3,fast fourier transform ; eigenvalue problems
+4,2,nus,41,F4-E2,A,DWT-BART,Faithfulness,5,measurement practices
+4,2,nus,41,F4-E2,A,DWT-BART,Duplication,1,measurement practices
+4,2,nus,41,F4-E2,A,DWT-BART,Semantic similarity,1,measurement practices
+4,2,nus,41,F4-E2,A,DWT-BART,Usefulness,4,measurement practices
+4,2,nus,41,F4-E2,B,BART,Faithfulness,4,e-service ; evaluation framework
+4,2,nus,41,F4-E2,B,BART,Duplication,1,e-service ; evaluation framework
+4,2,nus,41,F4-E2,B,BART,Semantic similarity,2,e-service ; evaluation framework
+4,2,nus,41,F4-E2,B,BART,Usefulness,4,e-service ; evaluation framework
+4,3,kp20k,1778,F4-E2,A,DWT-BART,Faithfulness,3,s sodium xylenesulfonates ; sens sodium benzenedulfonated
+4,3,kp20k,1778,F4-E2,A,DWT-BART,Duplication,1,s sodium xylenesulfonates ; sens sodium benzenedulfonated
+4,3,kp20k,1778,F4-E2,A,DWT-BART,Semantic similarity,2,s sodium xylenesulfonates ; sens sodium benzenedulfonated
+4,3,kp20k,1778,F4-E2,A,DWT-BART,Usefulness,3,s sodium xylenesulfonates ; sens sodium benzenedulfonated
+4,3,kp20k,1778,F4-E2,B,BART,Faithfulness,3,s sodium xylenesulfonsulfonate ; sulfonated sodium benzenesulfonace
+4,3,kp20k,1778,F4-E2,B,BART,Duplication,1,s sodium xylenesulfonsulfonate ; sulfonated sodium benzenesulfonace
+4,3,kp20k,1778,F4-E2,B,BART,Semantic similarity,2,s sodium xylenesulfonsulfonate ; sulfonated sodium benzenesulfonace
+4,3,kp20k,1778,F4-E2,B,BART,Usefulness,4,s sodium xylenesulfonsulfonate ; sulfonated sodium benzenesulfonace
+4,4,kp20k,9912,F4-E2,A,BART,Faithfulness,4,mobile cloud management ; mobile data management ; cloud computing taxonomy
+4,4,kp20k,9912,F4-E2,A,BART,Duplication,1,mobile cloud management ; mobile data management ; cloud computing taxonomy
+4,4,kp20k,9912,F4-E2,A,BART,Semantic similarity,2,mobile cloud management ; mobile data management ; cloud computing taxonomy
+4,4,kp20k,9912,F4-E2,A,BART,Usefulness,4,mobile cloud management ; mobile data management ; cloud computing taxonomy
+4,4,kp20k,9912,F4-E2,B,DWT-BART,Faithfulness,3,mobile computing offloading ; mobile cloud security ; mobile ip ; mobile bandwidth limitation ; mobile service provisioning
+4,4,kp20k,9912,F4-E2,B,DWT-BART,Duplication,1,mobile computing offloading ; mobile cloud security ; mobile ip ; mobile bandwidth limitation ; mobile service provisioning
+4,4,kp20k,9912,F4-E2,B,DWT-BART,Semantic similarity,2,mobile computing offloading ; mobile cloud security ; mobile ip ; mobile bandwidth limitation ; mobile service provisioning
+4,4,kp20k,9912,F4-E2,B,DWT-BART,Usefulness,4,mobile computing offloading ; mobile cloud security ; mobile ip ; mobile bandwidth limitation ; mobile service provisioning
+4,5,kp20k,18217,F4-E2,A,DWT-BART,Faithfulness,5,network visualization
+4,5,kp20k,18217,F4-E2,A,DWT-BART,Duplication,1,network visualization
+4,5,kp20k,18217,F4-E2,A,DWT-BART,Semantic similarity,1,network visualization
+4,5,kp20k,18217,F4-E2,A,DWT-BART,Usefulness,4,network visualization
+4,5,kp20k,18217,F4-E2,B,BART,Faithfulness,5,network simulation ; network emulation ; network topology visualization
+4,5,kp20k,18217,F4-E2,B,BART,Duplication,1,network simulation ; network emulation ; network topology visualization
+4,5,kp20k,18217,F4-E2,B,BART,Semantic similarity,2,network simulation ; network emulation ; network topology visualization
+4,5,kp20k,18217,F4-E2,B,BART,Usefulness,5,network simulation ; network emulation ; network topology visualization
+4,6,kp20k,2444,F4-E2,A,DWT-BART,Faithfulness,4,nonlinear mosfet ; newton method
+4,6,kp20k,2444,F4-E2,A,DWT-BART,Duplication,1,nonlinear mosfet ; newton method
+4,6,kp20k,2444,F4-E2,A,DWT-BART,Semantic similarity,2,nonlinear mosfet ; newton method
+4,6,kp20k,2444,F4-E2,A,DWT-BART,Usefulness,5,nonlinear mosfet ; newton method
+4,6,kp20k,2444,F4-E2,B,BART,Faithfulness,4,nonlinear response
+4,6,kp20k,2444,F4-E2,B,BART,Duplication,1,nonlinear response
+4,6,kp20k,2444,F4-E2,B,BART,Semantic similarity,1,nonlinear response
+4,6,kp20k,2444,F4-E2,B,BART,Usefulness,4,nonlinear response
+4,7,kp20k,13609,F4-E2,A,DWT-BART,Faithfulness,4,multiphase flows
+4,7,kp20k,13609,F4-E2,A,DWT-BART,Duplication,1,multiphase flows
+4,7,kp20k,13609,F4-E2,A,DWT-BART,Semantic similarity,2,multiphase flows
+4,7,kp20k,13609,F4-E2,A,DWT-BART,Usefulness,5,multiphase flows
+4,7,kp20k,13609,F4-E2,B,BART,Faithfulness,4,graph algorithm
+4,7,kp20k,13609,F4-E2,B,BART,Duplication,1,graph algorithm
+4,7,kp20k,13609,F4-E2,B,BART,Semantic similarity,1,graph algorithm
+4,7,kp20k,13609,F4-E2,B,BART,Usefulness,4,graph algorithm
+4,8,inspec,195,F4-E2,A,BART,Faithfulness,4,automated control ; complex structure analysis ; real-time systems
+4,8,inspec,195,F4-E2,A,BART,Duplication,1,automated control ; complex structure analysis ; real-time systems
+4,8,inspec,195,F4-E2,A,BART,Semantic similarity,2,automated control ; complex structure analysis ; real-time systems
+4,8,inspec,195,F4-E2,A,BART,Usefulness,4,automated control ; complex structure analysis ; real-time systems
+4,8,inspec,195,F4-E2,B,DWT-BART,Faithfulness,4,automated recovery ; complex systems ; real-time systems
+4,8,inspec,195,F4-E2,B,DWT-BART,Duplication,1,automated recovery ; complex systems ; real-time systems
+4,8,inspec,195,F4-E2,B,DWT-BART,Semantic similarity,2,automated recovery ; complex systems ; real-time systems
+4,8,inspec,195,F4-E2,B,DWT-BART,Usefulness,5,automated recovery ; complex systems ; real-time systems
+4,9,kp20k,51,F4-E2,A,DWT-BART,Faithfulness,4,cryptography ; computational number theory ; public-key cryptography
+4,9,kp20k,51,F4-E2,A,DWT-BART,Duplication,1,cryptography ; computational number theory ; public-key cryptography
+4,9,kp20k,51,F4-E2,A,DWT-BART,Semantic similarity,2,cryptography ; computational number theory ; public-key cryptography
+4,9,kp20k,51,F4-E2,A,DWT-BART,Usefulness,5,cryptography ; computational number theory ; public-key cryptography
+4,9,kp20k,51,F4-E2,B,BART,Faithfulness,3,cryptography ; discrete cosine transform
+4,9,kp20k,51,F4-E2,B,BART,Duplication,1,cryptography ; discrete cosine transform
+4,9,kp20k,51,F4-E2,B,BART,Semantic similarity,2,cryptography ; discrete cosine transform
+4,9,kp20k,51,F4-E2,B,BART,Usefulness,3,cryptography ; discrete cosine transform
+4,10,krapivin397,300,F4-E2,A,DWT-BART,Faithfulness,4,computer graphics ; computer animation ; computer games
+4,10,krapivin397,300,F4-E2,A,DWT-BART,Duplication,1,computer graphics ; computer animation ; computer games
+4,10,krapivin397,300,F4-E2,A,DWT-BART,Semantic similarity,2,computer graphics ; computer animation ; computer games
+4,10,krapivin397,300,F4-E2,A,DWT-BART,Usefulness,5,computer graphics ; computer animation ; computer games
+4,10,krapivin397,300,F4-E2,B,BART,Faithfulness,3,motion capture ; motion editing ; computer animation
+4,10,krapivin397,300,F4-E2,B,BART,Duplication,1,motion capture ; motion editing ; computer animation
+4,10,krapivin397,300,F4-E2,B,BART,Semantic similarity,2,motion capture ; motion editing ; computer animation
+4,10,krapivin397,300,F4-E2,B,BART,Usefulness,3,motion capture ; motion editing ; computer animation
+4,11,semeval,54,F4-E2,A,DWT-BART,Faithfulness,5,peer-to-peer systems ; query routing
+4,11,semeval,54,F4-E2,A,DWT-BART,Duplication,1,peer-to-peer systems ; query routing
+4,11,semeval,54,F4-E2,A,DWT-BART,Semantic similarity,2,peer-to-peer systems ; query routing
+4,11,semeval,54,F4-E2,A,DWT-BART,Usefulness,5,peer-to-peer systems ; query routing
+4,11,semeval,54,F4-E2,B,BART,Faithfulness,4,distributed systems ; peer-to-peer systems
+4,11,semeval,54,F4-E2,B,BART,Duplication,1,distributed systems ; peer-to-peer systems
+4,11,semeval,54,F4-E2,B,BART,Semantic similarity,2,distributed systems ; peer-to-peer systems
+4,11,semeval,54,F4-E2,B,BART,Usefulness,4,distributed systems ; peer-to-peer systems
+4,12,kp20k,6391,F4-E2,A,DWT-BART,Faithfulness,3,turkey model
+4,12,kp20k,6391,F4-E2,A,DWT-BART,Duplication,1,turkey model
+4,12,kp20k,6391,F4-E2,A,DWT-BART,Semantic similarity,1,turkey model
+4,12,kp20k,6391,F4-E2,A,DWT-BART,Usefulness,3,turkey model
+4,12,kp20k,6391,F4-E2,B,BART,Faithfulness,3,turkey baselines
+4,12,kp20k,6391,F4-E2,B,BART,Duplication,1,turkey baselines
+4,12,kp20k,6391,F4-E2,B,BART,Semantic similarity,1,turkey baselines
+4,12,kp20k,6391,F4-E2,B,BART,Usefulness,4,turkey baselines
+4,13,nus,193,F4-E2,A,BART,Faithfulness,3,model checking
+4,13,nus,193,F4-E2,A,BART,Duplication,1,model checking
+4,13,nus,193,F4-E2,A,BART,Semantic similarity,1,model checking
+4,13,nus,193,F4-E2,A,BART,Usefulness,3,model checking
+4,13,nus,193,F4-E2,B,DWT-BART,Faithfulness,5,information flow control ; security analysis
+4,13,nus,193,F4-E2,B,DWT-BART,Duplication,1,information flow control ; security analysis
+4,13,nus,193,F4-E2,B,DWT-BART,Semantic similarity,2,information flow control ; security analysis
+4,13,nus,193,F4-E2,B,DWT-BART,Usefulness,5,information flow control ; security analysis
+4,14,inspec,55,F4-E2,A,BART,Faithfulness,3,olfaction modeling ; olfactory system ; perceptual organization
+4,14,inspec,55,F4-E2,A,BART,Duplication,1,olfaction modeling ; olfactory system ; perceptual organization
+4,14,inspec,55,F4-E2,A,BART,Semantic similarity,2,olfaction modeling ; olfactory system ; perceptual organization
+4,14,inspec,55,F4-E2,A,BART,Usefulness,4,olfaction modeling ; olfactory system ; perceptual organization
+4,14,inspec,55,F4-E2,B,DWT-BART,Faithfulness,3,computational geometry ; gradient methods ; gradient-based methods ; finite-size scaling methods
+4,14,inspec,55,F4-E2,B,DWT-BART,Duplication,1,computational geometry ; gradient methods ; gradient-based methods ; finite-size scaling methods
+4,14,inspec,55,F4-E2,B,DWT-BART,Semantic similarity,2,computational geometry ; gradient methods ; gradient-based methods ; finite-size scaling methods
+4,14,inspec,55,F4-E2,B,DWT-BART,Usefulness,4,computational geometry ; gradient methods ; gradient-based methods ; finite-size scaling methods
+4,15,semeval,87,F4-E2,A,DWT-BART,Faithfulness,5,mechanism design ; approximation algorithms
+4,15,semeval,87,F4-E2,A,DWT-BART,Duplication,1,mechanism design ; approximation algorithms
+4,15,semeval,87,F4-E2,A,DWT-BART,Semantic similarity,2,mechanism design ; approximation algorithms
+4,15,semeval,87,F4-E2,A,DWT-BART,Usefulness,5,mechanism design ; approximation algorithms
+4,15,semeval,87,F4-E2,B,BART,Faithfulness,5,mechanism design
+4,15,semeval,87,F4-E2,B,BART,Duplication,1,mechanism design
+4,15,semeval,87,F4-E2,B,BART,Semantic similarity,2,mechanism design
+4,15,semeval,87,F4-E2,B,BART,Usefulness,4,mechanism design
+4,16,kp20k,261,F4-E2,A,DWT-BART,Faithfulness,5,graph-based segmentation
+4,16,kp20k,261,F4-E2,A,DWT-BART,Duplication,1,graph-based segmentation
+4,16,kp20k,261,F4-E2,A,DWT-BART,Semantic similarity,1,graph-based segmentation
+4,16,kp20k,261,F4-E2,A,DWT-BART,Usefulness,4,graph-based segmentation
+4,16,kp20k,261,F4-E2,B,BART,Faithfulness,4,region detection
+4,16,kp20k,261,F4-E2,B,BART,Duplication,1,region detection
+4,16,kp20k,261,F4-E2,B,BART,Semantic similarity,1,region detection
+4,16,kp20k,261,F4-E2,B,BART,Usefulness,4,region detection
+4,1,kp20k,2177,F4-E1,A,DWT-BART,Faithfulness,3,matrix multiplication ; spectral method
+4,1,kp20k,2177,F4-E1,A,DWT-BART,Duplication,1,matrix multiplication ; spectral method
+4,1,kp20k,2177,F4-E1,A,DWT-BART,Semantic similarity,2,matrix multiplication ; spectral method
+4,1,kp20k,2177,F4-E1,A,DWT-BART,Usefulness,3,matrix multiplication ; spectral method
+4,1,kp20k,2177,F4-E1,B,BART,Faithfulness,2,fast fourier transform ; eigenvalue problems
+4,1,kp20k,2177,F4-E1,B,BART,Duplication,1,fast fourier transform ; eigenvalue problems
+4,1,kp20k,2177,F4-E1,B,BART,Semantic similarity,1,fast fourier transform ; eigenvalue problems
+4,1,kp20k,2177,F4-E1,B,BART,Usefulness,3,fast fourier transform ; eigenvalue problems
+4,2,nus,41,F4-E1,A,DWT-BART,Faithfulness,5,measurement practices
+4,2,nus,41,F4-E1,A,DWT-BART,Duplication,1,measurement practices
+4,2,nus,41,F4-E1,A,DWT-BART,Semantic similarity,1,measurement practices
+4,2,nus,41,F4-E1,A,DWT-BART,Usefulness,4,measurement practices
+4,2,nus,41,F4-E1,B,BART,Faithfulness,4,e-service ; evaluation framework
+4,2,nus,41,F4-E1,B,BART,Duplication,1,e-service ; evaluation framework
+4,2,nus,41,F4-E1,B,BART,Semantic similarity,1,e-service ; evaluation framework
+4,2,nus,41,F4-E1,B,BART,Usefulness,4,e-service ; evaluation framework
+4,3,kp20k,1778,F4-E1,A,DWT-BART,Faithfulness,4,s sodium xylenesulfonates ; sens sodium benzenedulfonated
+4,3,kp20k,1778,F4-E1,A,DWT-BART,Duplication,1,s sodium xylenesulfonates ; sens sodium benzenedulfonated
+4,3,kp20k,1778,F4-E1,A,DWT-BART,Semantic similarity,3,s sodium xylenesulfonates ; sens sodium benzenedulfonated
+4,3,kp20k,1778,F4-E1,A,DWT-BART,Usefulness,3,s sodium xylenesulfonates ; sens sodium benzenedulfonated
+4,3,kp20k,1778,F4-E1,B,BART,Faithfulness,3,s sodium xylenesulfonsulfonate ; sulfonated sodium benzenesulfonace
+4,3,kp20k,1778,F4-E1,B,BART,Duplication,1,s sodium xylenesulfonsulfonate ; sulfonated sodium benzenesulfonace
+4,3,kp20k,1778,F4-E1,B,BART,Semantic similarity,3,s sodium xylenesulfonsulfonate ; sulfonated sodium benzenesulfonace
+4,3,kp20k,1778,F4-E1,B,BART,Usefulness,2,s sodium xylenesulfonsulfonate ; sulfonated sodium benzenesulfonace
+4,4,kp20k,9912,F4-E1,A,BART,Faithfulness,3,mobile cloud management ; mobile data management ; cloud computing taxonomy
+4,4,kp20k,9912,F4-E1,A,BART,Duplication,1,mobile cloud management ; mobile data management ; cloud computing taxonomy
+4,4,kp20k,9912,F4-E1,A,BART,Semantic similarity,2,mobile cloud management ; mobile data management ; cloud computing taxonomy
+4,4,kp20k,9912,F4-E1,A,BART,Usefulness,3,mobile cloud management ; mobile data management ; cloud computing taxonomy
+4,4,kp20k,9912,F4-E1,B,DWT-BART,Faithfulness,3,mobile computing offloading ; mobile cloud security ; mobile ip ; mobile bandwidth limitation ; mobile service provisioning
+4,4,kp20k,9912,F4-E1,B,DWT-BART,Duplication,1,mobile computing offloading ; mobile cloud security ; mobile ip ; mobile bandwidth limitation ; mobile service provisioning
+4,4,kp20k,9912,F4-E1,B,DWT-BART,Semantic similarity,2,mobile computing offloading ; mobile cloud security ; mobile ip ; mobile bandwidth limitation ; mobile service provisioning
+4,4,kp20k,9912,F4-E1,B,DWT-BART,Usefulness,4,mobile computing offloading ; mobile cloud security ; mobile ip ; mobile bandwidth limitation ; mobile service provisioning
+4,5,kp20k,18217,F4-E1,A,DWT-BART,Faithfulness,5,network visualization
+4,5,kp20k,18217,F4-E1,A,DWT-BART,Duplication,1,network visualization
+4,5,kp20k,18217,F4-E1,A,DWT-BART,Semantic similarity,1,network visualization
+4,5,kp20k,18217,F4-E1,A,DWT-BART,Usefulness,4,network visualization
+4,5,kp20k,18217,F4-E1,B,BART,Faithfulness,5,network simulation ; network emulation ; network topology visualization
+4,5,kp20k,18217,F4-E1,B,BART,Duplication,1,network simulation ; network emulation ; network topology visualization
+4,5,kp20k,18217,F4-E1,B,BART,Semantic similarity,3,network simulation ; network emulation ; network topology visualization
+4,5,kp20k,18217,F4-E1,B,BART,Usefulness,5,network simulation ; network emulation ; network topology visualization
+4,6,kp20k,2444,F4-E1,A,DWT-BART,Faithfulness,4,nonlinear mosfet ; newton method
+4,6,kp20k,2444,F4-E1,A,DWT-BART,Duplication,1,nonlinear mosfet ; newton method
+4,6,kp20k,2444,F4-E1,A,DWT-BART,Semantic similarity,1,nonlinear mosfet ; newton method
+4,6,kp20k,2444,F4-E1,A,DWT-BART,Usefulness,3,nonlinear mosfet ; newton method
+4,6,kp20k,2444,F4-E1,B,BART,Faithfulness,3,nonlinear response
+4,6,kp20k,2444,F4-E1,B,BART,Duplication,1,nonlinear response
+4,6,kp20k,2444,F4-E1,B,BART,Semantic similarity,1,nonlinear response
+4,6,kp20k,2444,F4-E1,B,BART,Usefulness,3,nonlinear response
+4,7,kp20k,13609,F4-E1,A,DWT-BART,Faithfulness,1,multiphase flows
+4,7,kp20k,13609,F4-E1,A,DWT-BART,Duplication,1,multiphase flows
+4,7,kp20k,13609,F4-E1,A,DWT-BART,Semantic similarity,1,multiphase flows
+4,7,kp20k,13609,F4-E1,A,DWT-BART,Usefulness,1,multiphase flows
+4,7,kp20k,13609,F4-E1,B,BART,Faithfulness,4,graph algorithm
+4,7,kp20k,13609,F4-E1,B,BART,Duplication,1,graph algorithm
+4,7,kp20k,13609,F4-E1,B,BART,Semantic similarity,1,graph algorithm
+4,7,kp20k,13609,F4-E1,B,BART,Usefulness,3,graph algorithm
+4,8,inspec,195,F4-E1,A,BART,Faithfulness,4,automated control ; complex structure analysis ; real-time systems
+4,8,inspec,195,F4-E1,A,BART,Duplication,1,automated control ; complex structure analysis ; real-time systems
+4,8,inspec,195,F4-E1,A,BART,Semantic similarity,2,automated control ; complex structure analysis ; real-time systems
+4,8,inspec,195,F4-E1,A,BART,Usefulness,4,automated control ; complex structure analysis ; real-time systems
+4,8,inspec,195,F4-E1,B,DWT-BART,Faithfulness,5,automated recovery ; complex systems ; real-time systems
+4,8,inspec,195,F4-E1,B,DWT-BART,Duplication,1,automated recovery ; complex systems ; real-time systems
+4,8,inspec,195,F4-E1,B,DWT-BART,Semantic similarity,2,automated recovery ; complex systems ; real-time systems
+4,8,inspec,195,F4-E1,B,DWT-BART,Usefulness,5,automated recovery ; complex systems ; real-time systems
+4,9,kp20k,51,F4-E1,A,DWT-BART,Faithfulness,5,cryptography ; computational number theory ; public-key cryptography
+4,9,kp20k,51,F4-E1,A,DWT-BART,Duplication,1,cryptography ; computational number theory ; public-key cryptography
+4,9,kp20k,51,F4-E1,A,DWT-BART,Semantic similarity,2,cryptography ; computational number theory ; public-key cryptography
+4,9,kp20k,51,F4-E1,A,DWT-BART,Usefulness,4,cryptography ; computational number theory ; public-key cryptography
+4,9,kp20k,51,F4-E1,B,BART,Faithfulness,3,cryptography ; discrete cosine transform
+4,9,kp20k,51,F4-E1,B,BART,Duplication,1,cryptography ; discrete cosine transform
+4,9,kp20k,51,F4-E1,B,BART,Semantic similarity,1,cryptography ; discrete cosine transform
+4,9,kp20k,51,F4-E1,B,BART,Usefulness,2,cryptography ; discrete cosine transform
+4,10,krapivin397,300,F4-E1,A,DWT-BART,Faithfulness,4,computer graphics ; computer animation ; computer games
+4,10,krapivin397,300,F4-E1,A,DWT-BART,Duplication,1,computer graphics ; computer animation ; computer games
+4,10,krapivin397,300,F4-E1,A,DWT-BART,Semantic similarity,3,computer graphics ; computer animation ; computer games
+4,10,krapivin397,300,F4-E1,A,DWT-BART,Usefulness,4,computer graphics ; computer animation ; computer games
+4,10,krapivin397,300,F4-E1,B,BART,Faithfulness,4,motion capture ; motion editing ; computer animation
+4,10,krapivin397,300,F4-E1,B,BART,Duplication,1,motion capture ; motion editing ; computer animation
+4,10,krapivin397,300,F4-E1,B,BART,Semantic similarity,3,motion capture ; motion editing ; computer animation
+4,10,krapivin397,300,F4-E1,B,BART,Usefulness,3,motion capture ; motion editing ; computer animation
+4,11,semeval,54,F4-E1,A,DWT-BART,Faithfulness,5,peer-to-peer systems ; query routing
+4,11,semeval,54,F4-E1,A,DWT-BART,Duplication,1,peer-to-peer systems ; query routing
+4,11,semeval,54,F4-E1,A,DWT-BART,Semantic similarity,2,peer-to-peer systems ; query routing
+4,11,semeval,54,F4-E1,A,DWT-BART,Usefulness,4,peer-to-peer systems ; query routing
+4,11,semeval,54,F4-E1,B,BART,Faithfulness,5,distributed systems ; peer-to-peer systems
+4,11,semeval,54,F4-E1,B,BART,Duplication,1,distributed systems ; peer-to-peer systems
+4,11,semeval,54,F4-E1,B,BART,Semantic similarity,3,distributed systems ; peer-to-peer systems
+4,11,semeval,54,F4-E1,B,BART,Usefulness,3,distributed systems ; peer-to-peer systems
+4,12,kp20k,6391,F4-E1,A,DWT-BART,Faithfulness,3,turkey model
+4,12,kp20k,6391,F4-E1,A,DWT-BART,Duplication,1,turkey model
+4,12,kp20k,6391,F4-E1,A,DWT-BART,Semantic similarity,1,turkey model
+4,12,kp20k,6391,F4-E1,A,DWT-BART,Usefulness,2,turkey model
+4,12,kp20k,6391,F4-E1,B,BART,Faithfulness,2,turkey baselines
+4,12,kp20k,6391,F4-E1,B,BART,Duplication,1,turkey baselines
+4,12,kp20k,6391,F4-E1,B,BART,Semantic similarity,1,turkey baselines
+4,12,kp20k,6391,F4-E1,B,BART,Usefulness,1,turkey baselines
+4,13,nus,193,F4-E1,A,BART,Faithfulness,2,model checking
+4,13,nus,193,F4-E1,A,BART,Duplication,1,model checking
+4,13,nus,193,F4-E1,A,BART,Semantic similarity,1,model checking
+4,13,nus,193,F4-E1,A,BART,Usefulness,2,model checking
+4,13,nus,193,F4-E1,B,DWT-BART,Faithfulness,5,information flow control ; security analysis
+4,13,nus,193,F4-E1,B,DWT-BART,Duplication,1,information flow control ; security analysis
+4,13,nus,193,F4-E1,B,DWT-BART,Semantic similarity,3,information flow control ; security analysis
+4,13,nus,193,F4-E1,B,DWT-BART,Usefulness,4,information flow control ; security analysis
+4,14,inspec,55,F4-E1,A,BART,Faithfulness,4,olfaction modeling ; olfactory system ; perceptual organization
+4,14,inspec,55,F4-E1,A,BART,Duplication,1,olfaction modeling ; olfactory system ; perceptual organization
+4,14,inspec,55,F4-E1,A,BART,Semantic similarity,3,olfaction modeling ; olfactory system ; perceptual organization
+4,14,inspec,55,F4-E1,A,BART,Usefulness,4,olfaction modeling ; olfactory system ; perceptual organization
+4,14,inspec,55,F4-E1,B,DWT-BART,Faithfulness,2,computational geometry ; gradient methods ; gradient-based methods ; finite-size scaling methods
+4,14,inspec,55,F4-E1,B,DWT-BART,Duplication,1,computational geometry ; gradient methods ; gradient-based methods ; finite-size scaling methods
+4,14,inspec,55,F4-E1,B,DWT-BART,Semantic similarity,4,computational geometry ; gradient methods ; gradient-based methods ; finite-size scaling methods
+4,14,inspec,55,F4-E1,B,DWT-BART,Usefulness,2,computational geometry ; gradient methods ; gradient-based methods ; finite-size scaling methods
+4,15,semeval,87,F4-E1,A,DWT-BART,Faithfulness,5,mechanism design ; approximation algorithms
+4,15,semeval,87,F4-E1,A,DWT-BART,Duplication,1,mechanism design ; approximation algorithms
+4,15,semeval,87,F4-E1,A,DWT-BART,Semantic similarity,2,mechanism design ; approximation algorithms
+4,15,semeval,87,F4-E1,A,DWT-BART,Usefulness,4,mechanism design ; approximation algorithms
+4,15,semeval,87,F4-E1,B,BART,Faithfulness,5,mechanism design
+4,15,semeval,87,F4-E1,B,BART,Duplication,1,mechanism design
+4,15,semeval,87,F4-E1,B,BART,Semantic similarity,1,mechanism design
+4,15,semeval,87,F4-E1,B,BART,Usefulness,3,mechanism design
+4,16,kp20k,261,F4-E1,A,DWT-BART,Faithfulness,5,graph-based segmentation
+4,16,kp20k,261,F4-E1,A,DWT-BART,Duplication,1,graph-based segmentation
+4,16,kp20k,261,F4-E1,A,DWT-BART,Semantic similarity,1,graph-based segmentation
+4,16,kp20k,261,F4-E1,A,DWT-BART,Usefulness,4,graph-based segmentation
+4,16,kp20k,261,F4-E1,B,BART,Faithfulness,3,region detection
+4,16,kp20k,261,F4-E1,B,BART,Duplication,1,region detection
+4,16,kp20k,261,F4-E1,B,BART,Semantic similarity,1,region detection
+4,16,kp20k,261,F4-E1,B,BART,Usefulness,2,region detection
+5,1,kp20k,8797,F5-E2,A,DWT-BART,Faithfulness,2,dof analysis ; rigid body constraint
+5,1,kp20k,8797,F5-E2,A,DWT-BART,Duplication,2,dof analysis ; rigid body constraint
+5,1,kp20k,8797,F5-E2,A,DWT-BART,Semantic similarity,3,dof analysis ; rigid body constraint
+5,1,kp20k,8797,F5-E2,A,DWT-BART,Usefulness,3,dof analysis ; rigid body constraint
+5,1,kp20k,8797,F5-E2,B,BART,Faithfulness,2,dof constraint ; incremental algorithm
+5,1,kp20k,8797,F5-E2,B,BART,Duplication,2,dof constraint ; incremental algorithm
+5,1,kp20k,8797,F5-E2,B,BART,Semantic similarity,3,dof constraint ; incremental algorithm
+5,1,kp20k,8797,F5-E2,B,BART,Usefulness,3,dof constraint ; incremental algorithm
+5,2,kp20k,5606,F5-E2,A,BART,Faithfulness,3,information retrieval ; text mining
+5,2,kp20k,5606,F5-E2,A,BART,Duplication,3,information retrieval ; text mining
+5,2,kp20k,5606,F5-E2,A,BART,Semantic similarity,4,information retrieval ; text mining
+5,2,kp20k,5606,F5-E2,A,BART,Usefulness,4,information retrieval ; text mining
+5,2,kp20k,5606,F5-E2,B,DWT-BART,Faithfulness,2,electronic commerce ; information sharing
+5,2,kp20k,5606,F5-E2,B,DWT-BART,Duplication,2,electronic commerce ; information sharing
+5,2,kp20k,5606,F5-E2,B,DWT-BART,Semantic similarity,3,electronic commerce ; information sharing
+5,2,kp20k,5606,F5-E2,B,DWT-BART,Usefulness,3,electronic commerce ; information sharing
+5,3,semeval,50,F5-E2,A,DWT-BART,Faithfulness,2,bdi agent architectures ; task execution model
+5,3,semeval,50,F5-E2,A,DWT-BART,Duplication,2,bdi agent architectures ; task execution model
+5,3,semeval,50,F5-E2,A,DWT-BART,Semantic similarity,3,bdi agent architectures ; task execution model
+5,3,semeval,50,F5-E2,A,DWT-BART,Usefulness,3,bdi agent architectures ; task execution model
+5,3,semeval,50,F5-E2,B,BART,Faithfulness,2,bdi agents and bdi architectures ; task aborting ; task planning
+5,3,semeval,50,F5-E2,B,BART,Duplication,2,bdi agents and bdi architectures ; task aborting ; task planning
+5,3,semeval,50,F5-E2,B,BART,Semantic similarity,3,bdi agents and bdi architectures ; task aborting ; task planning
+5,3,semeval,50,F5-E2,B,BART,Usefulness,3,bdi agents and bdi architectures ; task aborting ; task planning
+5,4,nus,160,F5-E2,A,DWT-BART,Faithfulness,3,pen computing
+5,4,nus,160,F5-E2,A,DWT-BART,Duplication,3,pen computing
+5,4,nus,160,F5-E2,A,DWT-BART,Semantic similarity,3,pen computing
+5,4,nus,160,F5-E2,A,DWT-BART,Usefulness,3,pen computing
+5,4,nus,160,F5-E2,B,BART,Faithfulness,3,pen-based interface ; visual query
+5,4,nus,160,F5-E2,B,BART,Duplication,3,pen-based interface ; visual query
+5,4,nus,160,F5-E2,B,BART,Semantic similarity,3,pen-based interface ; visual query
+5,4,nus,160,F5-E2,B,BART,Usefulness,3,pen-based interface ; visual query
+5,5,kp20k,10793,F5-E2,A,DWT-BART,Faithfulness,2,model checking ; object-oriented programming ; nonlinear systems
+5,5,kp20k,10793,F5-E2,A,DWT-BART,Duplication,2,model checking ; object-oriented programming ; nonlinear systems
+5,5,kp20k,10793,F5-E2,A,DWT-BART,Semantic similarity,3,model checking ; object-oriented programming ; nonlinear systems
+5,5,kp20k,10793,F5-E2,A,DWT-BART,Usefulness,3,model checking ; object-oriented programming ; nonlinear systems
+5,5,kp20k,10793,F5-E2,B,BART,Faithfulness,3,nonlinear differential algebraic equations ; object-oriented modelling
+5,5,kp20k,10793,F5-E2,B,BART,Duplication,2,nonlinear differential algebraic equations ; object-oriented modelling
+5,5,kp20k,10793,F5-E2,B,BART,Semantic similarity,3,nonlinear differential algebraic equations ; object-oriented modelling
+5,5,kp20k,10793,F5-E2,B,BART,Usefulness,3,nonlinear differential algebraic equations ; object-oriented modelling
+5,6,kp20k,4641,F5-E2,A,BART,Faithfulness,2,profile-based software engineering ; software performance engineering ; performance modeling ; software components
+5,6,kp20k,4641,F5-E2,A,BART,Duplication,2,profile-based software engineering ; software performance engineering ; performance modeling ; software components
+5,6,kp20k,4641,F5-E2,A,BART,Semantic similarity,3,profile-based software engineering ; software performance engineering ; performance modeling ; software components
+5,6,kp20k,4641,F5-E2,A,BART,Usefulness,3,profile-based software engineering ; software performance engineering ; performance modeling ; software components
+5,6,kp20k,4641,F5-E2,B,DWT-BART,Faithfulness,2,software component ; profile-based specification
+5,6,kp20k,4641,F5-E2,B,DWT-BART,Duplication,2,software component ; profile-based specification
+5,6,kp20k,4641,F5-E2,B,DWT-BART,Semantic similarity,3,software component ; profile-based specification
+5,6,kp20k,4641,F5-E2,B,DWT-BART,Usefulness,3,software component ; profile-based specification
+5,7,kp20k,15096,F5-E2,A,BART,Faithfulness,2,motion capture
+5,7,kp20k,15096,F5-E2,A,BART,Duplication,2,motion capture
+5,7,kp20k,15096,F5-E2,A,BART,Semantic similarity,3,motion capture
+5,7,kp20k,15096,F5-E2,A,BART,Usefulness,3,motion capture
+5,7,kp20k,15096,F5-E2,B,DWT-BART,Faithfulness,1,motion capture ; motion generalization
+5,7,kp20k,15096,F5-E2,B,DWT-BART,Duplication,1,motion capture ; motion generalization
+5,7,kp20k,15096,F5-E2,B,DWT-BART,Semantic similarity,4,motion capture ; motion generalization
+5,7,kp20k,15096,F5-E2,B,DWT-BART,Usefulness,4,motion capture ; motion generalization
+5,8,kp20k,6992,F5-E2,A,BART,Faithfulness,1,parameterized reasoning method ; approximation method
+5,8,kp20k,6992,F5-E2,A,BART,Duplication,1,parameterized reasoning method ; approximation method
+5,8,kp20k,6992,F5-E2,A,BART,Semantic similarity,4,parameterized reasoning method ; approximation method
+5,8,kp20k,6992,F5-E2,A,BART,Usefulness,4,parameterized reasoning method ; approximation method
+5,8,kp20k,6992,F5-E2,B,DWT-BART,Faithfulness,1,fuzzification ; finite-state systems
+5,8,kp20k,6992,F5-E2,B,DWT-BART,Duplication,1,fuzzification ; finite-state systems
+5,8,kp20k,6992,F5-E2,B,DWT-BART,Semantic similarity,4,fuzzification ; finite-state systems
+5,8,kp20k,6992,F5-E2,B,DWT-BART,Usefulness,4,fuzzification ; finite-state systems
+5,9,krapivin397,354,F5-E2,A,DWT-BART,Faithfulness,2,loop optimization ; loop-counter optimization ; superblock optimization
+5,9,krapivin397,354,F5-E2,A,DWT-BART,Duplication,2,loop optimization ; loop-counter optimization ; superblock optimization
+5,9,krapivin397,354,F5-E2,A,DWT-BART,Semantic similarity,3,loop optimization ; loop-counter optimization ; superblock optimization
+5,9,krapivin397,354,F5-E2,A,DWT-BART,Usefulness,3,loop optimization ; loop-counter optimization ; superblock optimization
+5,9,krapivin397,354,F5-E2,B,BART,Faithfulness,1,loop scheduling ; loop speculation ; loop-based control flow
+5,9,krapivin397,354,F5-E2,B,BART,Duplication,1,loop scheduling ; loop speculation ; loop-based control flow
+5,9,krapivin397,354,F5-E2,B,BART,Semantic similarity,3,loop scheduling ; loop speculation ; loop-based control flow
+5,9,krapivin397,354,F5-E2,B,BART,Usefulness,3,loop scheduling ; loop speculation ; loop-based control flow
+5,10,semeval,44,F5-E2,A,BART,Faithfulness,1,sentence-level interestingness
+5,10,semeval,44,F5-E2,A,BART,Duplication,1,sentence-level interestingness
+5,10,semeval,44,F5-E2,A,BART,Semantic similarity,3,sentence-level interestingness
+5,10,semeval,44,F5-E2,A,BART,Usefulness,3,sentence-level interestingness
+5,10,semeval,44,F5-E2,B,DWT-BART,Faithfulness,3,soft pattern
+5,10,semeval,44,F5-E2,B,DWT-BART,Duplication,3,soft pattern
+5,10,semeval,44,F5-E2,B,DWT-BART,Semantic similarity,2,soft pattern
+5,10,semeval,44,F5-E2,B,DWT-BART,Usefulness,2,soft pattern
+5,11,nus,15,F5-E2,A,BART,Faithfulness,3,query intent ; query ambiguity
+5,11,nus,15,F5-E2,A,BART,Duplication,3,query intent ; query ambiguity
+5,11,nus,15,F5-E2,A,BART,Semantic similarity,2,query intent ; query ambiguity
+5,11,nus,15,F5-E2,A,BART,Usefulness,2,query intent ; query ambiguity
+5,11,nus,15,F5-E2,B,DWT-BART,Faithfulness,3,query classification
+5,11,nus,15,F5-E2,B,DWT-BART,Duplication,3,query classification
+5,11,nus,15,F5-E2,B,DWT-BART,Semantic similarity,2,query classification
+5,11,nus,15,F5-E2,B,DWT-BART,Usefulness,2,query classification
+5,12,kp20k,19850,F5-E2,A,DWT-BART,Faithfulness,2,circuit partitioning
+5,12,kp20k,19850,F5-E2,A,DWT-BART,Duplication,2,circuit partitioning
+5,12,kp20k,19850,F5-E2,A,DWT-BART,Semantic similarity,3,circuit partitioning
+5,12,kp20k,19850,F5-E2,A,DWT-BART,Usefulness,3,circuit partitioning
+5,12,kp20k,19850,F5-E2,B,BART,Faithfulness,2,subgraph extraction ; minimal cut graph of hyper-graph
+5,12,kp20k,19850,F5-E2,B,BART,Duplication,2,subgraph extraction ; minimal cut graph of hyper-graph
+5,12,kp20k,19850,F5-E2,B,BART,Semantic similarity,3,subgraph extraction ; minimal cut graph of hyper-graph
+5,12,kp20k,19850,F5-E2,B,BART,Usefulness,3,subgraph extraction ; minimal cut graph of hyper-graph
+5,13,inspec,15,F5-E2,A,BART,Faithfulness,1,intelligent system ; mobile computing
+5,13,inspec,15,F5-E2,A,BART,Duplication,1,intelligent system ; mobile computing
+5,13,inspec,15,F5-E2,A,BART,Semantic similarity,4,intelligent system ; mobile computing
+5,13,inspec,15,F5-E2,A,BART,Usefulness,4,intelligent system ; mobile computing
+5,13,inspec,15,F5-E2,B,DWT-BART,Faithfulness,1,mobile phone terminal ; web site management
+5,13,inspec,15,F5-E2,B,DWT-BART,Duplication,1,mobile phone terminal ; web site management
+5,13,inspec,15,F5-E2,B,DWT-BART,Semantic similarity,4,mobile phone terminal ; web site management
+5,13,inspec,15,F5-E2,B,DWT-BART,Usefulness,4,mobile phone terminal ; web site management
+5,14,kp20k,15220,F5-E2,A,DWT-BART,Faithfulness,3,software visualization ; visual mapping
+5,14,kp20k,15220,F5-E2,A,DWT-BART,Duplication,3,software visualization ; visual mapping
+5,14,kp20k,15220,F5-E2,A,DWT-BART,Semantic similarity,2,software visualization ; visual mapping
+5,14,kp20k,15220,F5-E2,A,DWT-BART,Usefulness,2,software visualization ; visual mapping
+5,14,kp20k,15220,F5-E2,B,BART,Faithfulness,1,metamachine comprehension ; visualizing large datasets
+5,14,kp20k,15220,F5-E2,B,BART,Duplication,1,metamachine comprehension ; visualizing large datasets
+5,14,kp20k,15220,F5-E2,B,BART,Semantic similarity,3,metamachine comprehension ; visualizing large datasets
+5,14,kp20k,15220,F5-E2,B,BART,Usefulness,3,metamachine comprehension ; visualizing large datasets
+5,15,inspec,251,F5-E2,A,DWT-BART,Faithfulness,3,investigations ; internet ; criminal procedure
+5,15,inspec,251,F5-E2,A,DWT-BART,Duplication,3,investigations ; internet ; criminal procedure
+5,15,inspec,251,F5-E2,A,DWT-BART,Semantic similarity,2,investigations ; internet ; criminal procedure
+5,15,inspec,251,F5-E2,A,DWT-BART,Usefulness,2,investigations ; internet ; criminal procedure
+5,15,inspec,251,F5-E2,B,BART,Faithfulness,3,e-commerce ; e- business informationlimited ; e e-commerce
+5,15,inspec,251,F5-E2,B,BART,Duplication,3,e-commerce ; e- business informationlimited ; e e-commerce
+5,15,inspec,251,F5-E2,B,BART,Semantic similarity,2,e-commerce ; e- business informationlimited ; e e-commerce
+5,15,inspec,251,F5-E2,B,BART,Usefulness,2,e-commerce ; e- business informationlimited ; e e-commerce
+5,16,kp20k,18176,F5-E2,A,DWT-BART,Faithfulness,2,structural information ; automotive industry
+5,16,kp20k,18176,F5-E2,A,DWT-BART,Duplication,2,structural information ; automotive industry
+5,16,kp20k,18176,F5-E2,A,DWT-BART,Semantic similarity,3,structural information ; automotive industry
+5,16,kp20k,18176,F5-E2,A,DWT-BART,Usefulness,3,structural information ; automotive industry
+5,16,kp20k,18176,F5-E2,B,BART,Faithfulness,2,data mining
+5,16,kp20k,18176,F5-E2,B,BART,Duplication,2,data mining
+5,16,kp20k,18176,F5-E2,B,BART,Semantic similarity,3,data mining
+5,16,kp20k,18176,F5-E2,B,BART,Usefulness,3,data mining
+5,1,kp20k,8797,F5-E1,A,DWT-BART,Faithfulness,5,dof analysis ; rigid body constraint
+5,1,kp20k,8797,F5-E1,A,DWT-BART,Duplication,1,dof analysis ; rigid body constraint
+5,1,kp20k,8797,F5-E1,A,DWT-BART,Semantic similarity,1,dof analysis ; rigid body constraint
+5,1,kp20k,8797,F5-E1,A,DWT-BART,Usefulness,4,dof analysis ; rigid body constraint
+5,1,kp20k,8797,F5-E1,B,BART,Faithfulness,5,dof constraint ; incremental algorithm
+5,1,kp20k,8797,F5-E1,B,BART,Duplication,1,dof constraint ; incremental algorithm
+5,1,kp20k,8797,F5-E1,B,BART,Semantic similarity,1,dof constraint ; incremental algorithm
+5,1,kp20k,8797,F5-E1,B,BART,Usefulness,5,dof constraint ; incremental algorithm
+5,2,kp20k,5606,F5-E1,A,BART,Faithfulness,5,information retrieval ; text mining
+5,2,kp20k,5606,F5-E1,A,BART,Duplication,1,information retrieval ; text mining
+5,2,kp20k,5606,F5-E1,A,BART,Semantic similarity,1,information retrieval ; text mining
+5,2,kp20k,5606,F5-E1,A,BART,Usefulness,2,information retrieval ; text mining
+5,2,kp20k,5606,F5-E1,B,DWT-BART,Faithfulness,5,electronic commerce ; information sharing
+5,2,kp20k,5606,F5-E1,B,DWT-BART,Duplication,1,electronic commerce ; information sharing
+5,2,kp20k,5606,F5-E1,B,DWT-BART,Semantic similarity,1,electronic commerce ; information sharing
+5,2,kp20k,5606,F5-E1,B,DWT-BART,Usefulness,4,electronic commerce ; information sharing
+5,3,semeval,50,F5-E1,A,DWT-BART,Faithfulness,5,bdi agent architectures ; task execution model
+5,3,semeval,50,F5-E1,A,DWT-BART,Duplication,1,bdi agent architectures ; task execution model
+5,3,semeval,50,F5-E1,A,DWT-BART,Semantic similarity,1,bdi agent architectures ; task execution model
+5,3,semeval,50,F5-E1,A,DWT-BART,Usefulness,5,bdi agent architectures ; task execution model
+5,3,semeval,50,F5-E1,B,BART,Faithfulness,4,bdi agents and bdi architectures ; task aborting ; task planning
+5,3,semeval,50,F5-E1,B,BART,Duplication,1,bdi agents and bdi architectures ; task aborting ; task planning
+5,3,semeval,50,F5-E1,B,BART,Semantic similarity,1,bdi agents and bdi architectures ; task aborting ; task planning
+5,3,semeval,50,F5-E1,B,BART,Usefulness,5,bdi agents and bdi architectures ; task aborting ; task planning
+5,4,nus,160,F5-E1,A,DWT-BART,Faithfulness,5,pen computing
+5,4,nus,160,F5-E1,A,DWT-BART,Duplication,1,pen computing
+5,4,nus,160,F5-E1,A,DWT-BART,Semantic similarity,1,pen computing
+5,4,nus,160,F5-E1,A,DWT-BART,Usefulness,3,pen computing
+5,4,nus,160,F5-E1,B,BART,Faithfulness,5,pen-based interface ; visual query
+5,4,nus,160,F5-E1,B,BART,Duplication,1,pen-based interface ; visual query
+5,4,nus,160,F5-E1,B,BART,Semantic similarity,2,pen-based interface ; visual query
+5,4,nus,160,F5-E1,B,BART,Usefulness,5,pen-based interface ; visual query
+5,5,kp20k,10793,F5-E1,A,DWT-BART,Faithfulness,3,model checking ; object-oriented programming ; nonlinear systems
+5,5,kp20k,10793,F5-E1,A,DWT-BART,Duplication,1,model checking ; object-oriented programming ; nonlinear systems
+5,5,kp20k,10793,F5-E1,A,DWT-BART,Semantic similarity,1,model checking ; object-oriented programming ; nonlinear systems
+5,5,kp20k,10793,F5-E1,A,DWT-BART,Usefulness,2,model checking ; object-oriented programming ; nonlinear systems
+5,5,kp20k,10793,F5-E1,B,BART,Faithfulness,5,nonlinear differential algebraic equations ; object-oriented modelling
+5,5,kp20k,10793,F5-E1,B,BART,Duplication,1,nonlinear differential algebraic equations ; object-oriented modelling
+5,5,kp20k,10793,F5-E1,B,BART,Semantic similarity,1,nonlinear differential algebraic equations ; object-oriented modelling
+5,5,kp20k,10793,F5-E1,B,BART,Usefulness,5,nonlinear differential algebraic equations ; object-oriented modelling
+5,6,kp20k,4641,F5-E1,A,BART,Faithfulness,4,profile-based software engineering ; software performance engineering ; performance modeling ; software components
+5,6,kp20k,4641,F5-E1,A,BART,Duplication,1,profile-based software engineering ; software performance engineering ; performance modeling ; software components
+5,6,kp20k,4641,F5-E1,A,BART,Semantic similarity,3,profile-based software engineering ; software performance engineering ; performance modeling ; software components
+5,6,kp20k,4641,F5-E1,A,BART,Usefulness,2,profile-based software engineering ; software performance engineering ; performance modeling ; software components
+5,6,kp20k,4641,F5-E1,B,DWT-BART,Faithfulness,3,software component ; profile-based specification
+5,6,kp20k,4641,F5-E1,B,DWT-BART,Duplication,1,software component ; profile-based specification
+5,6,kp20k,4641,F5-E1,B,DWT-BART,Semantic similarity,2,software component ; profile-based specification
+5,6,kp20k,4641,F5-E1,B,DWT-BART,Usefulness,4,software component ; profile-based specification
+5,7,kp20k,15096,F5-E1,A,BART,Faithfulness,1,motion capture
+5,7,kp20k,15096,F5-E1,A,BART,Duplication,1,motion capture
+5,7,kp20k,15096,F5-E1,A,BART,Semantic similarity,1,motion capture
+5,7,kp20k,15096,F5-E1,A,BART,Usefulness,2,motion capture
+5,7,kp20k,15096,F5-E1,B,DWT-BART,Faithfulness,3,motion capture ; motion generalization
+5,7,kp20k,15096,F5-E1,B,DWT-BART,Duplication,1,motion capture ; motion generalization
+5,7,kp20k,15096,F5-E1,B,DWT-BART,Semantic similarity,1,motion capture ; motion generalization
+5,7,kp20k,15096,F5-E1,B,DWT-BART,Usefulness,3,motion capture ; motion generalization
+5,8,kp20k,6992,F5-E1,A,BART,Faithfulness,5,parameterized reasoning method ; approximation method
+5,8,kp20k,6992,F5-E1,A,BART,Duplication,1,parameterized reasoning method ; approximation method
+5,8,kp20k,6992,F5-E1,A,BART,Semantic similarity,1,parameterized reasoning method ; approximation method
+5,8,kp20k,6992,F5-E1,A,BART,Usefulness,5,parameterized reasoning method ; approximation method
+5,8,kp20k,6992,F5-E1,B,DWT-BART,Faithfulness,3,fuzzification ; finite-state systems
+5,8,kp20k,6992,F5-E1,B,DWT-BART,Duplication,1,fuzzification ; finite-state systems
+5,8,kp20k,6992,F5-E1,B,DWT-BART,Semantic similarity,1,fuzzification ; finite-state systems
+5,8,kp20k,6992,F5-E1,B,DWT-BART,Usefulness,2,fuzzification ; finite-state systems
+5,9,krapivin397,354,F5-E1,A,DWT-BART,Faithfulness,4,loop optimization ; loop-counter optimization ; superblock optimization
+5,9,krapivin397,354,F5-E1,A,DWT-BART,Duplication,1,loop optimization ; loop-counter optimization ; superblock optimization
+5,9,krapivin397,354,F5-E1,A,DWT-BART,Semantic similarity,2,loop optimization ; loop-counter optimization ; superblock optimization
+5,9,krapivin397,354,F5-E1,A,DWT-BART,Usefulness,4,loop optimization ; loop-counter optimization ; superblock optimization
+5,9,krapivin397,354,F5-E1,B,BART,Faithfulness,5,loop scheduling ; loop speculation ; loop-based control flow
+5,9,krapivin397,354,F5-E1,B,BART,Duplication,1,loop scheduling ; loop speculation ; loop-based control flow
+5,9,krapivin397,354,F5-E1,B,BART,Semantic similarity,1,loop scheduling ; loop speculation ; loop-based control flow
+5,9,krapivin397,354,F5-E1,B,BART,Usefulness,5,loop scheduling ; loop speculation ; loop-based control flow
+5,10,semeval,44,F5-E1,A,BART,Faithfulness,5,sentence-level interestingness
+5,10,semeval,44,F5-E1,A,BART,Duplication,1,sentence-level interestingness
+5,10,semeval,44,F5-E1,A,BART,Semantic similarity,1,sentence-level interestingness
+5,10,semeval,44,F5-E1,A,BART,Usefulness,4,sentence-level interestingness
+5,10,semeval,44,F5-E1,B,DWT-BART,Faithfulness,4,soft pattern
+5,10,semeval,44,F5-E1,B,DWT-BART,Duplication,1,soft pattern
+5,10,semeval,44,F5-E1,B,DWT-BART,Semantic similarity,1,soft pattern
+5,10,semeval,44,F5-E1,B,DWT-BART,Usefulness,2,soft pattern
+5,11,nus,15,F5-E1,A,BART,Faithfulness,5,query intent ; query ambiguity
+5,11,nus,15,F5-E1,A,BART,Duplication,1,query intent ; query ambiguity
+5,11,nus,15,F5-E1,A,BART,Semantic similarity,1,query intent ; query ambiguity
+5,11,nus,15,F5-E1,A,BART,Usefulness,4,query intent ; query ambiguity
+5,11,nus,15,F5-E1,B,DWT-BART,Faithfulness,5,query classification
+5,11,nus,15,F5-E1,B,DWT-BART,Duplication,1,query classification
+5,11,nus,15,F5-E1,B,DWT-BART,Semantic similarity,1,query classification
+5,11,nus,15,F5-E1,B,DWT-BART,Usefulness,5,query classification
+5,12,kp20k,19850,F5-E1,A,DWT-BART,Faithfulness,5,circuit partitioning
+5,12,kp20k,19850,F5-E1,A,DWT-BART,Duplication,1,circuit partitioning
+5,12,kp20k,19850,F5-E1,A,DWT-BART,Semantic similarity,1,circuit partitioning
+5,12,kp20k,19850,F5-E1,A,DWT-BART,Usefulness,4,circuit partitioning
+5,12,kp20k,19850,F5-E1,B,BART,Faithfulness,5,subgraph extraction ; minimal cut graph of hyper-graph
+5,12,kp20k,19850,F5-E1,B,BART,Duplication,1,subgraph extraction ; minimal cut graph of hyper-graph
+5,12,kp20k,19850,F5-E1,B,BART,Semantic similarity,2,subgraph extraction ; minimal cut graph of hyper-graph
+5,12,kp20k,19850,F5-E1,B,BART,Usefulness,5,subgraph extraction ; minimal cut graph of hyper-graph
+5,13,inspec,15,F5-E1,A,BART,Faithfulness,5,intelligent system ; mobile computing
+5,13,inspec,15,F5-E1,A,BART,Duplication,1,intelligent system ; mobile computing
+5,13,inspec,15,F5-E1,A,BART,Semantic similarity,1,intelligent system ; mobile computing
+5,13,inspec,15,F5-E1,A,BART,Usefulness,3,intelligent system ; mobile computing
+5,13,inspec,15,F5-E1,B,DWT-BART,Faithfulness,5,mobile phone terminal ; web site management
+5,13,inspec,15,F5-E1,B,DWT-BART,Duplication,1,mobile phone terminal ; web site management
+5,13,inspec,15,F5-E1,B,DWT-BART,Semantic similarity,1,mobile phone terminal ; web site management
+5,13,inspec,15,F5-E1,B,DWT-BART,Usefulness,4,mobile phone terminal ; web site management
+5,14,kp20k,15220,F5-E1,A,DWT-BART,Faithfulness,5,software visualization ; visual mapping
+5,14,kp20k,15220,F5-E1,A,DWT-BART,Duplication,1,software visualization ; visual mapping
+5,14,kp20k,15220,F5-E1,A,DWT-BART,Semantic similarity,1,software visualization ; visual mapping
+5,14,kp20k,15220,F5-E1,A,DWT-BART,Usefulness,4,software visualization ; visual mapping
+5,14,kp20k,15220,F5-E1,B,BART,Faithfulness,3,metamachine comprehension ; visualizing large datasets
+5,14,kp20k,15220,F5-E1,B,BART,Duplication,1,metamachine comprehension ; visualizing large datasets
+5,14,kp20k,15220,F5-E1,B,BART,Semantic similarity,1,metamachine comprehension ; visualizing large datasets
+5,14,kp20k,15220,F5-E1,B,BART,Usefulness,3,metamachine comprehension ; visualizing large datasets
+5,15,inspec,251,F5-E1,A,DWT-BART,Faithfulness,3,investigations ; internet ; criminal procedure
+5,15,inspec,251,F5-E1,A,DWT-BART,Duplication,1,investigations ; internet ; criminal procedure
+5,15,inspec,251,F5-E1,A,DWT-BART,Semantic similarity,1,investigations ; internet ; criminal procedure
+5,15,inspec,251,F5-E1,A,DWT-BART,Usefulness,2,investigations ; internet ; criminal procedure
+5,15,inspec,251,F5-E1,B,BART,Faithfulness,2,e-commerce ; e- business informationlimited ; e e-commerce
+5,15,inspec,251,F5-E1,B,BART,Duplication,3,e-commerce ; e- business informationlimited ; e e-commerce
+5,15,inspec,251,F5-E1,B,BART,Semantic similarity,3,e-commerce ; e- business informationlimited ; e e-commerce
+5,15,inspec,251,F5-E1,B,BART,Usefulness,1,e-commerce ; e- business informationlimited ; e e-commerce
+5,16,kp20k,18176,F5-E1,A,DWT-BART,Faithfulness,3,structural information ; automotive industry
+5,16,kp20k,18176,F5-E1,A,DWT-BART,Duplication,1,structural information ; automotive industry
+5,16,kp20k,18176,F5-E1,A,DWT-BART,Semantic similarity,1,structural information ; automotive industry
+5,16,kp20k,18176,F5-E1,A,DWT-BART,Usefulness,2,structural information ; automotive industry
+5,16,kp20k,18176,F5-E1,B,BART,Faithfulness,2,data mining
+5,16,kp20k,18176,F5-E1,B,BART,Duplication,1,data mining
+5,16,kp20k,18176,F5-E1,B,BART,Semantic similarity,1,data mining
+5,16,kp20k,18176,F5-E1,B,BART,Usefulness,1,data mining
+6,1,inspec,451,F6-E2,A,BART,Faithfulness,3,h / sub infinity control ; frequency delay
+6,1,inspec,451,F6-E2,A,BART,Duplication,1,h / sub infinity control ; frequency delay
+6,1,inspec,451,F6-E2,A,BART,Semantic similarity,1,h / sub infinity control ; frequency delay
+6,1,inspec,451,F6-E2,A,BART,Usefulness,3,h / sub infinity control ; frequency delay
+6,1,inspec,451,F6-E2,B,DWT-BART,Faithfulness,3,h / sub infinity control
+6,1,inspec,451,F6-E2,B,DWT-BART,Duplication,1,h / sub infinity control
+6,1,inspec,451,F6-E2,B,DWT-BART,Semantic similarity,1,h / sub infinity control
+6,1,inspec,451,F6-E2,B,DWT-BART,Usefulness,3,h / sub infinity control
+6,2,kp20k,16615,F6-E2,A,DWT-BART,Faithfulness,3,sociophysics ; phase transition
+6,2,kp20k,16615,F6-E2,A,DWT-BART,Duplication,1,sociophysics ; phase transition
+6,2,kp20k,16615,F6-E2,A,DWT-BART,Semantic similarity,1,sociophysics ; phase transition
+6,2,kp20k,16615,F6-E2,A,DWT-BART,Usefulness,2,sociophysics ; phase transition
+6,2,kp20k,16615,F6-E2,B,BART,Faithfulness,2,hopf bifurcation
+6,2,kp20k,16615,F6-E2,B,BART,Duplication,1,hopf bifurcation
+6,2,kp20k,16615,F6-E2,B,BART,Semantic similarity,1,hopf bifurcation
+6,2,kp20k,16615,F6-E2,B,BART,Usefulness,1,hopf bifurcation
+6,3,nus,175,F6-E2,A,DWT-BART,Faithfulness,5,e-business ; e e-commerce statistics ; ee-marketing
+6,3,nus,175,F6-E2,A,DWT-BART,Duplication,1,e-business ; e e-commerce statistics ; ee-marketing
+6,3,nus,175,F6-E2,A,DWT-BART,Semantic similarity,2,e-business ; e e-commerce statistics ; ee-marketing
+6,3,nus,175,F6-E2,A,DWT-BART,Usefulness,5,e-business ; e e-commerce statistics ; ee-marketing
+6,3,nus,175,F6-E2,B,BART,Faithfulness,5,e-business ; e business ; internet ; e commerce
+6,3,nus,175,F6-E2,B,BART,Duplication,4,e-business ; e business ; internet ; e commerce
+6,3,nus,175,F6-E2,B,BART,Semantic similarity,3,e-business ; e business ; internet ; e commerce
+6,3,nus,175,F6-E2,B,BART,Usefulness,5,e-business ; e business ; internet ; e commerce
+6,4,kp20k,11314,F6-E2,A,BART,Faithfulness,5,finite element analysis ; electric machines
+6,4,kp20k,11314,F6-E2,A,BART,Duplication,1,finite element analysis ; electric machines
+6,4,kp20k,11314,F6-E2,A,BART,Semantic similarity,1,finite element analysis ; electric machines
+6,4,kp20k,11314,F6-E2,A,BART,Usefulness,4,finite element analysis ; electric machines
+6,4,kp20k,11314,F6-E2,B,DWT-BART,Faithfulness,5,electric motors ; finite element analysis
+6,4,kp20k,11314,F6-E2,B,DWT-BART,Duplication,1,electric motors ; finite element analysis
+6,4,kp20k,11314,F6-E2,B,DWT-BART,Semantic similarity,1,electric motors ; finite element analysis
+6,4,kp20k,11314,F6-E2,B,DWT-BART,Usefulness,3,electric motors ; finite element analysis
+6,5,kp20k,1679,F6-E2,A,DWT-BART,Faithfulness,5,deteriorating items
+6,5,kp20k,1679,F6-E2,A,DWT-BART,Duplication,1,deteriorating items
+6,5,kp20k,1679,F6-E2,A,DWT-BART,Semantic similarity,1,deteriorating items
+6,5,kp20k,1679,F6-E2,A,DWT-BART,Usefulness,2,deteriorating items
+6,5,kp20k,1679,F6-E2,B,BART,Faithfulness,5,shortage-dependent demand
+6,5,kp20k,1679,F6-E2,B,BART,Duplication,1,shortage-dependent demand
+6,5,kp20k,1679,F6-E2,B,BART,Semantic similarity,1,shortage-dependent demand
+6,5,kp20k,1679,F6-E2,B,BART,Usefulness,4,shortage-dependent demand
+6,6,kp20k,8335,F6-E2,A,BART,Faithfulness,3,membership value ; memberships ranking
+6,6,kp20k,8335,F6-E2,A,BART,Duplication,1,membership value ; memberships ranking
+6,6,kp20k,8335,F6-E2,A,BART,Semantic similarity,3,membership value ; memberships ranking
+6,6,kp20k,8335,F6-E2,A,BART,Usefulness,3,membership value ; memberships ranking
+6,6,kp20k,8335,F6-E2,B,DWT-BART,Faithfulness,4,fuzzy set theory ; data uncertainty ; imprecise queries
+6,6,kp20k,8335,F6-E2,B,DWT-BART,Duplication,1,fuzzy set theory ; data uncertainty ; imprecise queries
+6,6,kp20k,8335,F6-E2,B,DWT-BART,Semantic similarity,1,fuzzy set theory ; data uncertainty ; imprecise queries
+6,6,kp20k,8335,F6-E2,B,DWT-BART,Usefulness,4,fuzzy set theory ; data uncertainty ; imprecise queries
+6,7,semeval,20,F6-E2,A,BART,Faithfulness,5,spatial query processing
+6,7,semeval,20,F6-E2,A,BART,Duplication,1,spatial query processing
+6,7,semeval,20,F6-E2,A,BART,Semantic similarity,1,spatial query processing
+6,7,semeval,20,F6-E2,A,BART,Usefulness,5,spatial query processing
+6,7,semeval,20,F6-E2,B,DWT-BART,Faithfulness,4,virtual reality
+6,7,semeval,20,F6-E2,B,DWT-BART,Duplication,1,virtual reality
+6,7,semeval,20,F6-E2,B,DWT-BART,Semantic similarity,1,virtual reality
+6,7,semeval,20,F6-E2,B,DWT-BART,Usefulness,5,virtual reality
+6,8,semeval,90,F6-E2,A,BART,Faithfulness,4,rationalizable sequence ; revealed preference model
+6,8,semeval,90,F6-E2,A,BART,Duplication,1,rationalizable sequence ; revealed preference model
+6,8,semeval,90,F6-E2,A,BART,Semantic similarity,1,rationalizable sequence ; revealed preference model
+6,8,semeval,90,F6-E2,A,BART,Usefulness,4,rationalizable sequence ; revealed preference model
+6,8,semeval,90,F6-E2,B,DWT-BART,Faithfulness,5,learning theory ; rationalizable price functions ; learning complexity
+6,8,semeval,90,F6-E2,B,DWT-BART,Duplication,1,learning theory ; rationalizable price functions ; learning complexity
+6,8,semeval,90,F6-E2,B,DWT-BART,Semantic similarity,1,learning theory ; rationalizable price functions ; learning complexity
+6,8,semeval,90,F6-E2,B,DWT-BART,Usefulness,5,learning theory ; rationalizable price functions ; learning complexity
+6,9,krapivin397,344,F6-E2,A,BART,Faithfulness,5,fault tolerance ; distributed systems ; performance analysis
+6,9,krapivin397,344,F6-E2,A,BART,Duplication,1,fault tolerance ; distributed systems ; performance analysis
+6,9,krapivin397,344,F6-E2,A,BART,Semantic similarity,1,fault tolerance ; distributed systems ; performance analysis
+6,9,krapivin397,344,F6-E2,A,BART,Usefulness,5,fault tolerance ; distributed systems ; performance analysis
+6,9,krapivin397,344,F6-E2,B,DWT-BART,Faithfulness,5,replicated data systems ; abstractmanagement protocols
+6,9,krapivin397,344,F6-E2,B,DWT-BART,Duplication,1,replicated data systems ; abstractmanagement protocols
+6,9,krapivin397,344,F6-E2,B,DWT-BART,Semantic similarity,1,replicated data systems ; abstractmanagement protocols
+6,9,krapivin397,344,F6-E2,B,DWT-BART,Usefulness,3,replicated data systems ; abstractmanagement protocols
+6,10,nus,177,F6-E2,A,BART,Faithfulness,5,internet measurement ; internet traffic ; failure diagnosis
+6,10,nus,177,F6-E2,A,BART,Duplication,1,internet measurement ; internet traffic ; failure diagnosis
+6,10,nus,177,F6-E2,A,BART,Semantic similarity,1,internet measurement ; internet traffic ; failure diagnosis
+6,10,nus,177,F6-E2,A,BART,Usefulness,5,internet measurement ; internet traffic ; failure diagnosis
+6,10,nus,177,F6-E2,B,DWT-BART,Faithfulness,5,fault diagnosis ; network traffic analysis
+6,10,nus,177,F6-E2,B,DWT-BART,Duplication,1,fault diagnosis ; network traffic analysis
+6,10,nus,177,F6-E2,B,DWT-BART,Semantic similarity,1,fault diagnosis ; network traffic analysis
+6,10,nus,177,F6-E2,B,DWT-BART,Usefulness,5,fault diagnosis ; network traffic analysis
+6,11,kp20k,7904,F6-E2,A,DWT-BART,Faithfulness,3,causal inference in parametric data ; r program for statistical modeling
+6,11,kp20k,7904,F6-E2,A,DWT-BART,Duplication,1,causal inference in parametric data ; r program for statistical modeling
+6,11,kp20k,7904,F6-E2,A,DWT-BART,Semantic similarity,1,causal inference in parametric data ; r program for statistical modeling
+6,11,kp20k,7904,F6-E2,A,DWT-BART,Usefulness,2,causal inference in parametric data ; r program for statistical modeling
+6,11,kp20k,7904,F6-E2,B,BART,Faithfulness,5,causal inference model ; r software
+6,11,kp20k,7904,F6-E2,B,BART,Duplication,1,causal inference model ; r software
+6,11,kp20k,7904,F6-E2,B,BART,Semantic similarity,1,causal inference model ; r software
+6,11,kp20k,7904,F6-E2,B,BART,Usefulness,3,causal inference model ; r software
+6,12,kp20k,14145,F6-E2,A,DWT-BART,Faithfulness,3,inverse problem
+6,12,kp20k,14145,F6-E2,A,DWT-BART,Duplication,1,inverse problem
+6,12,kp20k,14145,F6-E2,A,DWT-BART,Semantic similarity,1,inverse problem
+6,12,kp20k,14145,F6-E2,A,DWT-BART,Usefulness,3,inverse problem
+6,12,kp20k,14145,F6-E2,B,BART,Faithfulness,4,traffic engineering ; trajectory generation
+6,12,kp20k,14145,F6-E2,B,BART,Duplication,1,traffic engineering ; trajectory generation
+6,12,kp20k,14145,F6-E2,B,BART,Semantic similarity,1,traffic engineering ; trajectory generation
+6,12,kp20k,14145,F6-E2,B,BART,Usefulness,3,traffic engineering ; trajectory generation
+6,13,krapivin397,290,F6-E2,A,BART,Faithfulness,5,optimal buffer size ; buffer loss ; buffer overflow prevention
+6,13,krapivin397,290,F6-E2,A,BART,Duplication,2,optimal buffer size ; buffer loss ; buffer overflow prevention
+6,13,krapivin397,290,F6-E2,A,BART,Semantic similarity,1,optimal buffer size ; buffer loss ; buffer overflow prevention
+6,13,krapivin397,290,F6-E2,A,BART,Usefulness,4,optimal buffer size ; buffer loss ; buffer overflow prevention
+6,13,krapivin397,290,F6-E2,B,DWT-BART,Faithfulness,5,packet switching ; optimal control
+6,13,krapivin397,290,F6-E2,B,DWT-BART,Duplication,1,packet switching ; optimal control
+6,13,krapivin397,290,F6-E2,B,DWT-BART,Semantic similarity,1,packet switching ; optimal control
+6,13,krapivin397,290,F6-E2,B,DWT-BART,Usefulness,4,packet switching ; optimal control
+6,14,kp20k,17950,F6-E2,A,BART,Faithfulness,4,continuance ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E2,A,BART,Duplication,1,continuance ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E2,A,BART,Semantic similarity,1,continuance ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E2,A,BART,Usefulness,4,continuance ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E2,B,DWT-BART,Faithfulness,3,continuuome ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E2,B,DWT-BART,Duplication,1,continuuome ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E2,B,DWT-BART,Semantic similarity,1,continuuome ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E2,B,DWT-BART,Usefulness,3,continuuome ; continuum-atomistic coupling
+6,15,kp20k,16086,F6-E2,A,BART,Faithfulness,4,graph drawing ; crossing-free graphs
+6,15,kp20k,16086,F6-E2,A,BART,Duplication,1,graph drawing ; crossing-free graphs
+6,15,kp20k,16086,F6-E2,A,BART,Semantic similarity,1,graph drawing ; crossing-free graphs
+6,15,kp20k,16086,F6-E2,A,BART,Usefulness,3,graph drawing ; crossing-free graphs
+6,15,kp20k,16086,F6-E2,B,DWT-BART,Faithfulness,5,graph drawing ; computational geometry
+6,15,kp20k,16086,F6-E2,B,DWT-BART,Duplication,1,graph drawing ; computational geometry
+6,15,kp20k,16086,F6-E2,B,DWT-BART,Semantic similarity,1,graph drawing ; computational geometry
+6,15,kp20k,16086,F6-E2,B,DWT-BART,Usefulness,3,graph drawing ; computational geometry
+6,16,kp20k,7710,F6-E2,A,BART,Faithfulness,5,multiple criteria analysis ; utility theory
+6,16,kp20k,7710,F6-E2,A,BART,Duplication,1,multiple criteria analysis ; utility theory
+6,16,kp20k,7710,F6-E2,A,BART,Semantic similarity,1,multiple criteria analysis ; utility theory
+6,16,kp20k,7710,F6-E2,A,BART,Usefulness,5,multiple criteria analysis ; utility theory
+6,16,kp20k,7710,F6-E2,B,DWT-BART,Faithfulness,5,decision analysis ; utility theory
+6,16,kp20k,7710,F6-E2,B,DWT-BART,Duplication,1,decision analysis ; utility theory
+6,16,kp20k,7710,F6-E2,B,DWT-BART,Semantic similarity,1,decision analysis ; utility theory
+6,16,kp20k,7710,F6-E2,B,DWT-BART,Usefulness,5,decision analysis ; utility theory
+6,1,inspec,451,F6-E1,A,BART,Faithfulness,4,h / sub infinity control ; frequency delay
+6,1,inspec,451,F6-E1,A,BART,Duplication,1,h / sub infinity control ; frequency delay
+6,1,inspec,451,F6-E1,A,BART,Semantic similarity,1,h / sub infinity control ; frequency delay
+6,1,inspec,451,F6-E1,A,BART,Usefulness,3,h / sub infinity control ; frequency delay
+6,1,inspec,451,F6-E1,B,DWT-BART,Faithfulness,5,h / sub infinity control
+6,1,inspec,451,F6-E1,B,DWT-BART,Duplication,1,h / sub infinity control
+6,1,inspec,451,F6-E1,B,DWT-BART,Semantic similarity,1,h / sub infinity control
+6,1,inspec,451,F6-E1,B,DWT-BART,Usefulness,5,h / sub infinity control
+6,2,kp20k,16615,F6-E1,A,DWT-BART,Faithfulness,2,sociophysics ; phase transition
+6,2,kp20k,16615,F6-E1,A,DWT-BART,Duplication,1,sociophysics ; phase transition
+6,2,kp20k,16615,F6-E1,A,DWT-BART,Semantic similarity,1,sociophysics ; phase transition
+6,2,kp20k,16615,F6-E1,A,DWT-BART,Usefulness,2,sociophysics ; phase transition
+6,2,kp20k,16615,F6-E1,B,BART,Faithfulness,1,hopf bifurcation
+6,2,kp20k,16615,F6-E1,B,BART,Duplication,1,hopf bifurcation
+6,2,kp20k,16615,F6-E1,B,BART,Semantic similarity,1,hopf bifurcation
+6,2,kp20k,16615,F6-E1,B,BART,Usefulness,1,hopf bifurcation
+6,3,nus,175,F6-E1,A,DWT-BART,Faithfulness,3,e-business ; e e-commerce statistics ; ee-marketing
+6,3,nus,175,F6-E1,A,DWT-BART,Duplication,1,e-business ; e e-commerce statistics ; ee-marketing
+6,3,nus,175,F6-E1,A,DWT-BART,Semantic similarity,3,e-business ; e e-commerce statistics ; ee-marketing
+6,3,nus,175,F6-E1,A,DWT-BART,Usefulness,3,e-business ; e e-commerce statistics ; ee-marketing
+6,3,nus,175,F6-E1,B,BART,Faithfulness,5,e-business ; e business ; internet ; e commerce
+6,3,nus,175,F6-E1,B,BART,Duplication,5,e-business ; e business ; internet ; e commerce
+6,3,nus,175,F6-E1,B,BART,Semantic similarity,4,e-business ; e business ; internet ; e commerce
+6,3,nus,175,F6-E1,B,BART,Usefulness,5,e-business ; e business ; internet ; e commerce
+6,4,kp20k,11314,F6-E1,A,BART,Faithfulness,5,finite element analysis ; electric machines
+6,4,kp20k,11314,F6-E1,A,BART,Duplication,1,finite element analysis ; electric machines
+6,4,kp20k,11314,F6-E1,A,BART,Semantic similarity,1,finite element analysis ; electric machines
+6,4,kp20k,11314,F6-E1,A,BART,Usefulness,4,finite element analysis ; electric machines
+6,4,kp20k,11314,F6-E1,B,DWT-BART,Faithfulness,4,electric motors ; finite element analysis
+6,4,kp20k,11314,F6-E1,B,DWT-BART,Duplication,1,electric motors ; finite element analysis
+6,4,kp20k,11314,F6-E1,B,DWT-BART,Semantic similarity,1,electric motors ; finite element analysis
+6,4,kp20k,11314,F6-E1,B,DWT-BART,Usefulness,5,electric motors ; finite element analysis
+6,5,kp20k,1679,F6-E1,A,DWT-BART,Faithfulness,5,deteriorating items
+6,5,kp20k,1679,F6-E1,A,DWT-BART,Duplication,1,deteriorating items
+6,5,kp20k,1679,F6-E1,A,DWT-BART,Semantic similarity,1,deteriorating items
+6,5,kp20k,1679,F6-E1,A,DWT-BART,Usefulness,5,deteriorating items
+6,5,kp20k,1679,F6-E1,B,BART,Faithfulness,4,shortage-dependent demand
+6,5,kp20k,1679,F6-E1,B,BART,Duplication,1,shortage-dependent demand
+6,5,kp20k,1679,F6-E1,B,BART,Semantic similarity,1,shortage-dependent demand
+6,5,kp20k,1679,F6-E1,B,BART,Usefulness,4,shortage-dependent demand
+6,6,kp20k,8335,F6-E1,A,BART,Faithfulness,5,membership value ; memberships ranking
+6,6,kp20k,8335,F6-E1,A,BART,Duplication,1,membership value ; memberships ranking
+6,6,kp20k,8335,F6-E1,A,BART,Semantic similarity,2,membership value ; memberships ranking
+6,6,kp20k,8335,F6-E1,A,BART,Usefulness,3,membership value ; memberships ranking
+6,6,kp20k,8335,F6-E1,B,DWT-BART,Faithfulness,5,fuzzy set theory ; data uncertainty ; imprecise queries
+6,6,kp20k,8335,F6-E1,B,DWT-BART,Duplication,1,fuzzy set theory ; data uncertainty ; imprecise queries
+6,6,kp20k,8335,F6-E1,B,DWT-BART,Semantic similarity,1,fuzzy set theory ; data uncertainty ; imprecise queries
+6,6,kp20k,8335,F6-E1,B,DWT-BART,Usefulness,5,fuzzy set theory ; data uncertainty ; imprecise queries
+6,7,semeval,20,F6-E1,A,BART,Faithfulness,5,spatial query processing
+6,7,semeval,20,F6-E1,A,BART,Duplication,1,spatial query processing
+6,7,semeval,20,F6-E1,A,BART,Semantic similarity,1,spatial query processing
+6,7,semeval,20,F6-E1,A,BART,Usefulness,5,spatial query processing
+6,7,semeval,20,F6-E1,B,DWT-BART,Faithfulness,4,virtual reality
+6,7,semeval,20,F6-E1,B,DWT-BART,Duplication,1,virtual reality
+6,7,semeval,20,F6-E1,B,DWT-BART,Semantic similarity,1,virtual reality
+6,7,semeval,20,F6-E1,B,DWT-BART,Usefulness,4,virtual reality
+6,8,semeval,90,F6-E1,A,BART,Faithfulness,5,rationalizable sequence ; revealed preference model
+6,8,semeval,90,F6-E1,A,BART,Duplication,1,rationalizable sequence ; revealed preference model
+6,8,semeval,90,F6-E1,A,BART,Semantic similarity,1,rationalizable sequence ; revealed preference model
+6,8,semeval,90,F6-E1,A,BART,Usefulness,5,rationalizable sequence ; revealed preference model
+6,8,semeval,90,F6-E1,B,DWT-BART,Faithfulness,5,learning theory ; rationalizable price functions ; learning complexity
+6,8,semeval,90,F6-E1,B,DWT-BART,Duplication,1,learning theory ; rationalizable price functions ; learning complexity
+6,8,semeval,90,F6-E1,B,DWT-BART,Semantic similarity,2,learning theory ; rationalizable price functions ; learning complexity
+6,8,semeval,90,F6-E1,B,DWT-BART,Usefulness,5,learning theory ; rationalizable price functions ; learning complexity
+6,9,krapivin397,344,F6-E1,A,BART,Faithfulness,5,fault tolerance ; distributed systems ; performance analysis
+6,9,krapivin397,344,F6-E1,A,BART,Duplication,1,fault tolerance ; distributed systems ; performance analysis
+6,9,krapivin397,344,F6-E1,A,BART,Semantic similarity,1,fault tolerance ; distributed systems ; performance analysis
+6,9,krapivin397,344,F6-E1,A,BART,Usefulness,5,fault tolerance ; distributed systems ; performance analysis
+6,9,krapivin397,344,F6-E1,B,DWT-BART,Faithfulness,4,replicated data systems ; abstractmanagement protocols
+6,9,krapivin397,344,F6-E1,B,DWT-BART,Duplication,1,replicated data systems ; abstractmanagement protocols
+6,9,krapivin397,344,F6-E1,B,DWT-BART,Semantic similarity,1,replicated data systems ; abstractmanagement protocols
+6,9,krapivin397,344,F6-E1,B,DWT-BART,Usefulness,2,replicated data systems ; abstractmanagement protocols
+6,10,nus,177,F6-E1,A,BART,Faithfulness,5,internet measurement ; internet traffic ; failure diagnosis
+6,10,nus,177,F6-E1,A,BART,Duplication,1,internet measurement ; internet traffic ; failure diagnosis
+6,10,nus,177,F6-E1,A,BART,Semantic similarity,2,internet measurement ; internet traffic ; failure diagnosis
+6,10,nus,177,F6-E1,A,BART,Usefulness,5,internet measurement ; internet traffic ; failure diagnosis
+6,10,nus,177,F6-E1,B,DWT-BART,Faithfulness,5,fault diagnosis ; network traffic analysis
+6,10,nus,177,F6-E1,B,DWT-BART,Duplication,1,fault diagnosis ; network traffic analysis
+6,10,nus,177,F6-E1,B,DWT-BART,Semantic similarity,1,fault diagnosis ; network traffic analysis
+6,10,nus,177,F6-E1,B,DWT-BART,Usefulness,5,fault diagnosis ; network traffic analysis
+6,11,kp20k,7904,F6-E1,A,DWT-BART,Faithfulness,4,causal inference in parametric data ; r program for statistical modeling
+6,11,kp20k,7904,F6-E1,A,DWT-BART,Duplication,1,causal inference in parametric data ; r program for statistical modeling
+6,11,kp20k,7904,F6-E1,A,DWT-BART,Semantic similarity,1,causal inference in parametric data ; r program for statistical modeling
+6,11,kp20k,7904,F6-E1,A,DWT-BART,Usefulness,5,causal inference in parametric data ; r program for statistical modeling
+6,11,kp20k,7904,F6-E1,B,BART,Faithfulness,5,causal inference model ; r software
+6,11,kp20k,7904,F6-E1,B,BART,Duplication,1,causal inference model ; r software
+6,11,kp20k,7904,F6-E1,B,BART,Semantic similarity,1,causal inference model ; r software
+6,11,kp20k,7904,F6-E1,B,BART,Usefulness,4,causal inference model ; r software
+6,12,kp20k,14145,F6-E1,A,DWT-BART,Faithfulness,4,inverse problem
+6,12,kp20k,14145,F6-E1,A,DWT-BART,Duplication,1,inverse problem
+6,12,kp20k,14145,F6-E1,A,DWT-BART,Semantic similarity,1,inverse problem
+6,12,kp20k,14145,F6-E1,A,DWT-BART,Usefulness,4,inverse problem
+6,12,kp20k,14145,F6-E1,B,BART,Faithfulness,2,traffic engineering ; trajectory generation
+6,12,kp20k,14145,F6-E1,B,BART,Duplication,1,traffic engineering ; trajectory generation
+6,12,kp20k,14145,F6-E1,B,BART,Semantic similarity,1,traffic engineering ; trajectory generation
+6,12,kp20k,14145,F6-E1,B,BART,Usefulness,3,traffic engineering ; trajectory generation
+6,13,krapivin397,290,F6-E1,A,BART,Faithfulness,5,optimal buffer size ; buffer loss ; buffer overflow prevention
+6,13,krapivin397,290,F6-E1,A,BART,Duplication,1,optimal buffer size ; buffer loss ; buffer overflow prevention
+6,13,krapivin397,290,F6-E1,A,BART,Semantic similarity,2,optimal buffer size ; buffer loss ; buffer overflow prevention
+6,13,krapivin397,290,F6-E1,A,BART,Usefulness,5,optimal buffer size ; buffer loss ; buffer overflow prevention
+6,13,krapivin397,290,F6-E1,B,DWT-BART,Faithfulness,4,packet switching ; optimal control
+6,13,krapivin397,290,F6-E1,B,DWT-BART,Duplication,1,packet switching ; optimal control
+6,13,krapivin397,290,F6-E1,B,DWT-BART,Semantic similarity,1,packet switching ; optimal control
+6,13,krapivin397,290,F6-E1,B,DWT-BART,Usefulness,4,packet switching ; optimal control
+6,14,kp20k,17950,F6-E1,A,BART,Faithfulness,2,continuance ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E1,A,BART,Duplication,1,continuance ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E1,A,BART,Semantic similarity,1,continuance ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E1,A,BART,Usefulness,3,continuance ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E1,B,DWT-BART,Faithfulness,2,continuuome ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E1,B,DWT-BART,Duplication,1,continuuome ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E1,B,DWT-BART,Semantic similarity,1,continuuome ; continuum-atomistic coupling
+6,14,kp20k,17950,F6-E1,B,DWT-BART,Usefulness,2,continuuome ; continuum-atomistic coupling
+6,15,kp20k,16086,F6-E1,A,BART,Faithfulness,5,graph drawing ; crossing-free graphs
+6,15,kp20k,16086,F6-E1,A,BART,Duplication,1,graph drawing ; crossing-free graphs
+6,15,kp20k,16086,F6-E1,A,BART,Semantic similarity,2,graph drawing ; crossing-free graphs
+6,15,kp20k,16086,F6-E1,A,BART,Usefulness,5,graph drawing ; crossing-free graphs
+6,15,kp20k,16086,F6-E1,B,DWT-BART,Faithfulness,5,graph drawing ; computational geometry
+6,15,kp20k,16086,F6-E1,B,DWT-BART,Duplication,1,graph drawing ; computational geometry
+6,15,kp20k,16086,F6-E1,B,DWT-BART,Semantic similarity,1,graph drawing ; computational geometry
+6,15,kp20k,16086,F6-E1,B,DWT-BART,Usefulness,5,graph drawing ; computational geometry
+6,16,kp20k,7710,F6-E1,A,BART,Faithfulness,5,multiple criteria analysis ; utility theory
+6,16,kp20k,7710,F6-E1,A,BART,Duplication,1,multiple criteria analysis ; utility theory
+6,16,kp20k,7710,F6-E1,A,BART,Semantic similarity,1,multiple criteria analysis ; utility theory
+6,16,kp20k,7710,F6-E1,A,BART,Usefulness,5,multiple criteria analysis ; utility theory
+6,16,kp20k,7710,F6-E1,B,DWT-BART,Faithfulness,5,decision analysis ; utility theory
+6,16,kp20k,7710,F6-E1,B,DWT-BART,Duplication,1,decision analysis ; utility theory
+6,16,kp20k,7710,F6-E1,B,DWT-BART,Semantic similarity,2,decision analysis ; utility theory
+6,16,kp20k,7710,F6-E1,B,DWT-BART,Usefulness,4,decision analysis ; utility theory
+7,1,kp20k,19530,F7-E1,A,BART,Faithfulness,3,cache memories
+7,1,kp20k,19530,F7-E1,A,BART,Duplication,5,cache memories
+7,1,kp20k,19530,F7-E1,A,BART,Semantic similarity,3,cache memories
+7,1,kp20k,19530,F7-E1,A,BART,Usefulness,2,cache memories
+7,1,kp20k,19530,F7-E1,B,DWT-BART,Faithfulness,5,irregular codes ; communication schedule reuse
+7,1,kp20k,19530,F7-E1,B,DWT-BART,Duplication,5,irregular codes ; communication schedule reuse
+7,1,kp20k,19530,F7-E1,B,DWT-BART,Semantic similarity,5,irregular codes ; communication schedule reuse
+7,1,kp20k,19530,F7-E1,B,DWT-BART,Usefulness,5,irregular codes ; communication schedule reuse
+7,2,kp20k,6404,F7-E1,A,DWT-BART,Faithfulness,5,apple grading ; quality testing
+7,2,kp20k,6404,F7-E1,A,DWT-BART,Duplication,5,apple grading ; quality testing
+7,2,kp20k,6404,F7-E1,A,DWT-BART,Semantic similarity,5,apple grading ; quality testing
+7,2,kp20k,6404,F7-E1,A,DWT-BART,Usefulness,5,apple grading ; quality testing
+7,2,kp20k,6404,F7-E1,B,BART,Faithfulness,5,quality control
+7,2,kp20k,6404,F7-E1,B,BART,Duplication,5,quality control
+7,2,kp20k,6404,F7-E1,B,BART,Semantic similarity,4,quality control
+7,2,kp20k,6404,F7-E1,B,BART,Usefulness,4,quality control
+7,3,semeval,84,F7-E1,A,DWT-BART,Faithfulness,5,combinatorial optimization ; market design ; kidney transplantation
+7,3,semeval,84,F7-E1,A,DWT-BART,Duplication,5,combinatorial optimization ; market design ; kidney transplantation
+7,3,semeval,84,F7-E1,A,DWT-BART,Semantic similarity,5,combinatorial optimization ; market design ; kidney transplantation
+7,3,semeval,84,F7-E1,A,DWT-BART,Usefulness,5,combinatorial optimization ; market design ; kidney transplantation
+7,3,semeval,84,F7-E1,B,BART,Faithfulness,2,barter auctions ; computational social science ; np-complete problems
+7,3,semeval,84,F7-E1,B,BART,Duplication,5,barter auctions ; computational social science ; np-complete problems
+7,3,semeval,84,F7-E1,B,BART,Semantic similarity,2,barter auctions ; computational social science ; np-complete problems
+7,3,semeval,84,F7-E1,B,BART,Usefulness,2,barter auctions ; computational social science ; np-complete problems
+7,4,nus,34,F7-E1,A,DWT-BART,Faithfulness,5,web content analysis
+7,4,nus,34,F7-E1,A,DWT-BART,Duplication,4,web content analysis
+7,4,nus,34,F7-E1,A,DWT-BART,Semantic similarity,4,web content analysis
+7,4,nus,34,F7-E1,A,DWT-BART,Usefulness,5,web content analysis
+7,4,nus,34,F7-E1,B,BART,Faithfulness,4,web content analysis ; web table database
+7,4,nus,34,F7-E1,B,BART,Duplication,4,web content analysis ; web table database
+7,4,nus,34,F7-E1,B,BART,Semantic similarity,5,web content analysis ; web table database
+7,4,nus,34,F7-E1,B,BART,Usefulness,3,web content analysis ; web table database
+7,5,kp20k,3108,F7-E1,A,BART,Faithfulness,4,open access ; open source software
+7,5,kp20k,3108,F7-E1,A,BART,Duplication,4,open access ; open source software
+7,5,kp20k,3108,F7-E1,A,BART,Semantic similarity,5,open access ; open source software
+7,5,kp20k,3108,F7-E1,A,BART,Usefulness,5,open access ; open source software
+7,5,kp20k,3108,F7-E1,B,DWT-BART,Faithfulness,5,intellectual property ; patent information services ; patlib information services
+7,5,kp20k,3108,F7-E1,B,DWT-BART,Duplication,4,intellectual property ; patent information services ; patlib information services
+7,5,kp20k,3108,F7-E1,B,DWT-BART,Semantic similarity,3,intellectual property ; patent information services ; patlib information services
+7,5,kp20k,3108,F7-E1,B,DWT-BART,Usefulness,3,intellectual property ; patent information services ; patlib information services
+7,6,kp20k,1984,F7-E1,A,DWT-BART,Faithfulness,4,negative binomial model
+7,6,kp20k,1984,F7-E1,A,DWT-BART,Duplication,5,negative binomial model
+7,6,kp20k,1984,F7-E1,A,DWT-BART,Semantic similarity,5,negative binomial model
+7,6,kp20k,1984,F7-E1,A,DWT-BART,Usefulness,5,negative binomial model
+7,6,kp20k,1984,F7-E1,B,BART,Faithfulness,4,zero-inflated data ; clustered data
+7,6,kp20k,1984,F7-E1,B,BART,Duplication,4,zero-inflated data ; clustered data
+7,6,kp20k,1984,F7-E1,B,BART,Semantic similarity,4,zero-inflated data ; clustered data
+7,6,kp20k,1984,F7-E1,B,BART,Usefulness,5,zero-inflated data ; clustered data
+7,7,kp20k,11882,F7-E1,A,DWT-BART,Faithfulness,5,user participation ; audience participation ; system documentation standards
+7,7,kp20k,11882,F7-E1,A,DWT-BART,Duplication,5,user participation ; audience participation ; system documentation standards
+7,7,kp20k,11882,F7-E1,A,DWT-BART,Semantic similarity,4,user participation ; audience participation ; system documentation standards
+7,7,kp20k,11882,F7-E1,A,DWT-BART,Usefulness,4,user participation ; audience participation ; system documentation standards
+7,7,kp20k,11882,F7-E1,B,BART,Faithfulness,4,system documentation and installation
+7,7,kp20k,11882,F7-E1,B,BART,Duplication,4,system documentation and installation
+7,7,kp20k,11882,F7-E1,B,BART,Semantic similarity,4,system documentation and installation
+7,7,kp20k,11882,F7-E1,B,BART,Usefulness,3,system documentation and installation
+7,8,kp20k,6501,F7-E1,A,DWT-BART,Faithfulness,4,color image processing ; multicolored image descriptors
+7,8,kp20k,6501,F7-E1,A,DWT-BART,Duplication,4,color image processing ; multicolored image descriptors
+7,8,kp20k,6501,F7-E1,A,DWT-BART,Semantic similarity,3,color image processing ; multicolored image descriptors
+7,8,kp20k,6501,F7-E1,A,DWT-BART,Usefulness,4,color image processing ; multicolored image descriptors
+7,8,kp20k,6501,F7-E1,B,BART,Faithfulness,4,color image descriptors ; multicolored image descriptor ; image segmentation
+7,8,kp20k,6501,F7-E1,B,BART,Duplication,5,color image descriptors ; multicolored image descriptor ; image segmentation
+7,8,kp20k,6501,F7-E1,B,BART,Semantic similarity,5,color image descriptors ; multicolored image descriptor ; image segmentation
+7,8,kp20k,6501,F7-E1,B,BART,Usefulness,5,color image descriptors ; multicolored image descriptor ; image segmentation
+7,9,krapivin397,326,F7-E1,A,DWT-BART,Faithfulness,5,vlsi
+7,9,krapivin397,326,F7-E1,A,DWT-BART,Duplication,4,vlsi
+7,9,krapivin397,326,F7-E1,A,DWT-BART,Semantic similarity,4,vlsi
+7,9,krapivin397,326,F7-E1,A,DWT-BART,Usefulness,4,vlsi
+7,9,krapivin397,326,F7-E1,B,BART,Faithfulness,5,computer-aided design ; combinatorial optimization ; computational geometry
+7,9,krapivin397,326,F7-E1,B,BART,Duplication,4,computer-aided design ; combinatorial optimization ; computational geometry
+7,9,krapivin397,326,F7-E1,B,BART,Semantic similarity,4,computer-aided design ; combinatorial optimization ; computational geometry
+7,9,krapivin397,326,F7-E1,B,BART,Usefulness,4,computer-aided design ; combinatorial optimization ; computational geometry
+7,10,inspec,232,F7-E1,A,DWT-BART,Faithfulness,4,information systems security ; security management ; security policy management
+7,10,inspec,232,F7-E1,A,DWT-BART,Duplication,4,information systems security ; security management ; security policy management
+7,10,inspec,232,F7-E1,A,DWT-BART,Semantic similarity,5,information systems security ; security management ; security policy management
+7,10,inspec,232,F7-E1,A,DWT-BART,Usefulness,5,information systems security ; security management ; security policy management
+7,10,inspec,232,F7-E1,B,BART,Faithfulness,5,information assurance ; information technology ; information systems security
+7,10,inspec,232,F7-E1,B,BART,Duplication,4,information assurance ; information technology ; information systems security
+7,10,inspec,232,F7-E1,B,BART,Semantic similarity,3,information assurance ; information technology ; information systems security
+7,10,inspec,232,F7-E1,B,BART,Usefulness,3,information assurance ; information technology ; information systems security
+7,11,kp20k,7552,F7-E1,A,BART,Faithfulness,4,parallel genetic algorithm
+7,11,kp20k,7552,F7-E1,A,BART,Duplication,4,parallel genetic algorithm
+7,11,kp20k,7552,F7-E1,A,BART,Semantic similarity,4,parallel genetic algorithm
+7,11,kp20k,7552,F7-E1,A,BART,Usefulness,5,parallel genetic algorithm
+7,11,kp20k,7552,F7-E1,B,DWT-BART,Faithfulness,4,distributed computing ; cooperative-competitive algorithms ; parallel algorithms
+7,11,kp20k,7552,F7-E1,B,DWT-BART,Duplication,4,distributed computing ; cooperative-competitive algorithms ; parallel algorithms
+7,11,kp20k,7552,F7-E1,B,DWT-BART,Semantic similarity,3,distributed computing ; cooperative-competitive algorithms ; parallel algorithms
+7,11,kp20k,7552,F7-E1,B,DWT-BART,Usefulness,3,distributed computing ; cooperative-competitive algorithms ; parallel algorithms
+7,12,nus,176,F7-E1,A,BART,Faithfulness,4,developmental case study
+7,12,nus,176,F7-E1,A,BART,Duplication,4,developmental case study
+7,12,nus,176,F7-E1,A,BART,Semantic similarity,5,developmental case study
+7,12,nus,176,F7-E1,A,BART,Usefulness,5,developmental case study
+7,12,nus,176,F7-E1,B,DWT-BART,Faithfulness,4,developing countries
+7,12,nus,176,F7-E1,B,DWT-BART,Duplication,4,developing countries
+7,12,nus,176,F7-E1,B,DWT-BART,Semantic similarity,3,developing countries
+7,12,nus,176,F7-E1,B,DWT-BART,Usefulness,3,developing countries
+7,13,kp20k,12309,F7-E1,A,BART,Faithfulness,4,multifingered grasping ; fuzzy reasoning
+7,13,kp20k,12309,F7-E1,A,BART,Duplication,4,multifingered grasping ; fuzzy reasoning
+7,13,kp20k,12309,F7-E1,A,BART,Semantic similarity,5,multifingered grasping ; fuzzy reasoning
+7,13,kp20k,12309,F7-E1,A,BART,Usefulness,5,multifingered grasping ; fuzzy reasoning
+7,13,kp20k,12309,F7-E1,B,DWT-BART,Faithfulness,4,fuzzy logic ; artificial neural networks
+7,13,kp20k,12309,F7-E1,B,DWT-BART,Duplication,5,fuzzy logic ; artificial neural networks
+7,13,kp20k,12309,F7-E1,B,DWT-BART,Semantic similarity,4,fuzzy logic ; artificial neural networks
+7,13,kp20k,12309,F7-E1,B,DWT-BART,Usefulness,3,fuzzy logic ; artificial neural networks
+7,14,krapivin397,236,F7-E1,A,DWT-BART,Faithfulness,4,particle systems ; physically based modeling
+7,14,krapivin397,236,F7-E1,A,DWT-BART,Duplication,5,particle systems ; physically based modeling
+7,14,krapivin397,236,F7-E1,A,DWT-BART,Semantic similarity,4,particle systems ; physically based modeling
+7,14,krapivin397,236,F7-E1,A,DWT-BART,Usefulness,3,particle systems ; physically based modeling
+7,14,krapivin397,236,F7-E1,B,BART,Faithfulness,4,particle-based modeling ; sampling and control of surfaces
+7,14,krapivin397,236,F7-E1,B,BART,Duplication,5,particle-based modeling ; sampling and control of surfaces
+7,14,krapivin397,236,F7-E1,B,BART,Semantic similarity,5,particle-based modeling ; sampling and control of surfaces
+7,14,krapivin397,236,F7-E1,B,BART,Usefulness,4,particle-based modeling ; sampling and control of surfaces
+7,15,kp20k,14322,F7-E1,A,DWT-BART,Faithfulness,4,non-line-of-sight errors
+7,15,kp20k,14322,F7-E1,A,DWT-BART,Duplication,4,non-line-of-sight errors
+7,15,kp20k,14322,F7-E1,A,DWT-BART,Semantic similarity,5,non-line-of-sight errors
+7,15,kp20k,14322,F7-E1,A,DWT-BART,Usefulness,4,non-line-of-sight errors
+7,15,kp20k,14322,F7-E1,B,BART,Faithfulness,3,non-line-of-sight communication
+7,15,kp20k,14322,F7-E1,B,BART,Duplication,4,non-line-of-sight communication
+7,15,kp20k,14322,F7-E1,B,BART,Semantic similarity,4,non-line-of-sight communication
+7,15,kp20k,14322,F7-E1,B,BART,Usefulness,4,non-line-of-sight communication
+7,16,kp20k,10067,F7-E1,A,DWT-BART,Faithfulness,4,mitochondria ; mtdna copy number
+7,16,kp20k,10067,F7-E1,A,DWT-BART,Duplication,4,mitochondria ; mtdna copy number
+7,16,kp20k,10067,F7-E1,A,DWT-BART,Semantic similarity,3,mitochondria ; mtdna copy number
+7,16,kp20k,10067,F7-E1,A,DWT-BART,Usefulness,4,mitochondria ; mtdna copy number
+7,16,kp20k,10067,F7-E1,B,BART,Faithfulness,4,efg fibers ; type i and type ii ets abnormalities
+7,16,kp20k,10067,F7-E1,B,BART,Duplication,5,efg fibers ; type i and type ii ets abnormalities
+7,16,kp20k,10067,F7-E1,B,BART,Semantic similarity,5,efg fibers ; type i and type ii ets abnormalities
+7,16,kp20k,10067,F7-E1,B,BART,Usefulness,4,efg fibers ; type i and type ii ets abnormalities
+7,1,kp20k,19530,F7-E2,A,BART,Faithfulness,3,cache memories
+7,1,kp20k,19530,F7-E2,A,BART,Duplication,1,cache memories
+7,1,kp20k,19530,F7-E2,A,BART,Semantic similarity,1,cache memories
+7,1,kp20k,19530,F7-E2,A,BART,Usefulness,3,cache memories
+7,1,kp20k,19530,F7-E2,B,DWT-BART,Faithfulness,4,irregular codes ; communication schedule reuse
+7,1,kp20k,19530,F7-E2,B,DWT-BART,Duplication,1,irregular codes ; communication schedule reuse
+7,1,kp20k,19530,F7-E2,B,DWT-BART,Semantic similarity,1,irregular codes ; communication schedule reuse
+7,1,kp20k,19530,F7-E2,B,DWT-BART,Usefulness,4,irregular codes ; communication schedule reuse
+7,2,kp20k,6404,F7-E2,A,DWT-BART,Faithfulness,4,apple grading ; quality testing
+7,2,kp20k,6404,F7-E2,A,DWT-BART,Duplication,1,apple grading ; quality testing
+7,2,kp20k,6404,F7-E2,A,DWT-BART,Semantic similarity,1,apple grading ; quality testing
+7,2,kp20k,6404,F7-E2,A,DWT-BART,Usefulness,4,apple grading ; quality testing
+7,2,kp20k,6404,F7-E2,B,BART,Faithfulness,4,quality control
+7,2,kp20k,6404,F7-E2,B,BART,Duplication,1,quality control
+7,2,kp20k,6404,F7-E2,B,BART,Semantic similarity,1,quality control
+7,2,kp20k,6404,F7-E2,B,BART,Usefulness,4,quality control
+7,3,semeval,84,F7-E2,A,DWT-BART,Faithfulness,5,combinatorial optimization ; market design ; kidney transplantation
+7,3,semeval,84,F7-E2,A,DWT-BART,Duplication,1,combinatorial optimization ; market design ; kidney transplantation
+7,3,semeval,84,F7-E2,A,DWT-BART,Semantic similarity,1,combinatorial optimization ; market design ; kidney transplantation
+7,3,semeval,84,F7-E2,A,DWT-BART,Usefulness,4,combinatorial optimization ; market design ; kidney transplantation
+7,3,semeval,84,F7-E2,B,BART,Faithfulness,4,barter auctions ; computational social science ; np-complete problems
+7,3,semeval,84,F7-E2,B,BART,Duplication,1,barter auctions ; computational social science ; np-complete problems
+7,3,semeval,84,F7-E2,B,BART,Semantic similarity,1,barter auctions ; computational social science ; np-complete problems
+7,3,semeval,84,F7-E2,B,BART,Usefulness,4,barter auctions ; computational social science ; np-complete problems
+7,4,nus,34,F7-E2,A,DWT-BART,Faithfulness,5,web content analysis
+7,4,nus,34,F7-E2,A,DWT-BART,Duplication,1,web content analysis
+7,4,nus,34,F7-E2,A,DWT-BART,Semantic similarity,1,web content analysis
+7,4,nus,34,F7-E2,A,DWT-BART,Usefulness,4,web content analysis
+7,4,nus,34,F7-E2,B,BART,Faithfulness,5,web content analysis ; web table database
+7,4,nus,34,F7-E2,B,BART,Duplication,1,web content analysis ; web table database
+7,4,nus,34,F7-E2,B,BART,Semantic similarity,1,web content analysis ; web table database
+7,4,nus,34,F7-E2,B,BART,Usefulness,5,web content analysis ; web table database
+7,5,kp20k,3108,F7-E2,A,BART,Faithfulness,4,open access ; open source software
+7,5,kp20k,3108,F7-E2,A,BART,Duplication,3,open access ; open source software
+7,5,kp20k,3108,F7-E2,A,BART,Semantic similarity,3,open access ; open source software
+7,5,kp20k,3108,F7-E2,A,BART,Usefulness,4,open access ; open source software
+7,5,kp20k,3108,F7-E2,B,DWT-BART,Faithfulness,5,intellectual property ; patent information services ; patlib information services
+7,5,kp20k,3108,F7-E2,B,DWT-BART,Duplication,2,intellectual property ; patent information services ; patlib information services
+7,5,kp20k,3108,F7-E2,B,DWT-BART,Semantic similarity,2,intellectual property ; patent information services ; patlib information services
+7,5,kp20k,3108,F7-E2,B,DWT-BART,Usefulness,5,intellectual property ; patent information services ; patlib information services
+7,6,kp20k,1984,F7-E2,A,DWT-BART,Faithfulness,2,negative binomial model
+7,6,kp20k,1984,F7-E2,A,DWT-BART,Duplication,1,negative binomial model
+7,6,kp20k,1984,F7-E2,A,DWT-BART,Semantic similarity,1,negative binomial model
+7,6,kp20k,1984,F7-E2,A,DWT-BART,Usefulness,1,negative binomial model
+7,6,kp20k,1984,F7-E2,B,BART,Faithfulness,3,zero-inflated data ; clustered data
+7,6,kp20k,1984,F7-E2,B,BART,Duplication,1,zero-inflated data ; clustered data
+7,6,kp20k,1984,F7-E2,B,BART,Semantic similarity,1,zero-inflated data ; clustered data
+7,6,kp20k,1984,F7-E2,B,BART,Usefulness,3,zero-inflated data ; clustered data
+7,7,kp20k,11882,F7-E2,A,DWT-BART,Faithfulness,5,user participation ; audience participation ; system documentation standards
+7,7,kp20k,11882,F7-E2,A,DWT-BART,Duplication,2,user participation ; audience participation ; system documentation standards
+7,7,kp20k,11882,F7-E2,A,DWT-BART,Semantic similarity,3,user participation ; audience participation ; system documentation standards
+7,7,kp20k,11882,F7-E2,A,DWT-BART,Usefulness,5,user participation ; audience participation ; system documentation standards
+7,7,kp20k,11882,F7-E2,B,BART,Faithfulness,3,system documentation and installation
+7,7,kp20k,11882,F7-E2,B,BART,Duplication,1,system documentation and installation
+7,7,kp20k,11882,F7-E2,B,BART,Semantic similarity,1,system documentation and installation
+7,7,kp20k,11882,F7-E2,B,BART,Usefulness,3,system documentation and installation
+7,8,kp20k,6501,F7-E2,A,DWT-BART,Faithfulness,4,color image processing ; multicolored image descriptors
+7,8,kp20k,6501,F7-E2,A,DWT-BART,Duplication,2,color image processing ; multicolored image descriptors
+7,8,kp20k,6501,F7-E2,A,DWT-BART,Semantic similarity,3,color image processing ; multicolored image descriptors
+7,8,kp20k,6501,F7-E2,A,DWT-BART,Usefulness,4,color image processing ; multicolored image descriptors
+7,8,kp20k,6501,F7-E2,B,BART,Faithfulness,5,color image descriptors ; multicolored image descriptor ; image segmentation
+7,8,kp20k,6501,F7-E2,B,BART,Duplication,2,color image descriptors ; multicolored image descriptor ; image segmentation
+7,8,kp20k,6501,F7-E2,B,BART,Semantic similarity,3,color image descriptors ; multicolored image descriptor ; image segmentation
+7,8,kp20k,6501,F7-E2,B,BART,Usefulness,5,color image descriptors ; multicolored image descriptor ; image segmentation
+7,9,krapivin397,326,F7-E2,A,DWT-BART,Faithfulness,3,vlsi
+7,9,krapivin397,326,F7-E2,A,DWT-BART,Duplication,1,vlsi
+7,9,krapivin397,326,F7-E2,A,DWT-BART,Semantic similarity,1,vlsi
+7,9,krapivin397,326,F7-E2,A,DWT-BART,Usefulness,3,vlsi
+7,9,krapivin397,326,F7-E2,B,BART,Faithfulness,4,computer-aided design ; combinatorial optimization ; computational geometry
+7,9,krapivin397,326,F7-E2,B,BART,Duplication,1,computer-aided design ; combinatorial optimization ; computational geometry
+7,9,krapivin397,326,F7-E2,B,BART,Semantic similarity,1,computer-aided design ; combinatorial optimization ; computational geometry
+7,9,krapivin397,326,F7-E2,B,BART,Usefulness,4,computer-aided design ; combinatorial optimization ; computational geometry
+7,10,inspec,232,F7-E2,A,DWT-BART,Faithfulness,5,information systems security ; security management ; security policy management
+7,10,inspec,232,F7-E2,A,DWT-BART,Duplication,4,information systems security ; security management ; security policy management
+7,10,inspec,232,F7-E2,A,DWT-BART,Semantic similarity,3,information systems security ; security management ; security policy management
+7,10,inspec,232,F7-E2,A,DWT-BART,Usefulness,5,information systems security ; security management ; security policy management
+7,10,inspec,232,F7-E2,B,BART,Faithfulness,5,information assurance ; information technology ; information systems security
+7,10,inspec,232,F7-E2,B,BART,Duplication,3,information assurance ; information technology ; information systems security
+7,10,inspec,232,F7-E2,B,BART,Semantic similarity,2,information assurance ; information technology ; information systems security
+7,10,inspec,232,F7-E2,B,BART,Usefulness,5,information assurance ; information technology ; information systems security
+7,11,kp20k,7552,F7-E2,A,BART,Faithfulness,5,parallel genetic algorithm
+7,11,kp20k,7552,F7-E2,A,BART,Duplication,1,parallel genetic algorithm
+7,11,kp20k,7552,F7-E2,A,BART,Semantic similarity,1,parallel genetic algorithm
+7,11,kp20k,7552,F7-E2,A,BART,Usefulness,5,parallel genetic algorithm
+7,11,kp20k,7552,F7-E2,B,DWT-BART,Faithfulness,5,distributed computing ; cooperative-competitive algorithms ; parallel algorithms
+7,11,kp20k,7552,F7-E2,B,DWT-BART,Duplication,1,distributed computing ; cooperative-competitive algorithms ; parallel algorithms
+7,11,kp20k,7552,F7-E2,B,DWT-BART,Semantic similarity,2,distributed computing ; cooperative-competitive algorithms ; parallel algorithms
+7,11,kp20k,7552,F7-E2,B,DWT-BART,Usefulness,5,distributed computing ; cooperative-competitive algorithms ; parallel algorithms
+7,12,nus,176,F7-E2,A,BART,Faithfulness,5,developmental case study
+7,12,nus,176,F7-E2,A,BART,Duplication,1,developmental case study
+7,12,nus,176,F7-E2,A,BART,Semantic similarity,1,developmental case study
+7,12,nus,176,F7-E2,A,BART,Usefulness,4,developmental case study
+7,12,nus,176,F7-E2,B,DWT-BART,Faithfulness,3,developing countries
+7,12,nus,176,F7-E2,B,DWT-BART,Duplication,1,developing countries
+7,12,nus,176,F7-E2,B,DWT-BART,Semantic similarity,1,developing countries
+7,12,nus,176,F7-E2,B,DWT-BART,Usefulness,3,developing countries
+7,13,kp20k,12309,F7-E2,A,BART,Faithfulness,5,multifingered grasping ; fuzzy reasoning
+7,13,kp20k,12309,F7-E2,A,BART,Duplication,1,multifingered grasping ; fuzzy reasoning
+7,13,kp20k,12309,F7-E2,A,BART,Semantic similarity,1,multifingered grasping ; fuzzy reasoning
+7,13,kp20k,12309,F7-E2,A,BART,Usefulness,5,multifingered grasping ; fuzzy reasoning
+7,13,kp20k,12309,F7-E2,B,DWT-BART,Faithfulness,5,fuzzy logic ; artificial neural networks
+7,13,kp20k,12309,F7-E2,B,DWT-BART,Duplication,1,fuzzy logic ; artificial neural networks
+7,13,kp20k,12309,F7-E2,B,DWT-BART,Semantic similarity,1,fuzzy logic ; artificial neural networks
+7,13,kp20k,12309,F7-E2,B,DWT-BART,Usefulness,5,fuzzy logic ; artificial neural networks
+7,14,krapivin397,236,F7-E2,A,DWT-BART,Faithfulness,4,particle systems ; physically based modeling
+7,14,krapivin397,236,F7-E2,A,DWT-BART,Duplication,1,particle systems ; physically based modeling
+7,14,krapivin397,236,F7-E2,A,DWT-BART,Semantic similarity,1,particle systems ; physically based modeling
+7,14,krapivin397,236,F7-E2,A,DWT-BART,Usefulness,4,particle systems ; physically based modeling
+7,14,krapivin397,236,F7-E2,B,BART,Faithfulness,4,particle-based modeling ; sampling and control of surfaces
+7,14,krapivin397,236,F7-E2,B,BART,Duplication,1,particle-based modeling ; sampling and control of surfaces
+7,14,krapivin397,236,F7-E2,B,BART,Semantic similarity,1,particle-based modeling ; sampling and control of surfaces
+7,14,krapivin397,236,F7-E2,B,BART,Usefulness,4,particle-based modeling ; sampling and control of surfaces
+7,15,kp20k,14322,F7-E2,A,DWT-BART,Faithfulness,5,non-line-of-sight errors
+7,15,kp20k,14322,F7-E2,A,DWT-BART,Duplication,1,non-line-of-sight errors
+7,15,kp20k,14322,F7-E2,A,DWT-BART,Semantic similarity,1,non-line-of-sight errors
+7,15,kp20k,14322,F7-E2,A,DWT-BART,Usefulness,5,non-line-of-sight errors
+7,15,kp20k,14322,F7-E2,B,BART,Faithfulness,4,non-line-of-sight communication
+7,15,kp20k,14322,F7-E2,B,BART,Duplication,1,non-line-of-sight communication
+7,15,kp20k,14322,F7-E2,B,BART,Semantic similarity,1,non-line-of-sight communication
+7,15,kp20k,14322,F7-E2,B,BART,Usefulness,4,non-line-of-sight communication
+7,16,kp20k,10067,F7-E2,A,DWT-BART,Faithfulness,4,mitochondria ; mtdna copy number
+7,16,kp20k,10067,F7-E2,A,DWT-BART,Duplication,1,mitochondria ; mtdna copy number
+7,16,kp20k,10067,F7-E2,A,DWT-BART,Semantic similarity,1,mitochondria ; mtdna copy number
+7,16,kp20k,10067,F7-E2,A,DWT-BART,Usefulness,4,mitochondria ; mtdna copy number
+7,16,kp20k,10067,F7-E2,B,BART,Faithfulness,3,efg fibers ; type i and type ii ets abnormalities
+7,16,kp20k,10067,F7-E2,B,BART,Duplication,1,efg fibers ; type i and type ii ets abnormalities
+7,16,kp20k,10067,F7-E2,B,BART,Semantic similarity,1,efg fibers ; type i and type ii ets abnormalities
+7,16,kp20k,10067,F7-E2,B,BART,Usefulness,3,efg fibers ; type i and type ii ets abnormalities

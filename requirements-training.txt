@@ -1,0 +1,11 @@
+# GPU side (retrieval, BART fine-tuning, decoding, evaluation, bootstrap), Python 3.12, Windows 11, RTX 4070 12 GB.
+# Install torch from the CUDA 12.1 index:  pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+transformers==4.57.3
+datasets==5.0.1
+accelerate==1.15.0
+nltk==3.9.1
+numpy
+scipy
+tqdm
+filelock

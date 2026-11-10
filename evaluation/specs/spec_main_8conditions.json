@@ -1,0 +1,876 @@
+{
+ "references": {
+  "kp20k": "inputs_test/ori/kp20k_test_ori_v2.json",
+  "inspec": "inputs_test/ori/inspec_test_ori_v2.json",
+  "krapivin400": "inputs_test/ori/krapivin400_test_ori_v2.json",
+  "krapivin397": "inputs_test/ori/krapivin397_test_ori_v2.json",
+  "nus": "inputs_test/ori/nus_test_ori_v2.json",
+  "semeval": "inputs_test/ori/semeval_test_ori_v2.json"
+ },
+ "systems": [
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/ori/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/ori/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/ori/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/ori/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/ori/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/ori/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 42,
+   "dataset": "kp20k",
+   "hyp": "predictions/ori/seed42/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 42,
+   "dataset": "inspec",
+   "hyp": "predictions/ori/seed42/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 42,
+   "dataset": "krapivin400",
+   "hyp": "predictions/ori/seed42/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 42,
+   "dataset": "krapivin397",
+   "hyp": "predictions/ori/seed42/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 42,
+   "dataset": "nus",
+   "hyp": "predictions/ori/seed42/nus_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 42,
+   "dataset": "semeval",
+   "hyp": "predictions/ori/seed42/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 2024,
+   "dataset": "kp20k",
+   "hyp": "predictions/ori/seed2024/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 2024,
+   "dataset": "inspec",
+   "hyp": "predictions/ori/seed2024/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 2024,
+   "dataset": "krapivin400",
+   "hyp": "predictions/ori/seed2024/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 2024,
+   "dataset": "krapivin397",
+   "hyp": "predictions/ori/seed2024/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 2024,
+   "dataset": "nus",
+   "hyp": "predictions/ori/seed2024/nus_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 2024,
+   "dataset": "semeval",
+   "hyp": "predictions/ori/seed2024/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/topic/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/topic/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/topic/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/topic/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/topic/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/topic/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 42,
+   "dataset": "kp20k",
+   "hyp": "predictions/topic/seed42/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 42,
+   "dataset": "inspec",
+   "hyp": "predictions/topic/seed42/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 42,
+   "dataset": "krapivin400",
+   "hyp": "predictions/topic/seed42/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 42,
+   "dataset": "krapivin397",
+   "hyp": "predictions/topic/seed42/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 42,
+   "dataset": "nus",
+   "hyp": "predictions/topic/seed42/nus_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 42,
+   "dataset": "semeval",
+   "hyp": "predictions/topic/seed42/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 2024,
+   "dataset": "kp20k",
+   "hyp": "predictions/topic/seed2024/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 2024,
+   "dataset": "inspec",
+   "hyp": "predictions/topic/seed2024/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 2024,
+   "dataset": "krapivin400",
+   "hyp": "predictions/topic/seed2024/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 2024,
+   "dataset": "krapivin397",
+   "hyp": "predictions/topic/seed2024/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 2024,
+   "dataset": "nus",
+   "hyp": "predictions/topic/seed2024/nus_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 2024,
+   "dataset": "semeval",
+   "hyp": "predictions/topic/seed2024/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/shuffled/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/shuffled/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/shuffled/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/shuffled/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/shuffled/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/shuffled/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 42,
+   "dataset": "kp20k",
+   "hyp": "predictions/shuffled/seed42/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 42,
+   "dataset": "inspec",
+   "hyp": "predictions/shuffled/seed42/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 42,
+   "dataset": "krapivin400",
+   "hyp": "predictions/shuffled/seed42/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 42,
+   "dataset": "krapivin397",
+   "hyp": "predictions/shuffled/seed42/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 42,
+   "dataset": "nus",
+   "hyp": "predictions/shuffled/seed42/nus_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 42,
+   "dataset": "semeval",
+   "hyp": "predictions/shuffled/seed42/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 2024,
+   "dataset": "kp20k",
+   "hyp": "predictions/shuffled/seed2024/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 2024,
+   "dataset": "inspec",
+   "hyp": "predictions/shuffled/seed2024/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 2024,
+   "dataset": "krapivin400",
+   "hyp": "predictions/shuffled/seed2024/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 2024,
+   "dataset": "krapivin397",
+   "hyp": "predictions/shuffled/seed2024/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 2024,
+   "dataset": "nus",
+   "hyp": "predictions/shuffled/seed2024/nus_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 2024,
+   "dataset": "semeval",
+   "hyp": "predictions/shuffled/seed2024/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/r5/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/r5/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/r5/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/r5/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/r5/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/r5/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 42,
+   "dataset": "kp20k",
+   "hyp": "predictions/r5/seed42/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 42,
+   "dataset": "inspec",
+   "hyp": "predictions/r5/seed42/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 42,
+   "dataset": "krapivin400",
+   "hyp": "predictions/r5/seed42/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 42,
+   "dataset": "krapivin397",
+   "hyp": "predictions/r5/seed42/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 42,
+   "dataset": "nus",
+   "hyp": "predictions/r5/seed42/nus_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 42,
+   "dataset": "semeval",
+   "hyp": "predictions/r5/seed42/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 2024,
+   "dataset": "kp20k",
+   "hyp": "predictions/r5/seed2024/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 2024,
+   "dataset": "inspec",
+   "hyp": "predictions/r5/seed2024/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 2024,
+   "dataset": "krapivin400",
+   "hyp": "predictions/r5/seed2024/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 2024,
+   "dataset": "krapivin397",
+   "hyp": "predictions/r5/seed2024/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 2024,
+   "dataset": "nus",
+   "hyp": "predictions/r5/seed2024/nus_hypotheses.txt"
+  },
+  {
+   "condition": "r5",
+   "seed": 2024,
+   "dataset": "semeval",
+   "hyp": "predictions/r5/seed2024/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/st5/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/st5/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/st5/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/st5/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/st5/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/st5/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 42,
+   "dataset": "kp20k",
+   "hyp": "predictions/st5/seed42/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 42,
+   "dataset": "inspec",
+   "hyp": "predictions/st5/seed42/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 42,
+   "dataset": "krapivin400",
+   "hyp": "predictions/st5/seed42/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 42,
+   "dataset": "krapivin397",
+   "hyp": "predictions/st5/seed42/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 42,
+   "dataset": "nus",
+   "hyp": "predictions/st5/seed42/nus_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 42,
+   "dataset": "semeval",
+   "hyp": "predictions/st5/seed42/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 2024,
+   "dataset": "kp20k",
+   "hyp": "predictions/st5/seed2024/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 2024,
+   "dataset": "inspec",
+   "hyp": "predictions/st5/seed2024/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 2024,
+   "dataset": "krapivin400",
+   "hyp": "predictions/st5/seed2024/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 2024,
+   "dataset": "krapivin397",
+   "hyp": "predictions/st5/seed2024/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 2024,
+   "dataset": "nus",
+   "hyp": "predictions/st5/seed2024/nus_hypotheses.txt"
+  },
+  {
+   "condition": "st5",
+   "seed": 2024,
+   "dataset": "semeval",
+   "hyp": "predictions/st5/seed2024/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/st5t/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/st5t/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/st5t/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/st5t/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/st5t/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/st5t/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 42,
+   "dataset": "kp20k",
+   "hyp": "predictions/st5t/seed42/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 42,
+   "dataset": "inspec",
+   "hyp": "predictions/st5t/seed42/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 42,
+   "dataset": "krapivin400",
+   "hyp": "predictions/st5t/seed42/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 42,
+   "dataset": "krapivin397",
+   "hyp": "predictions/st5t/seed42/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 42,
+   "dataset": "nus",
+   "hyp": "predictions/st5t/seed42/nus_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 42,
+   "dataset": "semeval",
+   "hyp": "predictions/st5t/seed42/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 2024,
+   "dataset": "kp20k",
+   "hyp": "predictions/st5t/seed2024/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 2024,
+   "dataset": "inspec",
+   "hyp": "predictions/st5t/seed2024/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 2024,
+   "dataset": "krapivin400",
+   "hyp": "predictions/st5t/seed2024/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 2024,
+   "dataset": "krapivin397",
+   "hyp": "predictions/st5t/seed2024/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 2024,
+   "dataset": "nus",
+   "hyp": "predictions/st5t/seed2024/nus_hypotheses.txt"
+  },
+  {
+   "condition": "st5t",
+   "seed": 2024,
+   "dataset": "semeval",
+   "hyp": "predictions/st5t/seed2024/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/g5/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/g5/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/g5/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/g5/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/g5/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/g5/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 42,
+   "dataset": "kp20k",
+   "hyp": "predictions/g5/seed42/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 42,
+   "dataset": "inspec",
+   "hyp": "predictions/g5/seed42/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 42,
+   "dataset": "krapivin400",
+   "hyp": "predictions/g5/seed42/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 42,
+   "dataset": "krapivin397",
+   "hyp": "predictions/g5/seed42/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 42,
+   "dataset": "nus",
+   "hyp": "predictions/g5/seed42/nus_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 42,
+   "dataset": "semeval",
+   "hyp": "predictions/g5/seed42/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 2024,
+   "dataset": "kp20k",
+   "hyp": "predictions/g5/seed2024/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 2024,
+   "dataset": "inspec",
+   "hyp": "predictions/g5/seed2024/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 2024,
+   "dataset": "krapivin400",
+   "hyp": "predictions/g5/seed2024/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 2024,
+   "dataset": "krapivin397",
+   "hyp": "predictions/g5/seed2024/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 2024,
+   "dataset": "nus",
+   "hyp": "predictions/g5/seed2024/nus_hypotheses.txt"
+  },
+  {
+   "condition": "g5",
+   "seed": 2024,
+   "dataset": "semeval",
+   "hyp": "predictions/g5/seed2024/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/g5t/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/g5t/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/g5t/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/g5t/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/g5t/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/g5t/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 42,
+   "dataset": "kp20k",
+   "hyp": "predictions/g5t/seed42/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 42,
+   "dataset": "inspec",
+   "hyp": "predictions/g5t/seed42/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 42,
+   "dataset": "krapivin400",
+   "hyp": "predictions/g5t/seed42/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 42,
+   "dataset": "krapivin397",
+   "hyp": "predictions/g5t/seed42/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 42,
+   "dataset": "nus",
+   "hyp": "predictions/g5t/seed42/nus_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 42,
+   "dataset": "semeval",
+   "hyp": "predictions/g5t/seed42/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 2024,
+   "dataset": "kp20k",
+   "hyp": "predictions/g5t/seed2024/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 2024,
+   "dataset": "inspec",
+   "hyp": "predictions/g5t/seed2024/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 2024,
+   "dataset": "krapivin400",
+   "hyp": "predictions/g5t/seed2024/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 2024,
+   "dataset": "krapivin397",
+   "hyp": "predictions/g5t/seed2024/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 2024,
+   "dataset": "nus",
+   "hyp": "predictions/g5t/seed2024/nus_hypotheses.txt"
+  },
+  {
+   "condition": "g5t",
+   "seed": 2024,
+   "dataset": "semeval",
+   "hyp": "predictions/g5t/seed2024/semeval_hypotheses.txt"
+  }
+ ]
+}

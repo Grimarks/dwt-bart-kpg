@@ -1,0 +1,192 @@
+{
+ "references": {
+  "kp20k": "inputs_test/ori/kp20k_test_ori_v2.json",
+  "inspec": "inputs_test/ori/inspec_test_ori_v2.json",
+  "krapivin400": "inputs_test/ori/krapivin400_test_ori_v2.json",
+  "krapivin397": "inputs_test/ori/krapivin397_test_ori_v2.json",
+  "nus": "inputs_test/ori/nus_test_ori_v2.json",
+  "semeval": "inputs_test/ori/semeval_test_ori_v2.json"
+ },
+ "systems": [
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/ori/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/ori/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/ori/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/ori/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/ori/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "ori",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/ori/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/topic/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/topic/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/topic/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/topic/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/topic/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "topic",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/topic/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/shuffled/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/shuffled/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/shuffled/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/shuffled/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/shuffled/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/shuffled/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "topic_emb",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/topic_emb/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "topic_emb",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/topic_emb/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "topic_emb",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/topic_emb/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "topic_emb",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/topic_emb/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "topic_emb",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/topic_emb/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "topic_emb",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/topic_emb/seed1234/semeval_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled_emb",
+   "seed": 1234,
+   "dataset": "kp20k",
+   "hyp": "predictions/shuffled_emb/seed1234/kp20k_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled_emb",
+   "seed": 1234,
+   "dataset": "inspec",
+   "hyp": "predictions/shuffled_emb/seed1234/inspec_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled_emb",
+   "seed": 1234,
+   "dataset": "krapivin400",
+   "hyp": "predictions/shuffled_emb/seed1234/krapivin400_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled_emb",
+   "seed": 1234,
+   "dataset": "krapivin397",
+   "hyp": "predictions/shuffled_emb/seed1234/krapivin397_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled_emb",
+   "seed": 1234,
+   "dataset": "nus",
+   "hyp": "predictions/shuffled_emb/seed1234/nus_hypotheses.txt"
+  },
+  {
+   "condition": "shuffled_emb",
+   "seed": 1234,
+   "dataset": "semeval",
+   "hyp": "predictions/shuffled_emb/seed1234/semeval_hypotheses.txt"
+  }
+ ]
+}

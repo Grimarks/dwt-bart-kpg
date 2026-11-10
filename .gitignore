@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+# never commit data, checkpoints or evaluation keys
+*.safetensors
+*.bin
+*.npy
+*.pkl
+*.parquet
+checkpoint-*/
+ab_key.csv
+*.xlsx
+.env
+kaggle.json

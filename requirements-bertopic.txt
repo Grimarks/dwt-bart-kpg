@@ -1,0 +1,23 @@
+# BERTopic side (corpus dedup, BERTopic K=65, topic assignment, data_prep), Python 3.10.11, Apple M4 Pro (MPS).
+# Versions read from the project virtual environment; they pre-date the K=65 fit.
+bertopic==0.17.4
+umap-learn==0.5.12
+hdbscan==0.8.44
+pynndescent==0.6.0
+numba==0.67.0
+sentence-transformers==6.0.1
+scikit-learn==1.7.2
+kneed==0.8.6
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==25.0.1
+scipy==1.15.3
+datasketch==2.0.0
+RapidFuzz==3.14.5
+torch==2.13.0
+transformers==5.16.1
+nltk==3.10.3
+tqdm==4.70.0
+matplotlib==3.10.9
+# topic coherence (bertopic/t3_topic_metrics.py) was run with gensim 4.4.0, installed separately
+gensim==4.4.0
